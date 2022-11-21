@@ -1,0 +1,214 @@
+ErrorDocument 404 /app.php?go=content/notfound
+
+RewriteEngine On 
+
+#Redirect your Homepage from HTTPS to HTTP
+#RewriteCond %{HTTPS} on
+#RewriteRule ^$ http://%{HTTP_HOST} [L,R]
+
+RewriteRule ^notfound$ /app.php?go=error/notfound [NC,L]
+RewriteRule ^noscript$ /app.php?go=error/js [NC,L]
+RewriteRule ^error/browser$ /app.php?go=error/browser [NC,L]
+RewriteRule ^maintenance/?$ /app.php?go=error/maintenance [NC,L]
+
+RewriteCond %{HTTP_HOST} ^www\.yoomken\.com$
+RewriteRule ^(.*)$ http://yoomken.com/$1 [L,R=301]
+
+RewriteCond %{HTTP_HOST} ^(.*)yomken\.fr$
+RewriteRule ^(.*)$ http://yoomken.com/$1 [L,R=301]
+
+RewriteCond %{HTTP_HOST} ^(.*)yoomken\.fr$
+RewriteRule ^(.*)$ http://yoomken.com/$1 [L,R=301]
+
+RewriteCond %{HTTP_HOST} ^(.*)yoomkan\.com$
+RewriteRule ^(.*)$ http://yoomken.com/$1 [L,R=301]
+
+RewriteCond %{HTTP_HOST} ^(.*)rendreservice\.com$
+RewriteRule ^(.*)$ http://yoomken.com/$1 [L,R=301]
+
+RewriteCond %{HTTP_HOST} ^(.*)moomken\.com$
+RewriteRule ^(.*)$ http://yoomken.com/$1 [L,R=301]
+
+
+AddType text/x-component htc
+
+#####################################################
+# CONFIGURE media caching
+#
+
+<FilesMatch "\.(js|css)$">
+SetOutputFilter DEFLATE
+</FilesMatch>
+
+#
+#####################################################
+
+#####################################################
+# CONFIGURE dev&debug params
+#
+#php_flag display_errors on
+#php_value error_reporting -1
+#php_value error_reporting 7
+#
+#####################################################
+
+
+RewriteRule ^demo$ ../demo/ [NC,L]
+
+RewriteRule ^css/(.*)\-[0-9]+\.css$ css/$1.css [NC,L]
+RewriteRule ^js/jqCore-[0-9]+\.js$ js/jquery-lib/jquery-1.4.4.js [NC,L]
+RewriteRule ^js/jqUI-[0-9]+\.js$ js/jquery-lib/jquery-ui-1.8.8.js [NC,L]
+RewriteRule ^js/main-[0-9]+\.js$ js/main.js [NC,L]
+RewriteRule ^js/content-[0-9]+\.js$ js/content.js [NC,L]
+
+
+
+RewriteRule ^feedback/?$ /app.php?go=user/feedback [NC,L]
+RewriteRule ^network/?$ /app.php?go=people [NC,L]
+RewriteRule ^timeline/?$ /app.php?go=content/timeline [NC,L]
+RewriteRule ^questions/?$ /app.php?go=question/timeline [NC,L]
+RewriteRule ^profil/?$ /app.php?go=user/profil [NC,L]
+RewriteRule ^tchat/?$ /app.php?go=message [NC,L]
+RewriteRule ^home/?$ /app.php?go=home/welcome [NC,L]
+RewriteRule ^badges/?$ /app.php?go=badge/personalities [NC,L]
+RewriteRule ^badges/personalities?$ /app.php?go=badge/personalities [NC,L]
+RewriteRule ^badges/skills?$ /app.php?go=badge/skills [NC,L]
+RewriteRule ^badges/actions?$ /app.php?go=badge/actions [NC,L]
+RewriteRule ^badges/wish?$ /app.php?go=badge/wish [NC,L]
+RewriteRule ^invite/?$ /app.php?go=invite [NC,L]
+
+
+RewriteRule ^smartfilter/?$ /app.php?go=filter [NC,L]
+RewriteRule ^smartfilter/save/?$ /app.php?go=filter/save [NC,L]
+RewriteRule ^search/flux/(\w{4})/(.*)$ /app.php?go=content/timeline&journal=$1&term=$2&type=ALL [NC,L]
+RewriteRule ^search/network/(.*)$ /app.php?go=people/index&term=$1 [NC,L]
+RewriteRule ^filter/([0-9A-x]{2,32})/USR$ /app.php?go=people&filter=$1 [NC,L]
+RewriteRule ^filter-\+/([0-9A-x]{2,32})/USR$ /app.php?go=people&checked=$1 [NC,L]
+RewriteRule ^filter/([0-9A-x]{2,32})/ACT$ /app.php?go=content/timeline&filter=$1 [NC,L]
+RewriteRule ^filter-\+/([0-9A-x]{2,32})/ACT$ /app.php?go=content/timeline&checked=$1 [NC,L]
+RewriteRule ^filter/([0-9A-x]{2,32})/ASK$ /app.php?go=question/timeline&filter=$1 [NC,L]
+RewriteRule ^filter-\+/([0-9A-x]{2,32})/ASK$ /app.php?go=question/timeline&checked=$1 [NC,L]
+RewriteRule ^switch/profil/([PCBN]{1})/(\w+)/(\w+)$ /app.php?go=$2/$3&swtprofil=$1 [NC,L]
+RewriteRule ^switch/lang/([A-x]{2})/(\w+)/(\w+)$ /app.php?go=$2/$3&swtlang=$1 [NC,L]
+
+RewriteRule ^journal/(.*)$ /app.php?go=content/ad&id=$1 [NC,L]
+RewriteRule ^badges/(\w*)$ /app.php?go=badge/one&id=$1 [NC,L]
+RewriteRule ^question/(.*)$ /app.php?go=question/ad&id=$1 [NC,L]
+RewriteRule ^services/([PCE]{1})/(.*)$ /app.php?go=content/services&profil=$1&params=$2 [NC,L]
+
+RewriteRule ^advice/aboutus/?(.*)$ /app.php?go=advice/aboutus&section=$1 [NC,L]
+RewriteRule ^advice/presta(.*)$ /app.php?go=advice/presta [NC,L]
+RewriteRule ^advice/recruiter(.*)$ /app.php?go=advice/recruiter [NC,L]
+RewriteRule ^advice/team(.*)$ /app.php?go=advice/team [NC,L]
+RewriteRule ^privacy-and-terms$ /app.php?go=advice/terms [NC,L]
+
+RewriteRule ^login/?$ /app.php?go=user/login$1 [NC,L]
+RewriteRule ^login_fb/?$ /app.php?go=user/login_fb$1 [NC,L]
+RewriteRule ^logout/?$ /app.php?go=user/logout [NC,L]
+RewriteRule ^user/save/?$ /app.php?go=user/save [NC,L]
+RewriteRule ^user/setting/?$ /app.php?go=user/setting [NC,L]
+
+RewriteRule ^content/by/?$ /app.php?go=content/searchby/$1 [NC,L]
+RewriteRule ^people/by/?$ /app.php?go=people/searchby/$1 [NC,L]
+RewriteRule ^ajax/msg/(\w+)/?$ /app.php?go=message/ajax&act=$1 [NC,L]
+RewriteRule ^ajax/cmt/(\w+)/?$ /app.php?go=comment/ajax&act=$1 [NC,L]
+RewriteRule ^ajax/msg/rem/(.*)$ /app.php?go=message/ajax&act=rem&idact=$1 [NC,L]
+RewriteRule ^ajax/cmt/rem/(.*)$ /app.php?go=comment/ajax&act=rem&idact=$1 [NC,L]
+RewriteRule ^ajax/cmt/rest/(.*)$ /app.php?go=comment/ajax&act=rest&idact=$1 [NC,L]
+RewriteRule ^ajax/tags/?$ /app.php?go=tag/like/$1 [NC,L]
+RewriteRule ^ajax/services/?$ /app.php?go=tag/like&type=service$1 [NC,L]
+RewriteRule ^ajax/people/like/?$ /app.php?go=people/like&mdl=people$1 [NC,L]
+RewriteRule ^ajax/people/friends/?$ /app.php?go=people/findFriends [NC,L]
+RewriteRule ^ajax/people/recommand/(.*)$ /app.php?go=people/recommand&id=$1 [NC,L]
+RewriteRule ^ajax/badges/view/(.*)$ /app.php?go=badge/ajax&act=all&id=$1 [NC,L]
+RewriteRule ^ajax/badges/light/(.*)$ /app.php?go=badge/ajax&act=light&id=$1 [NC,L]
+RewriteRule ^ajax/badges/wishnew/?$ /app.php?go=badge/ajax&act=wishnew [NC,L]
+RewriteRule ^ajax/badges/find/?$ /app.php?go=badge/find [NC,L]
+RewriteRule ^ajax/badges/transfert/user/([ASKGIVYN]{1,3})/?([0-9a-fX]{0,32})?$ /app.php?go=badge/transfert&typereq=$1&towho=$2 [NC,L]
+RewriteRule ^ajax/people/transfert/badge/([ASKGIV]{3})/?(.*)$ /app.php?go=people/transfertBadge&typereq=$1&name=$2 [NC,L]
+RewriteRule ^ajax/collaborator/like/?$ /app.php?go=people/like&mdl=collaborator$1 [NC,L]
+RewriteRule ^ajax/post/?$ /app.php?go=content/share/$1 [NC,L]
+RewriteRule ^ajax/ask/?$ /app.php?go=question/share/$1 [NC,L]
+RewriteRule ^ajax/people/invitework/([0-9a-fX]+)/([01])$ /app.php?go=people/inviteToWork&towho=$1&contact=$2 [NC,L]
+RewriteRule ^ajax/attach/?([DYNC]){0,1}$ /app.php?go=people/ajax/&act=attach&deal=$1 [NC,L]
+RewriteRule ^ajax/dettach/?$ /app.php?go=people/ajax/&act=dettach [NC,L]
+RewriteRule ^ajax/cancel/?$ /app.php?go=people/ajax/&act=attach [NC,L]
+RewriteRule ^ajax/filter/attach/?$ /app.php?go=filter/attach/$1 [NC,L]
+RewriteRule ^ajax/filter/dettach/([0-9a-fX]+)/([0-9a-fX]+)/([ACTUSR]{3}) /app.php?go=filter/dettach&idsma=$1&idact=$2&type=$3	 [NC,L]
+RewriteRule ^ajax/content/rem/(.*)$ /app.php?go=content/rem&idact=$1 [NC,L]
+RewriteRule ^ajax/content/view/(.*)$ /app.php?go=content/ajax&act=view&id=$1 [NC,L]
+RewriteRule ^ajax/critiques/(.*)$ /app.php?go=content/ajax&act=critiques&id=$1 [NC,L]
+RewriteRule ^ajax/tchat/view/(.*)$ /app.php?go=message/ajax&act=view&id=$1 [NC,L]
+RewriteRule ^ajax/about/view/(.*)$ /app.php?go=user/ajax&act=view&id=$1 [NC,L]
+RewriteRule	^ajax/about/light/(.*)$ /app.php?go=user/ajax&act=light&id=$1 [NC,L]	
+RewriteRule ^ajax/badge/view/(.*)$ /app.php?go=badge/ajax&act=view&&id=$1 [NC,L]
+RewriteRule ^ajax/relation/light/(.*)$ /app.php?go=people/ajax&act=relation&id=$1 [NC,L]
+RewriteRule ^ajax/message/all/(.*)$ /app.php?go=message/ajax&act=all&id=$1 [NC,L]
+RewriteRule ^ajax/message/light/(.*)$ /app.php?go=message/ajax&act=light&id=$1 [NC,L]
+RewriteRule ^ajax/message/contacts/(.*)$ /app.php?go=message/ajax&act=contacts&term=$1 [NC,L]
+RewriteRule ^ajax/people/relations/(.*)$ /app.php?go=people/ajax&act=relations&term=$1 [NC,L]
+RewriteRule ^ajax/message/countnew/?(.*)$ /app.php?go=message/ajax&act=countUnread&id=$1 [NC,L]
+RewriteRule ^ajax/message/news/?$ /app.php?go=message/ajax&act=contactsUnread [NC,L]
+RewriteRule ^ajax/user/nearby/?$ /app.php?go=user/ajax&act=nearby [NC,L]
+RewriteRule ^ajax/filter/nearby/edit/([ACTUSR]{3})$ /app.php?go=filter/nearby&act=edit&type=$1 [NC,L]
+RewriteRule ^ajax/filter/nearby/save/?$ /app.php?go=filter/nearby&act=save [NC,L]
+RewriteRule ^ajax/filter/myservices/edit/([ACTUSR]{3})$ /app.php?go=filter/myservices&act=edit&type=$1 [NC,L]
+RewriteRule ^ajax/filter/myservices/save/?$ /app.php?go=filter/myservices&act=save [NC,L]
+RewriteRule ^ajax/status/(.*)$ /app.php?go=user/ajax&act=status&id=$1 [NC,L]
+RewriteRule ^ajax/(\w+)/timeline$ /app.php?go=$1/ajax&act=timeline [NC,L]
+RewriteRule ^ajax/availableEmail$ /app.php?go=people/ajax&act=availableEmail [NC,L]
+RewriteRule ^ajax/availablePseudo$ /app.php?go=people/ajax&act=availablePseudo [NC,L]
+RewriteRule ^ajax/badges/availableName$ /app.php?go=badge/ajax&act=availableName [NC,L]
+RewriteRule ^ajax/isEmailPseudo$ /app.php?go=people/ajax&act=isEmailPseudo [NC,L]
+RewriteRule ^ajax/myoptions/id-myo$ /app.php?go=user/ajax&act=myOption [NC,L]
+RewriteRule ^ajax/myprofil/id-myp$ /app.php?go=user/ajax&act=myProfile [NC,L]
+RewriteRule ^ajax/people/map/([0-9]{1,2})/search/(.*)$ /app.php?go=people/ajax&act=map&lim=$1&term=$2 [NC,L]
+RewriteRule ^ajax/people/display/(\w+)/(\w+)/([0-9a-fX]+)$ /app.php?go=people/ajax&act=display&format=$1&task=$2&iduser=$3 [NC,L]
+RewriteRule ^ajax/message/sendmail/([0-9a-fX]+)/([0-9a-fX]+) /app.php?go=message/ajax&act=sendmail&send=$1&recev=$2 [NC,L]
+RewriteRule ^ajax/message/sendmail/00/([0-9a-fX]+) /app.php?go=message/ajax&act=sendmail&send=00&recev=$1 [NC,L]
+RewriteRule ^ajax/privacy-and-terms /app.php?go=advice/terms&format=part [NC,L]
+RewriteRule ^ajax/like/?$ /app.php?go=content/like/$1 [NC,L]
+RewriteRule ^ajax/tz$ /app.php?go=home/timezone [NC,L]
+RewriteRule ^ajax/showmedia/([0-9a-fX]+)/([0-9a-fX]+)/([ACTUSR]{3})  /app.php?go=content/showmedia&idact=$1&idimg=$2&type=$3	 [NC,L]
+
+
+RewriteRule ^boxy/profil/([0-9a-fX]+)$ /app.php?go=user/profil&id=$1&format=boxy [NC,L]
+RewriteRule ^boxy/avis/([0-9a-fX]+)$ /app.php?go=user/avis&id=$1&format=boxy [NC,L]
+
+
+RewriteRule ^callback/register_fb/?$ /app.php?go=home/register_fb/$1 [NC,L]
+RewriteRule ^callback/signup_fb/?$ /app.php?go=user/signup_fb/$1 [NC,L]
+RewriteRule ^callback/popup_goo/?$ /app.php?go=home/login_goo/&popup=true$1 [NC,L]
+RewriteRule ^signup/?$ /app.php?go=user/signup [NC,L]
+RewriteRule ^home/register_yoo$ /app.php?go=home/register_step1&via=yoo$1 [NC,L]
+RewriteRule ^home/invite/([0-9a-fX]+)$ /app.php?go=home/register_step1&via=invit&codeinvit=$1 [NC,L]
+RewriteRule ^activate/([0-9a-f]{64})?$ /app.php?go=home/activate&act=$1 [NC,L]
+RewriteRule ^resetpass/([0-9a-f]{64})?$ /app.php?go=home/initpass&act=$1 [NC,L]
+RewriteRule ^init/sendpass$ /app.php?go=home/sendpass [NC,L]
+
+
+
+
+RewriteRule ^(\w+)/profil?$					app.php?go=user/profil&url=$1 [NC,L]
+RewriteRule ^(\w+)/tchat?$					app.php?go=message&url=$1 [NC,L]
+RewriteRule ^(\w+)/messages?$				app.php?go=message&url=$1 [NC,L]
+
+RewriteRule ^(\w+)/timeline$ 								app.php?go=content/timeline&url=$1&journal=BASE&type=ALL&init=1 [NC,L]
+RewriteRule ^(\w+)/timeline/init$ 							app.php?go=content/timeline&url=$1&journal=BASE&type=ALL&init=1 [NC,L]
+RewriteRule ^(\w+)/timeline/([NWAVQUOFLLCR]{2,3})$ 			app.php?go=content/timeline&url=$1&journal=BASE&type=$2 [NC,L]
+RewriteRule ^(\w+)/timeline/wall$							app.php?go=content/timeline&url=$1&journal=WALL&type=ALL [NC,L]
+RewriteRule ^(\w+)/timeline/wall/([NWAVQUOFLLCR]{2,3})$ 		app.php?go=content/timeline&url=$1&journal=WALL&type=$2 [NC,L]
+RewriteRule ^(\w+)/timeline/offers$		 					app.php?go=content/timeline&url=$1&journal=OFFR&type=OF&init=2 [NC,L]
+RewriteRule ^(\w+)/timeline/offers/([JBSV]{2})$				app.php?go=content/timeline&url=$1&journal=OFFR&type=OF&flux=$2 [NC,L]
+
+RewriteRule ^(\w+)/network?$				app.php?go=people&url=$1 [NC,L]
+RewriteRule ^(\w+)/relations?$				app.php?go=people&url=$1&type=FF [NC,L]
+RewriteRule ^(\w+)/relations/init?$			app.php?go=people&url=$1&init=1&type=FF [NC,L]
+RewriteRule ^(\w+)/badges?$					app.php?go=badge&url=$1 [NC,L]
+RewriteRule ^(\w+)/about?$					app.php?go=user&url=$1 [NC,L]
+
+
+# Redirect any other rule or address to the MVC index controller
+RewriteRule ^$ app.php?go=home/welcome$1 [NC,L]
+
+#####################################################
