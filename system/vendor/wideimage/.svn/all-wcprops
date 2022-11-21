@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/yoomdev/!svn/ver/358/trunk/system/vendor/wideimage
+END
+TrueColorImage.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/yoomdev/!svn/ver/111/trunk/system/vendor/wideimage/TrueColorImage.php
+END
+WideImage.php
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/yoomdev/!svn/ver/358/trunk/system/vendor/wideimage/WideImage.php
+END
+Canvas.php
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/yoomdev/!svn/ver/111/trunk/system/vendor/wideimage/Canvas.php
+END
+Coordinate.php
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/yoomdev/!svn/ver/358/trunk/system/vendor/wideimage/Coordinate.php
+END
+MapperFactory.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/yoomdev/!svn/ver/111/trunk/system/vendor/wideimage/MapperFactory.php
+END
+gpl.txt
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/yoomdev/!svn/ver/111/trunk/system/vendor/wideimage/gpl.txt
+END
+Image.php
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/yoomdev/!svn/ver/358/trunk/system/vendor/wideimage/Image.php
+END
+VERSION
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/yoomdev/!svn/ver/111/trunk/system/vendor/wideimage/VERSION
+END
+lgpl.txt
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/yoomdev/!svn/ver/111/trunk/system/vendor/wideimage/lgpl.txt
+END
+PaletteImage.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/yoomdev/!svn/ver/111/trunk/system/vendor/wideimage/PaletteImage.php
+END
+OperationFactory.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/yoomdev/!svn/ver/111/trunk/system/vendor/wideimage/OperationFactory.php
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/yoomdev/!svn/ver/111/trunk/system/vendor/wideimage/README
+END

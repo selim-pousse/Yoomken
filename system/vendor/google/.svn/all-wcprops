@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/yoomdev/!svn/ver/108/trunk/system/vendor/google
+END
+OAuth.php
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/yoomdev/!svn/ver/108/trunk/system/vendor/google/OAuth.php
+END
+common.inc.php
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/yoomdev/!svn/ver/108/trunk/system/vendor/google/common.inc.php
+END
+google.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/yoomdev/!svn/ver/108/trunk/system/vendor/google/google.class.php
+END

@@ -1,0 +1,40 @@
+9
+
+dir
+359
+http://svn.yoomken.com/yoomdev/trunk/CountDown
+http://svn.yoomken.com/yoomdev
+
+
+
+2012-11-04T07:11:01.833881Z
+264
+shingo
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+bf5beb58-1dce-47bb-8b8c-ad1ce32e7a26
+
+countdown
+dir
+
+css
+dir
+
+img
+dir
+
+js
+dir
+

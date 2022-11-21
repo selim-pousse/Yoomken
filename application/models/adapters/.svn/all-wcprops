@@ -1,0 +1,113 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/yoomdev/!svn/ver/344/trunk/application/models/adapters
+END
+filterAdapter.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/yoomdev/!svn/ver/102/trunk/application/models/adapters/filterAdapter.php
+END
+likeAdapter.php
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/yoomdev/!svn/ver/249/trunk/application/models/adapters/likeAdapter.php
+END
+serviceAdapter.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/yoomdev/!svn/ver/102/trunk/application/models/adapters/serviceAdapter.php
+END
+moreAdapter.php
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/yoomdev/!svn/ver/248/trunk/application/models/adapters/moreAdapter.php
+END
+skillAdapter.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/yoomdev/!svn/ver/102/trunk/application/models/adapters/skillAdapter.php
+END
+activityAdapter.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/yoomdev/!svn/ver/342/trunk/application/models/adapters/activityAdapter.php
+END
+commonAdapter.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/yoomdev/!svn/ver/258/trunk/application/models/adapters/commonAdapter.php
+END
+userAdapter.php
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/yoomdev/!svn/ver/342/trunk/application/models/adapters/userAdapter.php
+END
+inputAdapter.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/yoomdev/!svn/ver/102/trunk/application/models/adapters/inputAdapter.php
+END
+messageAdapter.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/yoomdev/!svn/ver/240/trunk/application/models/adapters/messageAdapter.php
+END
+badgeAdapter.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/yoomdev/!svn/ver/344/trunk/application/models/adapters/badgeAdapter.php
+END
+spotAdapter.php
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/yoomdev/!svn/ver/102/trunk/application/models/adapters/spotAdapter.php
+END
+opAdapter.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/yoomdev/!svn/ver/102/trunk/application/models/adapters/opAdapter.php
+END
+adapter.php
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/yoomdev/!svn/ver/261/trunk/application/models/adapters/adapter.php
+END
+commentAdapter.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/yoomdev/!svn/ver/240/trunk/application/models/adapters/commentAdapter.php
+END
+prestaAdapter.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/yoomdev/!svn/ver/153/trunk/application/models/adapters/prestaAdapter.php
+END
+custoAdapter.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/yoomdev/!svn/ver/152/trunk/application/models/adapters/custoAdapter.php
+END
+tagAdapter.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/yoomdev/!svn/ver/102/trunk/application/models/adapters/tagAdapter.php
+END

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/yoomdev/!svn/ver/282/trunk/AjaxIM
+END
+config.php
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/yoomdev/!svn/ver/282/trunk/AjaxIM/config.php
+END
+ajaxim_memcached_protocol.txt
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/yoomdev/!svn/ver/260/trunk/AjaxIM/ajaxim_memcached_protocol.txt
+END
+ajaxim.php
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/yoomdev/!svn/ver/264/trunk/AjaxIM/ajaxim.php
+END

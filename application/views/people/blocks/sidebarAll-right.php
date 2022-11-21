@@ -1,0 +1,1 @@
+<?if (isset($filters)):?><?=$this->render('filter/blocks/filters');?><?endif;?>

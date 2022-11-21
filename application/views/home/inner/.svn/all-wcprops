@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/yoomdev/!svn/ver/350/trunk/application/views/home/inner
+END
+sendpass.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/yoomdev/!svn/ver/350/trunk/application/views/home/inner/sendpass.php
+END
+resetpass.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/yoomdev/!svn/ver/301/trunk/application/views/home/inner/resetpass.php
+END
+activate.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/yoomdev/!svn/ver/201/trunk/application/views/home/inner/activate.php
+END

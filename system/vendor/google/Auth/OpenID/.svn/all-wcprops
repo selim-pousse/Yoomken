@@ -1,0 +1,173 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/yoomdev/!svn/ver/108/trunk/system/vendor/google/Auth/OpenID
+END
+Consumer.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/yoomdev/!svn/ver/108/trunk/system/vendor/google/Auth/OpenID/Consumer.php
+END
+AX.php
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/yoomdev/!svn/ver/108/trunk/system/vendor/google/Auth/OpenID/AX.php
+END
+Interface.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/yoomdev/!svn/ver/108/trunk/system/vendor/google/Auth/OpenID/Interface.php
+END
+DatabaseConnection.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/yoomdev/!svn/ver/108/trunk/system/vendor/google/Auth/OpenID/DatabaseConnection.php
+END
+TrustRoot.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/yoomdev/!svn/ver/108/trunk/system/vendor/google/Auth/OpenID/TrustRoot.php
+END
+DumbStore.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/yoomdev/!svn/ver/108/trunk/system/vendor/google/Auth/OpenID/DumbStore.php
+END
+DiffieHellman.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/yoomdev/!svn/ver/108/trunk/system/vendor/google/Auth/OpenID/DiffieHellman.php
+END
+Extension.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/yoomdev/!svn/ver/108/trunk/system/vendor/google/Auth/OpenID/Extension.php
+END
+MySQLStore.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/yoomdev/!svn/ver/108/trunk/system/vendor/google/Auth/OpenID/MySQLStore.php
+END
+SReg.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/yoomdev/!svn/ver/108/trunk/system/vendor/google/Auth/OpenID/SReg.php
+END
+Association.php
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/yoomdev/!svn/ver/108/trunk/system/vendor/google/Auth/OpenID/Association.php
+END
+Server.php
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/yoomdev/!svn/ver/108/trunk/system/vendor/google/Auth/OpenID/Server.php
+END
+FileStore.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/yoomdev/!svn/ver/108/trunk/system/vendor/google/Auth/OpenID/FileStore.php
+END
+PAPE.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/yoomdev/!svn/ver/108/trunk/system/vendor/google/Auth/OpenID/PAPE.php
+END
+HMAC.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/yoomdev/!svn/ver/108/trunk/system/vendor/google/Auth/OpenID/HMAC.php
+END
+Message.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/yoomdev/!svn/ver/108/trunk/system/vendor/google/Auth/OpenID/Message.php
+END
+URINorm.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/yoomdev/!svn/ver/108/trunk/system/vendor/google/Auth/OpenID/URINorm.php
+END
+BigMath.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/yoomdev/!svn/ver/108/trunk/system/vendor/google/Auth/OpenID/BigMath.php
+END
+Discover.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/yoomdev/!svn/ver/108/trunk/system/vendor/google/Auth/OpenID/Discover.php
+END
+MemcachedStore.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/yoomdev/!svn/ver/108/trunk/system/vendor/google/Auth/OpenID/MemcachedStore.php
+END
+ServerRequest.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/yoomdev/!svn/ver/108/trunk/system/vendor/google/Auth/OpenID/ServerRequest.php
+END
+PostgreSQLStore.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/yoomdev/!svn/ver/108/trunk/system/vendor/google/Auth/OpenID/PostgreSQLStore.php
+END
+Nonce.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/yoomdev/!svn/ver/108/trunk/system/vendor/google/Auth/OpenID/Nonce.php
+END
+KVForm.php
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/yoomdev/!svn/ver/108/trunk/system/vendor/google/Auth/OpenID/KVForm.php
+END
+CryptUtil.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/yoomdev/!svn/ver/108/trunk/system/vendor/google/Auth/OpenID/CryptUtil.php
+END
+Parse.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/yoomdev/!svn/ver/108/trunk/system/vendor/google/Auth/OpenID/Parse.php
+END
+SQLStore.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/yoomdev/!svn/ver/108/trunk/system/vendor/google/Auth/OpenID/SQLStore.php
+END
+SQLiteStore.php
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/yoomdev/!svn/ver/108/trunk/system/vendor/google/Auth/OpenID/SQLiteStore.php
+END

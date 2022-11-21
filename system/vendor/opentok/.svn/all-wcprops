@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/yoomdev/!svn/ver/307/trunk/system/vendor/opentok
+END
+API_Config.php
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/yoomdev/!svn/ver/304/trunk/system/vendor/opentok/API_Config.php
+END
+OpenTokArchive.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/yoomdev/!svn/ver/307/trunk/system/vendor/opentok/OpenTokArchive.php
+END
+README.md
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/yoomdev/!svn/ver/304/trunk/system/vendor/opentok/README.md
+END
+OpenTokSession.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/yoomdev/!svn/ver/304/trunk/system/vendor/opentok/OpenTokSession.php
+END
+OpenTokSDK.php
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/yoomdev/!svn/ver/304/trunk/system/vendor/opentok/OpenTokSDK.php
+END

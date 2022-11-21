@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/yoomdev/!svn/ver/107/trunk/system/vendor/facebook
+END
+fb_ca_chain_bundle.crt
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/yoomdev/!svn/ver/360/trunk/system/vendor/facebook/fb_ca_chain_bundle.crt
+END
+facebook.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/yoomdev/!svn/ver/360/trunk/system/vendor/facebook/facebook.class.php
+END
+base_facebook.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/yoomdev/!svn/ver/360/trunk/system/vendor/facebook/base_facebook.php
+END

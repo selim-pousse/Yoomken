@@ -1,0 +1,771 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <title>Facebook Frame</title>
+        
+  <style>
+    body,h1,h2,p,div,form,ul,li
+    {
+      font-family:"Trebuchet MS", Helvetica, sans-serif;
+      font-size:12px;
+      margin:0;
+      padding:0;
+    }
+
+    body
+    {
+      background:gray;
+      min-width:1006px;
+    }
+
+    div#header
+    {
+      background:#3B5998;
+      border-bottom:1px solid #133783;
+      height:37px;
+      min-width:1006px;
+      position:relative;
+      z-index:200;
+    }
+
+    div#header h1
+    {
+      color:#FFF;
+      font-size:2em;
+      line-height:38px;
+      margin-left:10px;
+    }
+
+    div#header h1 span
+    {
+      font-size:12px;
+      position:relative;
+      top:-2px;
+    }
+
+    div#canvas-outer
+    {
+      margin-right:224px;
+    }
+
+    div#canvas-wrapper
+    {
+      background:#FFF;
+      height:250px;
+      margin-left:auto;
+      margin-right:auto;
+    }
+
+    body.canvas_fixed div#canvas-wrapper
+    {
+      width:760px;
+    }
+
+    body.page_narrow div#canvas-wrapper
+    {
+      width:520px;
+    }
+
+    body.page_wide div#canvas-wrapper
+    {
+      width:850px;
+    }
+
+    div#page_settings
+    {
+      display:none;
+    }
+
+    body.page_wide div#page_settings,body.page_narrow div#page_settings
+    {
+      display:block;
+    }
+
+    div#right-col-wrapper
+    {
+      background-color:#eaecf1;
+      border-left:1px solid #B3B3B3;
+      height:100%;
+      overflow-y:auto;
+      position:absolute;
+      right:0;
+      top:0;
+      width:224px;
+      z-index:1;
+    }
+
+    div#right-col
+    {
+      margin-top:38px;
+      padding:10px;
+      z-index:1;
+    }
+
+    div#right-col h2
+    {
+      font-size:17px;
+      margin-bottom:10px;
+      margin-top:20px;
+    }
+
+    form input,form label,form select
+    {
+      display:block;
+      outline:0;
+    }
+
+    form input,form select
+    {
+      margin-bottom:15px;
+    }
+
+    form input[type="text"]
+    {
+      width:90%;
+    }
+
+    form input[type="checkbox"]
+    {
+      display:inline;
+    }
+
+    select#embed_mode
+    {
+      font-size:2em;
+      width:93%;
+    }
+
+    form #post_to_frame
+    {
+      font-size:2em;
+      margin-top:40px;
+      width:90%;
+    }
+
+    form #config_canvas_path_prefix
+    {
+      border-bottom:0;
+      letter-spacing:-1.5px;
+      margin-bottom:0;
+      padding-bottom:0;
+    }
+
+    form #config_canvas_path
+    {
+      border-top:0;
+      margin-top:0;
+      padding-top:0;
+    }
+
+    #credits
+    {
+      border-top:1px solid #aebde4;
+      font-size:11px;
+      margin-top:40px;
+      padding-top:20px;
+    }
+
+        </style>
+  
+</head>
+<body class="canvas_fluid">
+  
+  <div id="fb-root"></div>  
+  <script>
+  
+    var FB = {
+      "XD": {
+        
+      }
+    }
+  
+  </script>
+
+  
+        <div id="header">
+                <h1>Facebook Frame <span>- making Facebook Canvas app development a breeze.</span></h1>
+        </div>
+  
+        <div id="canvas-outer">
+          <div id="canvas-wrapper">
+      <!-- The iframe into which the app is loaded -->
+                  <iframe id="canvas-frame" width="100%" height="100%" frameborder="0"></iframe>
+          </div>
+  </div>
+  
+  <!-- Form which actually submits to the iframe -->
+  <form id="post-form" method="POST" action="" target="canvas-frame">
+    <input type="hidden" id="signed_request" name="signed_request" />
+  </form>
+        
+  <div id="right-col-wrapper">
+          <div id="right-col">
+                
+                  <select id="embed_mode">
+                          <option selected value="canvas_fluid">Canvas Fluid Width</option>
+        <option value="canvas_fixed">Canvas 760px</option>
+                          <option value="page_narrow">Page Tab 520px</option>
+                          <option value="page_wide">Page Tab 850px</option>
+                  </select>
+                
+                  <form id="config-form">
+                        
+                          <h2>App Settings</h2>
+                        
+                          <label for="config_app_secret">App Secret</label>
+        <input type="text" id="config_app_secret" value="" placeholder="App Secret as shown in your app's settings"/>
+                        
+                          <label for="config_server_url">Server URL</label>
+                          <input type="text" id="config_server_url" value="http://localhost/"placeholder="The base URL to which POST requests should be sent"/>
+                        
+                          <label for="config_canvas_path">Canvas Path</label>
+                          <input type="text" id="config_canvas_path_prefix" readonly value="...facebook.com/yournamespace/" />
+                          <input type="text" id="config_canvas_path" value="" placeholder="foo/bar?alice=bob" />
+      
+        <h2>User Settings</h2>
+                        
+                          <label for="config_user_id">User ID</label>
+                          <input type="text" id="config_user_id" value="" placeholder="The User ID the request is coming from. Leave blank to simulate un-auth'd user"/>
+                        
+                          <label for="config_user_id">User Access Token</label>
+                          <input type="text" id="config_user_token" value="" placeholder="Optional. An access token to be used in requests to the Graph API"/>
+
+        <label for="config_user_country">User Country</label>
+              <select id="config_user_country">
+                      <option value="af">af</option><option value="ax">ax</option><option value="al">al</option><option value="dz">dz</option><option value="ad">ad</option><option value="ao">ao</option><option value="ai">ai</option><option value="aq">aq</option><option value="ag">ag</option><option value="ar">ar</option><option value="am">am</option><option value="aw">aw</option><option value="au">au</option><option value="at">at</option><option value="az">az</option><option value="bs">bs</option><option value="bh">bh</option><option value="bd">bd</option><option value="bb">bb</option><option value="by">by</option><option value="be">be</option><option value="bz">bz</option><option value="bj">bj</option><option value="bm">bm</option><option value="bt">bt</option><option value="bo">bo</option><option value="bq">bq</option><option value="ba">ba</option><option value="bw">bw</option><option value="bv">bv</option><option value="br">br</option><option value="io">io</option><option value="bn">bn</option><option value="bg">bg</option><option value="bf">bf</option><option value="bi">bi</option><option value="kh">kh</option><option value="cm">cm</option><option value="ca">ca</option><option value="cv">cv</option><option value="ky">ky</option><option value="cf">cf</option><option value="td">td</option><option value="cl">cl</option><option value="cn">cn</option><option value="cx">cx</option><option value="cc">cc</option><option value="co">co</option><option value="km">km</option><option value="cg">cg</option><option value="cd">cd</option><option value="ck">ck</option><option value="cr">cr</option><option value="ci">ci</option><option value="hr">hr</option><option value="cu">cu</option><option value="cw">cw</option><option value="cy">cy</option><option value="cz">cz</option><option value="dk">dk</option><option value="dk">dk</option><option value="dm">dm</option><option value="do">do</option><option value="ec">ec</option><option value="eg">eg</option><option value="sv">sv</option><option value="gq">gq</option><option value="er">er</option><option value="ee">ee</option><option value="et">et</option><option value="fk">fk</option><option value="fo">fo</option><option value="fj">fj</option><option value="fi">fi</option><option value="fr">fr</option><option value="gf">gf</option><option value="pf">pf</option><option value="tf">tf</option><option value="ga">ga</option><option value="gm">gm</option><option value="ge">ge</option><option value="dm">dm</option><option value="gh">gh</option><option value="gi">gi</option><option value="gr">gr</option><option value="gl">gl</option><option value="gd">gd</option><option value="gp">gp</option><option value="gu">gu</option><option value="gt">gt</option><option value="gg">gg</option><option value="gn">gn</option><option value="gw">gw</option><option value="gy">gy</option><option value="ht">ht</option><option value="hm">hm</option><option value="va">va</option><option value="hn">hn</option><option value="hk">hk</option><option value="hu">hu</option><option value="is">is</option><option value="in">in</option><option value="id">id</option><option value="ir">ir</option><option value="iq">iq</option><option value="ie">ie</option><option value="im">im</option><option value="il">il</option><option value="it">it</option><option value="jm">jm</option><option value="jp">jp</option><option value="je">je</option><option value="jo">jo</option><option value="kz">kz</option><option value="ke">ke</option><option value="ki">ki</option><option value="kp">kp</option><option value="kr">kr</option><option value="kw">kw</option><option value="kg">kg</option><option value="la">la</option><option value="lv">lv</option><option value="lb">lb</option><option value="ls">ls</option><option value="lr">lr</option><option value="ly">ly</option><option value="li">li</option><option value="lt">lt</option><option value="lu">lu</option><option value="mo">mo</option><option value="mk">mk</option><option value="mg">mg</option><option value="mw">mw</option><option value="my">my</option><option value="mv">mv</option><option value="ml">ml</option><option value="mt">mt</option><option value="mh">mh</option><option value="mq">mq</option><option value="mr">mr</option><option value="mu">mu</option><option value="yt">yt</option><option value="mx">mx</option><option value="fm">fm</option><option value="md">md</option><option value="mc">mc</option><option value="mn">mn</option><option value="me">me</option><option value="ms">ms</option><option value="ma">ma</option><option value="mz">mz</option><option value="mm">mm</option><option value="na">na</option><option value="nr">nr</option><option value="np">np</option><option value="nl">nl</option><option value="nc">nc</option><option value="nz">nz</option><option value="ni">ni</option><option value="ne">ne</option><option value="ng">ng</option><option value="nu">nu</option><option value="nf">nf</option><option value="mp">mp</option><option value="no">no</option><option value="om">om</option><option value="pk">pk</option><option value="pw">pw</option><option value="ps">ps</option><option value="pa">pa</option><option value="pg">pg</option><option value="py">py</option><option value="pe">pe</option><option value="ph">ph</option><option value="pn">pn</option><option value="pl">pl</option><option value="pt">pt</option><option value="pr">pr</option><option value="qa">qa</option><option value="re">re</option><option value="ro">ro</option><option value="ru">ru</option><option value="rw">rw</option><option value="bl">bl</option><option value="sh">sh</option><option value="kn">kn</option><option value="lc">lc</option><option value="mf">mf</option><option value="pm">pm</option><option value="vc">vc</option><option value="ws">ws</option><option value="sm">sm</option><option value="st">st</option><option value="sa">sa</option><option value="sn">sn</option><option value="rs">rs</option><option value="sc">sc</option><option value="sl">sl</option><option value="sg">sg</option><option value="sx">sx</option><option value="sk">sk</option><option value="si">si</option><option value="sb">sb</option><option value="so">so</option><option value="za">za</option><option value="gs">gs</option><option value="ss">ss</option><option value="es">es</option><option value="lk">lk</option><option value="sd">sd</option><option value="sr">sr</option><option value="sj">sj</option><option value="sz">sz</option><option value="se">se</option><option value="ch">ch</option><option value="sy">sy</option><option value="tw">tw</option><option value="tj">tj</option><option value="tz">tz</option><option value="th">th</option><option value="tl">tl</option><option value="tg">tg</option><option value="tk">tk</option><option value="to">to</option><option value="tt">tt</option><option value="tn">tn</option><option value="tr">tr</option><option value="tm">tm</option><option value="tc">tc</option><option value="tv">tv</option><option value="ug">ug</option><option value="ua">ua</option><option value="ae">ae</option><option value="gb">gb</option><option selected value="us">us</option><option value="um">um</option><option value="uy">uy</option><option value="uz">uz</option><option value="uv">uv</option><option value="ve">ve</option><option value="vn">vn</option><option value="vg">vg</option><option value="vi">vi</option><option value="wf">wf</option><option value="eh">eh</option><option value="ye">ye</option><option value="zm">zm</option><option value="zw">zw</option>                 
+              </select>
+          
+              <label for="config_user_locale">User Locale</label>
+        <select id="config_user_locale">
+                      <option value="af_ZA">af_ZA</option><option value="ar_AR">ar_AR</option><option value="az_AZ">az_AZ</option><option value="be_BY">be_BY</option><option value="bg_BG">bg_BG</option><option value="bn_IN">bn_IN</option><option value="bs_BA">bs_BA</option><option value="ca_ES">ca_ES</option><option value="cs_CZ">cs_CZ</option><option value="cy_GB">cy_GB</option><option value="da_DK">da_DK</option><option value="de_DE">de_DE</option><option value="el_GR">el_GR</option><option value="en_GB">en_GB</option><option value="en_PI">en_PI</option><option value="en_UD">en_UD</option><option selected value="en_US">en_US</option><option value="eo_EO">eo_EO</option><option value="es_ES">es_ES</option><option value="es_LA">es_LA</option><option value="et_EE">et_EE</option><option value="eu_ES">eu_ES</option><option value="fa_IR">fa_IR</option><option value="fb_LT">fb_LT</option><option value="fi_FI">fi_FI</option><option value="fo_FO">fo_FO</option><option value="fr_CA">fr_CA</option><option value="fr_FR">fr_FR</option><option value="fy_NL">fy_NL</option><option value="ga_IE">ga_IE</option><option value="gl_ES">gl_ES</option><option value="he_IL">he_IL</option><option value="hi_IN">hi_IN</option><option value="hr_HR">hr_HR</option><option value="hu_HU">hu_HU</option><option value="hy_AM">hy_AM</option><option value="id_ID">id_ID</option><option value="is_IS">is_IS</option><option value="it_IT">it_IT</option><option value="ja_JP">ja_JP</option><option value="ka_GE">ka_GE</option><option value="km_KH">km_KH</option><option value="ko_KR">ko_KR</option><option value="ko_KR">ko_KR</option><option value="la_VA">la_VA</option><option value="lt_LT">lt_LT</option><option value="lv_LV">lv_LV</option><option value="mk_MK">mk_MK</option><option value="ml_IN">ml_IN</option><option value="ms_MY">ms_MY</option><option value="nb_NO">nb_NO</option><option value="ne_NP">ne_NP</option><option value="nl_NL">nl_NL</option><option value="nn_NO">nn_NO</option><option value="pa_IN">pa_IN</option><option value="pl_PL">pl_PL</option><option value="ps_AF">ps_AF</option><option value="pt_BR">pt_BR</option><option value="pt_PT">pt_PT</option><option value="ro_RO">ro_RO</option><option value="ru_RU">ru_RU</option><option value="sk_SK">sk_SK</option><option value="sl_SI">sl_SI</option><option value="sq_AL">sq_AL</option><option value="sr_RS">sr_RS</option><option value="sv_SE">sv_SE</option><option value="sw_KE">sw_KE</option><option value="ta_IN">ta_IN</option><option value="th_TH">th_TH</option><option value="tl_PH">tl_PH</option><option value="tr_TR">tr_TR</option><option value="uk_UA">uk_UA</option><option value="vi_VN">vi_VN</option><option value="zh_CN">zh_CN</option><option value="zh_HK">zh_HK</option><option value="zh_TW">zh_TW</option>
+        </select>
+      
+        <div id="page_settings">
+                            <h2>Page Settings</h2>
+                            <label for="config_page_id">Page ID</label>
+                            <input type="text" id="config_page_id" value="" placeholder="The ID of the page in which the iframe is embedded"/>
+                          
+                            <label for="config_app_data">App Data</label>
+                            <input type="text" id="config_app_data" value="" placeholder="contents of the app_data param if present in the Page URL"/>
+        
+          <label for="config_page_liked">
+            <input type="checkbox" id="config_page_liked" value="true" /> User has liked this page?
+          </label>
+                          
+          <label for="config_page_admin">
+            <input type="checkbox" id="config_page_admin" value="true" /> User is an admin of this page?
+          </label>
+
+        </div>
+      
+                        
+        <input type="submit" value="Post to Frame" id="post_to_frame"/>
+                  </form>
+                
+                  <div id="credits">
+                          Started by <a href="https://www.facebook.com/sicross" target="_blank">Simon Cross</a>. 
+                          Try the latest <a href="http://sicross.github.com/facebook-frame/" target="_blank">hosted version</a> or contribute to   
+                          <a href="https://github.com/sicross/facebook-frame" target="_blank">this project on Github</a>.
+                  </div>
+                </div>
+        </div>
+        
+</body>
+
+
+<!-- BEGIN JAVASCRIPT -->
+  <script>
+  
+  function resizeFrame(){
+          var h = document.documentElement.clientHeight;
+          var header = document.getElementById('header').offsetHeight;
+          var frame = document.getElementById('canvas-wrapper');
+          frame.style.height = h-header+'px';
+          
+  };
+  resizeFrame(); // call on load
+  window.onresize = function(e){
+          // and whenever the window is resized
+          resizeFrame();
+  }
+
+  
+  
+    document.getElementById('embed_mode').addEventListener('change', function(e){
+      document.body.className = e.target.value;
+    });
+    
+        // enable/disable form fields dependent upon the presence of a user ID value
+    document.getElementById('config_user_id').addEventListener('blur', function(e,v){
+      if (e.target.value){
+        // user ID is set, enable user-dependent fields
+        document.getElementById('config_page_liked').disabled = false;
+        document.getElementById('config_page_admin').disabled = false;
+        document.getElementById('config_user_token').disabled = false;
+      } else {
+        // user ID is not set, disable user-dependent fields
+        document.getElementById('config_page_liked').disabled = true;
+        document.getElementById('config_page_liked').checked = false;
+        document.getElementById('config_page_admin').disabled = true;
+        document.getElementById('config_page_admin').checked = false;
+        document.getElementById('config_user_token').disabled = true;
+      }
+    })
+  
+    document.getElementById('config-form').addEventListener('submit', function(e){
+      e.preventDefault();
+    
+      // onSubmit checks
+      if (!document.getElementById('config_app_secret').value) {
+        alert('Please provide an App Secret. \n\nThis is needed to sign the request which your app should use to ensure the request came from Facebook. \n\nFailure to do this leaves your application open to attack from malicious developers.');
+        return false;
+      }
+      if (!document.getElementById('config_server_url').value) {
+        alert('Please provide an Server URL. \n\nThis is needed so we know which URL to load inside the Frame.');
+        return false;
+      }
+    
+      // Ok, we have enough info, build the data to send
+      var data = {
+        "algorithm": "HMAC-SHA256",
+        "issued_at": Math.round(new Date().getTime() / 1000),
+        "user": {
+          "country": document.getElementById('config_user_country').value,
+          "locale": document.getElementById('config_user_locale').value,
+          "age": {
+            "min": 21
+          } 
+        }
+      };
+      
+      // user_id provided? simulates a request from an auth'd user
+      if (document.getElementById('config_user_id').value) {
+        data.user_id =  document.getElementById('config_user_id').value;
+        data.oauth_token = document.getElementById('config_user_token').value;
+        data.expires = Math.round((new Date().getTime() / 1000)+7200);
+      }
+      
+      // page_id provided? simulates being loaded inside a Page Tab
+      if (document.getElementById('embed_mode').value == 'page_narrow' ||
+          document.getElementById('embed_mode').value == 'page_wide') {
+            
+            // must have a page ID in this state
+            if (!document.getElementById('config_page_id').value){
+              alert('Please provide a Page ID. \n\nYou\'ve set Facebook Frame to emulate your app being loaded inside a Page tab. In this mode, your app should expect the ID of the page in which it has been loaded to be send in the signed_request object.');
+              return false;
+            }
+            
+            data.page = {
+              "id": document.getElementById('config_page_id').value,
+              "liked": document.getElementById('config_page_liked').checked,
+              "admin": document.getElementById('config_page_admin').checked
+            }
+            
+            if(document.getElementById('config_app_data').value) {
+              data.app_data = document.getElementById('config_app_data').value;
+            }
+      }
+      
+            
+            // build the payload and signature strings
+             var payload = encode64(JSON.stringify(data));
+            var app_secret = document.getElementById('config_app_secret').value;      
+      var sig = rstr_hmac_sha256(app_secret, payload);
+      var signed_request_string = encode64(sig) + '.' + payload;
+    
+      // execute the request
+      var post_url = document.getElementById('config_server_url').value + document.getElementById('config_canvas_path').value;
+      document.getElementById('signed_request').value = signed_request_string;
+      var post_form = document.getElementById('post-form');
+      post_form.setAttribute('action', post_url);
+      post_form.submit(); 
+    })
+    
+    
+    /*==============================================================================*/ 
+    /* from http://ntt.cc/2008/01/19/base64-encoder-decoder-with-javascript.html */
+    
+    var keyStr = "ABCDEFGHIJKLMNOP" +
+                   "QRSTUVWXYZabcdef" +
+                   "ghijklmnopqrstuv" +
+                   "wxyz0123456789-_" + // was "wxyz0123456789+/"
+                   "=";
+    
+    function encode64(input) {
+         //input = escape(input); // not needed in this setup
+         var output = "";
+         var chr1, chr2, chr3 = "";
+         var enc1, enc2, enc3, enc4 = "";
+         var i = 0;
+
+         do {
+            chr1 = input.charCodeAt(i++);
+            chr2 = input.charCodeAt(i++);
+            chr3 = input.charCodeAt(i++);
+
+            enc1 = chr1 >> 2;
+            enc2 = ((chr1 & 3) << 4) | (chr2 >> 4);
+            enc3 = ((chr2 & 15) << 2) | (chr3 >> 6);
+            enc4 = chr3 & 63;
+
+            if (isNaN(chr2)) {
+               enc3 = enc4 = 64;
+            } else if (isNaN(chr3)) {
+               enc4 = 64;
+            }
+
+            output = output +
+               keyStr.charAt(enc1) +
+               keyStr.charAt(enc2) +
+               keyStr.charAt(enc3) +
+               keyStr.charAt(enc4);
+            chr1 = chr2 = chr3 = "";
+            enc1 = enc2 = enc3 = enc4 = "";
+         } while (i < input.length);
+
+         return output;
+      }
+
+    /*==============================================================================*/  
+        
+    /*
+     * A JavaScript implementation of the Secure Hash Algorithm, SHA-256, as defined
+     * in FIPS 180-2
+     * Version 2.2 Copyright Angel Marin, Paul Johnston 2000 - 2009.
+     * Other contributors: Greg Holt, Andrew Kepert, Ydnar, Lostinet
+     * Distributed under the BSD License
+     * See http://pajhome.org.uk/crypt/md5 for details.
+     * Also http://anmar.eu.org/projects/jssha2/
+     */
+
+    /*
+     * Configurable variables. You may need to tweak these to be compatible with
+     * the server-side, but the defaults work in most cases.
+     */
+    var hexcase = 0;  /* hex output format. 0 - lowercase; 1 - uppercase        */
+    var b64pad  = ""; /* base-64 pad character. "=" for strict RFC compliance   */
+
+    /*
+     * These are the functions you'll usually want to call
+     * They take string arguments and return either hex or base-64 encoded strings
+     */
+    function hex_sha256(s)    { return rstr2hex(rstr_sha256(str2rstr_utf8(s))); }
+    function b64_sha256(s)    { return rstr2b64(rstr_sha256(str2rstr_utf8(s))); }
+    function any_sha256(s, e) { return rstr2any(rstr_sha256(str2rstr_utf8(s)), e); }
+    function hex_hmac_sha256(k, d)
+      { return rstr2hex(rstr_hmac_sha256(str2rstr_utf8(k), str2rstr_utf8(d))); }
+    function b64_hmac_sha256(k, d)
+      { return rstr2b64(rstr_hmac_sha256(str2rstr_utf8(k), str2rstr_utf8(d))); }
+    function any_hmac_sha256(k, d, e)
+      { return rstr2any(rstr_hmac_sha256(str2rstr_utf8(k), str2rstr_utf8(d)), e); }
+
+    /*
+     * Perform a simple self-test to see if the VM is working
+     */
+    function sha256_vm_test()
+    {
+      return hex_sha256("abc").toLowerCase() ==
+                "ba7816bf8f01cfea414140de5dae2223b00361a396177a9cb410ff61f20015ad";
+    }
+
+    /*
+     * Calculate the sha256 of a raw string
+     */
+    function rstr_sha256(s)
+    {
+      return binb2rstr(binb_sha256(rstr2binb(s), s.length * 8));
+    }
+
+    /*
+     * Calculate the HMAC-sha256 of a key and some data (raw strings)
+     */
+    function rstr_hmac_sha256(key, data)
+    {
+      var bkey = rstr2binb(key);
+      if(bkey.length > 16) bkey = binb_sha256(bkey, key.length * 8);
+
+      var ipad = Array(16), opad = Array(16);
+      for(var i = 0; i < 16; i++)
+      {
+        ipad[i] = bkey[i] ^ 0x36363636;
+        opad[i] = bkey[i] ^ 0x5C5C5C5C;
+      }
+
+      var hash = binb_sha256(ipad.concat(rstr2binb(data)), 512 + data.length * 8);
+      return binb2rstr(binb_sha256(opad.concat(hash), 512 + 256));
+    }
+
+    /*
+     * Convert a raw string to a hex string
+     */
+    function rstr2hex(input)
+    {
+      try { hexcase } catch(e) { hexcase=0; }
+      var hex_tab = hexcase ? "0123456789ABCDEF" : "0123456789abcdef";
+      var output = "";
+      var x;
+      for(var i = 0; i < input.length; i++)
+      {
+        x = input.charCodeAt(i);
+        output += hex_tab.charAt((x >>> 4) & 0x0F)
+               +  hex_tab.charAt( x        & 0x0F);
+      }
+      return output;
+    }
+
+    /*
+     * Convert a raw string to a base-64 string
+     */
+    function rstr2b64(input)
+    {
+      try { b64pad } catch(e) { b64pad=''; }
+      var tab = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/";
+      var output = "";
+      var len = input.length;
+      for(var i = 0; i < len; i += 3)
+      {
+        var triplet = (input.charCodeAt(i) << 16)
+                    | (i + 1 < len ? input.charCodeAt(i+1) << 8 : 0)
+                    | (i + 2 < len ? input.charCodeAt(i+2)      : 0);
+        for(var j = 0; j < 4; j++)
+        {
+          if(i * 8 + j * 6 > input.length * 8) output += b64pad;
+          else output += tab.charAt((triplet >>> 6*(3-j)) & 0x3F);
+        }
+      }
+      return output;
+    }
+
+    /*
+     * Convert a raw string to an arbitrary string encoding
+     */
+    function rstr2any(input, encoding)
+    {
+      var divisor = encoding.length;
+      var remainders = Array();
+      var i, q, x, quotient;
+
+      /* Convert to an array of 16-bit big-endian values, forming the dividend */
+      var dividend = Array(Math.ceil(input.length / 2));
+      for(i = 0; i < dividend.length; i++)
+      {
+        dividend[i] = (input.charCodeAt(i * 2) << 8) | input.charCodeAt(i * 2 + 1);
+      }
+
+      /*
+       * Repeatedly perform a long division. The binary array forms the dividend,
+       * the length of the encoding is the divisor. Once computed, the quotient
+       * forms the dividend for the next step. We stop when the dividend is zero.
+       * All remainders are stored for later use.
+       */
+      while(dividend.length > 0)
+      {
+        quotient = Array();
+        x = 0;
+        for(i = 0; i < dividend.length; i++)
+        {
+          x = (x << 16) + dividend[i];
+          q = Math.floor(x / divisor);
+          x -= q * divisor;
+          if(quotient.length > 0 || q > 0)
+            quotient[quotient.length] = q;
+        }
+        remainders[remainders.length] = x;
+        dividend = quotient;
+      }
+
+      /* Convert the remainders to the output string */
+      var output = "";
+      for(i = remainders.length - 1; i >= 0; i--)
+        output += encoding.charAt(remainders[i]);
+
+      /* Append leading zero equivalents */
+      var full_length = Math.ceil(input.length * 8 /
+                                        (Math.log(encoding.length) / Math.log(2)))
+      for(i = output.length; i < full_length; i++)
+        output = encoding[0] + output;
+
+      return output;
+    }
+
+    /*
+     * Encode a string as utf-8.
+     * For efficiency, this assumes the input is valid utf-16.
+     */
+    function str2rstr_utf8(input)
+    {
+      var output = "";
+      var i = -1;
+      var x, y;
+
+      while(++i < input.length)
+      {
+        /* Decode utf-16 surrogate pairs */
+        x = input.charCodeAt(i);
+        y = i + 1 < input.length ? input.charCodeAt(i + 1) : 0;
+        if(0xD800 <= x && x <= 0xDBFF && 0xDC00 <= y && y <= 0xDFFF)
+        {
+          x = 0x10000 + ((x & 0x03FF) << 10) + (y & 0x03FF);
+          i++;
+        }
+
+        /* Encode output as utf-8 */
+        if(x <= 0x7F)
+          output += String.fromCharCode(x);
+        else if(x <= 0x7FF)
+          output += String.fromCharCode(0xC0 | ((x >>> 6 ) & 0x1F),
+                                        0x80 | ( x         & 0x3F));
+        else if(x <= 0xFFFF)
+          output += String.fromCharCode(0xE0 | ((x >>> 12) & 0x0F),
+                                        0x80 | ((x >>> 6 ) & 0x3F),
+                                        0x80 | ( x         & 0x3F));
+        else if(x <= 0x1FFFFF)
+          output += String.fromCharCode(0xF0 | ((x >>> 18) & 0x07),
+                                        0x80 | ((x >>> 12) & 0x3F),
+                                        0x80 | ((x >>> 6 ) & 0x3F),
+                                        0x80 | ( x         & 0x3F));
+      }
+      return output;
+    }
+
+    /*
+     * Encode a string as utf-16
+     */
+    function str2rstr_utf16le(input)
+    {
+      var output = "";
+      for(var i = 0; i < input.length; i++)
+        output += String.fromCharCode( input.charCodeAt(i)        & 0xFF,
+                                      (input.charCodeAt(i) >>> 8) & 0xFF);
+      return output;
+    }
+
+    function str2rstr_utf16be(input)
+    {
+      var output = "";
+      for(var i = 0; i < input.length; i++)
+        output += String.fromCharCode((input.charCodeAt(i) >>> 8) & 0xFF,
+                                       input.charCodeAt(i)        & 0xFF);
+      return output;
+    }
+
+    /*
+     * Convert a raw string to an array of big-endian words
+     * Characters >255 have their high-byte silently ignored.
+     */
+    function rstr2binb(input)
+    {
+      var output = Array(input.length >> 2);
+      for(var i = 0; i < output.length; i++)
+        output[i] = 0;
+      for(var i = 0; i < input.length * 8; i += 8)
+        output[i>>5] |= (input.charCodeAt(i / 8) & 0xFF) << (24 - i % 32);
+      return output;
+    }
+
+    /*
+     * Convert an array of big-endian words to a string
+     */
+    function binb2rstr(input)
+    {
+      var output = "";
+      for(var i = 0; i < input.length * 32; i += 8)
+        output += String.fromCharCode((input[i>>5] >>> (24 - i % 32)) & 0xFF);
+      return output;
+    }
+
+    /*
+     * Main sha256 function, with its support functions
+     */
+    function sha256_S (X, n) {return ( X >>> n ) | (X << (32 - n));}
+    function sha256_R (X, n) {return ( X >>> n );}
+    function sha256_Ch(x, y, z) {return ((x & y) ^ ((~x) & z));}
+    function sha256_Maj(x, y, z) {return ((x & y) ^ (x & z) ^ (y & z));}
+    function sha256_Sigma0256(x) {return (sha256_S(x, 2) ^ sha256_S(x, 13) ^ sha256_S(x, 22));}
+    function sha256_Sigma1256(x) {return (sha256_S(x, 6) ^ sha256_S(x, 11) ^ sha256_S(x, 25));}
+    function sha256_Gamma0256(x) {return (sha256_S(x, 7) ^ sha256_S(x, 18) ^ sha256_R(x, 3));}
+    function sha256_Gamma1256(x) {return (sha256_S(x, 17) ^ sha256_S(x, 19) ^ sha256_R(x, 10));}
+    function sha256_Sigma0512(x) {return (sha256_S(x, 28) ^ sha256_S(x, 34) ^ sha256_S(x, 39));}
+    function sha256_Sigma1512(x) {return (sha256_S(x, 14) ^ sha256_S(x, 18) ^ sha256_S(x, 41));}
+    function sha256_Gamma0512(x) {return (sha256_S(x, 1)  ^ sha256_S(x, 8) ^ sha256_R(x, 7));}
+    function sha256_Gamma1512(x) {return (sha256_S(x, 19) ^ sha256_S(x, 61) ^ sha256_R(x, 6));}
+
+    var sha256_K = new Array
+    (
+      1116352408, 1899447441, -1245643825, -373957723, 961987163, 1508970993,
+      -1841331548, -1424204075, -670586216, 310598401, 607225278, 1426881987,
+      1925078388, -2132889090, -1680079193, -1046744716, -459576895, -272742522,
+      264347078, 604807628, 770255983, 1249150122, 1555081692, 1996064986,
+      -1740746414, -1473132947, -1341970488, -1084653625, -958395405, -710438585,
+      113926993, 338241895, 666307205, 773529912, 1294757372, 1396182291,
+      1695183700, 1986661051, -2117940946, -1838011259, -1564481375, -1474664885,
+      -1035236496, -949202525, -778901479, -694614492, -200395387, 275423344,
+      430227734, 506948616, 659060556, 883997877, 958139571, 1322822218,
+      1537002063, 1747873779, 1955562222, 2024104815, -2067236844, -1933114872,
+      -1866530822, -1538233109, -1090935817, -965641998
+    );
+
+    function binb_sha256(m, l)
+    {
+      var HASH = new Array(1779033703, -1150833019, 1013904242, -1521486534,
+                           1359893119, -1694144372, 528734635, 1541459225);
+      var W = new Array(64);
+      var a, b, c, d, e, f, g, h;
+      var i, j, T1, T2;
+
+      /* append padding */
+      m[l >> 5] |= 0x80 << (24 - l % 32);
+      m[((l + 64 >> 9) << 4) + 15] = l;
+
+      for(i = 0; i < m.length; i += 16)
+      {
+        a = HASH[0];
+        b = HASH[1];
+        c = HASH[2];
+        d = HASH[3];
+        e = HASH[4];
+        f = HASH[5];
+        g = HASH[6];
+        h = HASH[7];
+
+        for(j = 0; j < 64; j++)
+        {
+          if (j < 16) W[j] = m[j + i];
+          else W[j] = safe_add(safe_add(safe_add(sha256_Gamma1256(W[j - 2]), W[j - 7]),
+                                                sha256_Gamma0256(W[j - 15])), W[j - 16]);
+
+          T1 = safe_add(safe_add(safe_add(safe_add(h, sha256_Sigma1256(e)), sha256_Ch(e, f, g)),
+                                                              sha256_K[j]), W[j]);
+          T2 = safe_add(sha256_Sigma0256(a), sha256_Maj(a, b, c));
+          h = g;
+          g = f;
+          f = e;
+          e = safe_add(d, T1);
+          d = c;
+          c = b;
+          b = a;
+          a = safe_add(T1, T2);
+        }
+
+        HASH[0] = safe_add(a, HASH[0]);
+        HASH[1] = safe_add(b, HASH[1]);
+        HASH[2] = safe_add(c, HASH[2]);
+        HASH[3] = safe_add(d, HASH[3]);
+        HASH[4] = safe_add(e, HASH[4]);
+        HASH[5] = safe_add(f, HASH[5]);
+        HASH[6] = safe_add(g, HASH[6]);
+        HASH[7] = safe_add(h, HASH[7]);
+      }
+      return HASH;
+    }
+
+    function safe_add (x, y)
+    {
+      var lsw = (x & 0xFFFF) + (y & 0xFFFF);
+      var msw = (x >> 16) + (y >> 16) + (lsw >> 16);
+      return (msw << 16) | (lsw & 0xFFFF);
+    }
+
+  </script>
+
+</html>

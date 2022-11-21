@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/yoomdev/!svn/ver/110/trunk/system/vendor/uploader
+END
+qqUploadedFileForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/yoomdev/!svn/ver/110/trunk/system/vendor/uploader/qqUploadedFileForm.class.php
+END
+qqUploadedFileXhr.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/yoomdev/!svn/ver/110/trunk/system/vendor/uploader/qqUploadedFileXhr.class.php
+END
+qqFileUploader.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/yoomdev/!svn/ver/110/trunk/system/vendor/uploader/qqFileUploader.class.php
+END

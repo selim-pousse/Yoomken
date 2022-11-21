@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/yoomdev/!svn/ver/358/trunk/system/vendor/wideimage/Mapper
+END
+JPEG.php
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/yoomdev/!svn/ver/111/trunk/system/vendor/wideimage/Mapper/JPEG.php
+END
+PNG.php
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/yoomdev/!svn/ver/358/trunk/system/vendor/wideimage/Mapper/PNG.php
+END
+GD.php
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/yoomdev/!svn/ver/111/trunk/system/vendor/wideimage/Mapper/GD.php
+END
+GIF.php
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/yoomdev/!svn/ver/111/trunk/system/vendor/wideimage/Mapper/GIF.php
+END
+GD2.php
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/yoomdev/!svn/ver/111/trunk/system/vendor/wideimage/Mapper/GD2.php
+END
+BMP.php
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/yoomdev/!svn/ver/111/trunk/system/vendor/wideimage/Mapper/BMP.php
+END

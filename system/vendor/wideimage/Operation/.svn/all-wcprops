@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/yoomdev/!svn/ver/111/trunk/system/vendor/wideimage/Operation
+END
+CopyChannelsPalette.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/yoomdev/!svn/ver/111/trunk/system/vendor/wideimage/Operation/CopyChannelsPalette.php
+END
+Merge.php
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/yoomdev/!svn/ver/111/trunk/system/vendor/wideimage/Operation/Merge.php
+END
+ApplyMask.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/yoomdev/!svn/ver/111/trunk/system/vendor/wideimage/Operation/ApplyMask.php
+END
+Rotate.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/yoomdev/!svn/ver/111/trunk/system/vendor/wideimage/Operation/Rotate.php
+END
+CorrectGamma.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/yoomdev/!svn/ver/111/trunk/system/vendor/wideimage/Operation/CorrectGamma.php
+END
+AutoCrop.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/yoomdev/!svn/ver/111/trunk/system/vendor/wideimage/Operation/AutoCrop.php
+END
+Mirror.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/yoomdev/!svn/ver/111/trunk/system/vendor/wideimage/Operation/Mirror.php
+END
+GetMask.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/yoomdev/!svn/ver/111/trunk/system/vendor/wideimage/Operation/GetMask.php
+END
+ApplyFilter.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/yoomdev/!svn/ver/111/trunk/system/vendor/wideimage/Operation/ApplyFilter.php
+END
+ApplyConvolution.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/yoomdev/!svn/ver/111/trunk/system/vendor/wideimage/Operation/ApplyConvolution.php
+END
+Flip.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/yoomdev/!svn/ver/111/trunk/system/vendor/wideimage/Operation/Flip.php
+END
+Crop.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/yoomdev/!svn/ver/111/trunk/system/vendor/wideimage/Operation/Crop.php
+END
+CopyChannelsTrueColor.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/yoomdev/!svn/ver/111/trunk/system/vendor/wideimage/Operation/CopyChannelsTrueColor.php
+END
+Unsharp.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/yoomdev/!svn/ver/111/trunk/system/vendor/wideimage/Operation/Unsharp.php
+END
+Resize.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/yoomdev/!svn/ver/111/trunk/system/vendor/wideimage/Operation/Resize.php
+END
+AsGrayscale.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/yoomdev/!svn/ver/111/trunk/system/vendor/wideimage/Operation/AsGrayscale.php
+END

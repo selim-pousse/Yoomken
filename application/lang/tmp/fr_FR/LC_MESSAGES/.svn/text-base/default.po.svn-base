@@ -1,0 +1,4670 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Yoomken\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-10-24 03:51+0100\n"
+"PO-Revision-Date: 2013-10-24 16:32+0100\n"
+"Last-Translator: Sélim Pousse\n"
+"Language-Team: yoom\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-Bookmarks: -1,-1,-1,-1,-1,-1,-1,-1,-1,375\n"
+"X-Poedit-SearchPath-0: ../../..\n"
+
+#: ../../../config/config.ini.php:125
+msgid "PAGE_TITLE"
+msgstr "Yoomken | Le réseau social qui vous rend service"
+
+#: ../../../config/config.ini.php:131
+#: ../../../views/advice/blocks/subMenu.php:16
+#: ../../../views/layout/footer.php:13
+#: ../../../views/message/mail/inviteFriend.php:21
+#: ../../../views/message/mail/joinYoomken.php:12
+msgid "WHATS_YOO_DETAIL"
+msgstr ""
+"Yoomken est le réseau idéal d'entraide pour les activités de bricolage ou à "
+"domicile qui tisse vos relations sur les bases équivalentes de vos qualités "
+"humaines et de savoir-faire.<br/>"
+
+#: ../../../controllers/adviceController.php:51 ../../../lang/__lang.php:97
+#: ../../../views/advice/terms.php:3
+msgid "POLICY"
+msgstr "Termes & Conditions"
+
+#: ../../../controllers/badgeController.php:68
+#: ../../../controllers/badgeController.php:199
+#: ../../../controllers/badgeController.php:201
+#: ../../../controllers/contentController.php:115
+#: ../../../controllers/contentController.php:130
+#: ../../../controllers/contentController.php:431
+#: ../../../controllers/contentController.php:443
+#: ../../../controllers/messageController.php:93
+#: ../../../controllers/messageController.php:108
+#: ../../../controllers/messageController.php:110
+#: ../../../controllers/messageController.php:125
+#: ../../../controllers/messageController.php:132
+#: ../../../controllers/messageController.php:188
+#: ../../../controllers/peopleController.php:130
+#: ../../../controllers/peopleController.php:159
+#: ../../../controllers/peopleController.php:163
+#: ../../../controllers/peopleController.php:197
+#: ../../../controllers/peopleController.php:199
+#: ../../../controllers/peopleController.php:374
+#: ../../../controllers/peopleController.php:376
+#: ../../../controllers/userController.php:57
+#: ../../../controllers/userController.php:70 ../../../lang/__lang.php:158
+#: ../../../models/badgesModel.php:391 ../../../models/userModel.php:603
+msgid "DONE"
+msgstr "Fait"
+
+#: ../../../controllers/badgeController.php:154
+#: ../../../controllers/badgeController.php:158
+#: ../../../controllers/peopleController.php:278
+#: ../../../controllers/peopleController.php:313
+#: ../../../views/badge/module/findBadges.php:14
+#: ../../../views/badge/module/findBadges.php:103
+#: ../../../views/people/module/findFriends.php:100
+#: ../../../views/people/module/inviteToWork.php:84
+msgid "ADD_NOTE"
+msgstr "Ajouter un message personnelle"
+
+#: ../../../controllers/commentController.php:77
+#: ../../../views/comment/all.php:25 ../../../views/layout/javascript.php:60
+msgid "LEAVE_CMT"
+msgstr "Laisser un commentaire. Utiliser @ pour mentionner des personnes."
+
+#: ../../../controllers/contentController.php:325
+#: ../../../controllers/contentController.php:710
+#: ../../../controllers/filterController.php:126
+#: ../../../controllers/filterController.php:250
+#: ../../../controllers/filterController.php:276
+#: ../../../controllers/filterController.php:296
+#: ../../../controllers/messageController.php:151
+#: ../../../controllers/messageController.php:238 ../../../lang/__lang.php:146
+#: ../../../models/filterModel.php:285 ../../../models/filterModel.php:312
+#: ../../../models/filterModel.php:335 ../../../models/filterModel.php:358
+#: ../../../models/filterModel.php:386 ../../../models/filterModel.php:412
+msgid "ERR_NOT_LOGED"
+msgstr "Ressource interdite!"
+
+#: ../../../controllers/contentController.php:353
+#: ../../../views/content/blocks/sharebox.php:31
+msgid "Title of your content"
+msgstr "Titre de votre contenu"
+
+#: ../../../controllers/contentController.php:366 ../../../lang/__lang.php:121
+#: ../../../views/layout/javascript.php:55
+msgid "LABEL_TAGS"
+msgstr "services, tags…"
+
+#: ../../../controllers/contentController.php:393
+#: ../../../controllers/messageController.php:168 ../../../lang/__lang.php:144
+msgid "ERR_SAVE_ACT"
+msgstr "Echec de la sauvegarde du post! "
+
+#: ../../../controllers/contentController.php:413 ../../../lang/__lang.php:145
+msgid "ERR_MOV_PIC"
+msgstr "Echec au téléchargement de l'image."
+
+#: ../../../controllers/contentController.php:502
+#: ../../../controllers/contentController.php:503
+#: ../../../views/content/inner/types/displayDash_Content.php:149
+#: ../../../views/question/inner/displayDash.php:109
+msgid "DISLIKE"
+msgstr "Je n'aime plus"
+
+#: ../../../controllers/contentController.php:507
+#: ../../../controllers/contentController.php:508
+#: ../../../views/content/inner/types/displayDash_Content.php:149
+#: ../../../views/question/inner/displayDash.php:109
+msgid "LIKE"
+msgstr "J'aime"
+
+#: ../../../controllers/contentController.php:514
+#: ../../../controllers/contentController.php:515
+#: ../../../views/people/inner/____displayBulle.php:84
+msgid "I_NOT_RECOMMAND"
+msgstr "Je ne recommande plus"
+
+#: ../../../controllers/contentController.php:519
+#: ../../../controllers/contentController.php:520
+#: ../../../views/people/inner/____displayBulle.php:83
+#: ../../../views/people/inner/____displayBulle.php:84
+msgid "I_RECOMMAND"
+msgstr "Je recommande"
+
+#: ../../../controllers/contentController.php:717
+#: ../../../controllers/filterController.php:50
+#: ../../../controllers/messageController.php:244
+#: ../../../controllers/userController.php:95
+#: ../../../controllers/userController.php:109 ../../../lang/__lang.php:143
+msgid "ERR_FIELD"
+msgstr "Ce champs est requis."
+
+#: ../../../controllers/contentController.php:729
+#: ../../../controllers/messageController.php:253 ../../../lang/__lang.php:140
+msgid "MESS_HELP_TEAM"
+msgstr ""
+"Ce service est temporairement indisponible, veuillez nous en excuser. Afin "
+"d'améliorer la qualité de nos services, veuillez reporter cette anomalie à "
+"notre équipe."
+
+#: ../../../controllers/filterController.php:158 ../../../lang/__lang.php:214
+#: ../../../lang/__lang.php:329
+msgid "_AND"
+msgstr "ET"
+
+#: ../../../controllers/filterController.php:159 ../../../lang/__lang.php:215
+#: ../../../lang/__lang.php:330
+msgid "_OR"
+msgstr "OR"
+
+#: ../../../controllers/homeController.php:28 ../../../lang/__lang.php:260
+msgid "TXT_WAIT_ACTIVATION"
+msgstr ""
+"Merci pour votre inscription, vous avez à présent besoin de confirmer votre "
+"compte en cliquant sur le lien qui a été transmis à votre adresse "
+"électronique {#email}. <br> <br>Si pour quelques raisons vous ne recevez pas "
+"l'email d'activation, contactez-nous à contact@yoomken.com et nous ferons de "
+"notre mieux pour vous aider. <br> <b> S'IL VOUS PLAÎT vérifier tout de même "
+"dans votre dossier indésirable (ou spam) avant de nous contacter , car il "
+"est très fréquent d'avoir des problèmes de réception du courrier "
+"électronique à cause des filtres automatisés de votre boite e-mail.<b>"
+
+#: ../../../controllers/homeController.php:33 ../../../lang/__lang.php:255
+#: ../../../models/peopleModel.php:583
+msgid "MAIL_WELC_TXT1"
+msgstr "Bonjour"
+
+#: ../../../controllers/homeController.php:33 ../../../lang/__lang.php:256
+#: ../../../models/peopleModel.php:583
+msgid "MAIL_WELC_TXT2"
+msgstr "et bienvenue chez Yoomken"
+
+#: ../../../controllers/homeController.php:100
+#: ../../../controllers/homeController.php:133
+msgid "SUCCESS"
+msgstr "Success"
+
+#: ../../../controllers/homeController.php:104
+#: ../../../views/layout/javascript.php:44
+msgid "ERR_NOTEXIST_EMAIL_PSEUDO"
+msgstr "- L'email ou le pseudonyme n'est pas enregistré chez Yoomken."
+
+#: ../../../controllers/homeController.php:125
+#: ../../../controllers/homeController.php:137
+msgid "ERR_LINK_NOTVALID_ANYMORE"
+msgstr ""
+"Ce lien est invalide, est déjà utilisé ou a expiré. Veuillez en demander un "
+"autre."
+
+#: ../../../controllers/homeController.php:159 ../../../lang/__lang.php:245
+msgid "CONGRAT"
+msgstr "Félicitations"
+
+#: ../../../controllers/homeController.php:160 ../../../lang/__lang.php:246
+msgid "TXT_CONGRAT_ACTIVATE"
+msgstr ""
+"Votre compte {#email} a été confirmé avec succès et nous vous remercions "
+"pour votre intérêt. <br>\n"
+"Le réseau de Yoomeken vous est dès à présent ouvert. Connectez-vous afin de "
+"découvrir ce qui s'y cache.<br>\n"
+"<br>\n"
+"Bon surf!"
+
+#: ../../../controllers/homeController.php:165 ../../../lang/__lang.php:249
+msgid "DOUBLE_ACTIVATE"
+msgstr "Oops, quelque chose ne va pas?"
+
+#: ../../../controllers/homeController.php:166 ../../../lang/__lang.php:250
+msgid "TXT_DOUBLE_ACTIVATE_1"
+msgstr ""
+"L'activation du compte {#email} a déjà été entreprise. Au cas où l'accès à "
+"l'espace membre vous est encore refusé, une autre alternative à cette issue "
+"est de régénérer votre mot de passe."
+
+#: ../../../controllers/homeController.php:168 ../../../lang/__lang.php:251
+msgid "TXT_DOUBLE_ACTIVATE_2"
+msgstr "{#contact_us} si le problème persiste afin de trouver une solution."
+
+#: ../../../controllers/homeController.php:171 ../../../lang/__lang.php:252
+msgid "OOPS_ACTIVATE"
+msgstr "Oops, échec d'activation"
+
+#: ../../../controllers/homeController.php:172 ../../../lang/__lang.php:253
+msgid "TXT_OOPS_ACTIVATE"
+msgstr ""
+"Le lien soumis est erroné. {#contact_us} afin de trouver une solution à "
+"votre problème."
+
+#: ../../../controllers/homeController.php:179
+#: ../../../controllers/homeController.php:183 ../../../lang/__lang.php:244
+msgid "CONTACT_US"
+msgstr "Contactez nous"
+
+#: ../../../controllers/messageController.php:110
+msgid "NO_MATCH_CONTACT"
+msgstr "Aucun contact trouvé."
+
+#: ../../../controllers/messageController.php:175
+#: ../../../controllers/messageController.php:176 ../../../lang/__lang.php:238
+#: ../../../views/message/mail/newMessage.php:5
+msgid "NEW_MESSAGE_FROM"
+msgstr "Vous avez reçu un nouveau message de"
+
+#: ../../../controllers/peopleController.php:67 ../../../lang/__lang.php:166
+#: ../../../views/layout/___subMenu.php:23
+msgid "NETWORK"
+msgstr "Réseau"
+
+#: ../../../controllers/peopleController.php:199
+msgid "NO_MATCH_RELATIONS"
+msgstr "Aucun profil trouvé."
+
+#: ../../../controllers/userController.php:143
+#: ../../../controllers/userController.php:165 ../../../lang/__lang.php:263
+msgid "ERR_ACTIVATE"
+msgstr ""
+"En attente d'activation, cliquer sur le lien qui vous as été envoyé par "
+"email pour activer votre compte."
+
+#: ../../../controllers/userController.php:147
+#: ../../../controllers/userController.php:169 ../../../lang/__lang.php:142
+msgid "ERR_LOGIN"
+msgstr "- L'email/pseudo ou le mot de passe est incorrect."
+
+#: ../../../helpers/format.php:295 ../../../lang/__lang.php:76
+#: ../../../views/layout/javascript.php:62
+msgid "FEW_SEC_AGO"
+msgstr "à l'instant"
+
+#: ../../../helpers/format.php:301 ../../../lang/__lang.php:77
+msgid "ILYA"
+msgstr "Il y a"
+
+#: ../../../helpers/format.php:301 ../../../lang/__lang.php:78
+msgid "MIN_AGO"
+msgstr "minutes"
+
+#: ../../../helpers/format.php:310 ../../../helpers/format.php:327
+#: ../../../lang/__lang.php:79
+msgid "YESTERDAY_AT"
+msgstr "Hier à"
+
+#: ../../../helpers/format.php:324 ../../../helpers/format.php:340
+#: ../../../helpers/format.php:354 ../../../lang/__lang.php:80
+#: ../../../views/content/inner/types/displayDash_Content.php:165
+#: ../../../views/content/inner/types/displayIsotope_Content.php:103
+#: ../../../views/question/inner/displayDash.php:122
+msgid "AT"
+msgstr "à"
+
+#: ../../../helpers/format.php:347
+msgid "LE_FOR_TIME"
+msgstr "le"
+
+#: ../../../helpers/format.php:513 ../../../lang/__lang.php:56
+#: ../../../models/spotsModel.php:129
+#: ../../../views/content/inner/types/displayDash_Activity.php:153
+#: ../../../views/content/inner/types/displayDash_Content.php:4
+#: ../../../views/content/inner/types/displayIsotope_Content.php:4
+#: ../../../views/filter/module/nearby.php:5
+#: ../../../views/layout/____box/myProfile.php:3
+#: ../../../views/layout/module/myOption.php:3
+#: ../../../views/layout/module/myProfile.php:3
+#: ../../../views/question/inner/displayDash.php:11
+#: ../../../views/user/view.php:4
+msgid "SOMEWHERE"
+msgstr "Lieu indéfini..."
+
+#: ../../../helpers/format.php:854 ../../../lang/__lang.php:13
+#: ../../../views/people/inner/actions-follow.php:13
+#: ../../../views/people/inner/actions-follow.php:26
+msgid "ACCEPT_DEAL"
+msgstr "Accepter"
+
+#: ../../../helpers/format.php:855 ../../../lang/__lang.php:14
+#: ../../../views/people/inner/actions-follow.php:16
+#: ../../../views/people/inner/actions-follow.php:29
+msgid "REJECT_DEAL"
+msgstr "Rejeter"
+
+#: ../../../helpers/format.php:885 ../../../lang/__lang.php:15
+#: ../../../views/layout/javascript.php:168
+msgid "ACCEPTED"
+msgstr "Accepté"
+
+#: ../../../helpers/format.php:892 ../../../lang/__lang.php:16
+#: ../../../views/layout/javascript.php:169
+msgid "REJECTED"
+msgstr "Rejeté"
+
+#: ../../../helpers/format.php:933
+#: ../../../views/content/blocks/sharebox.php:61
+#: ../../../views/content/blocks/subMenu.php:69
+#: ../../../views/content/blocks/subsubMenu.php:24
+#: ../../../views/content/inner/types/displayDash_Content.php:42
+msgid "OFFER"
+msgstr "Offre"
+
+#: ../../../helpers/format.php:933
+#: ../../../views/content/blocks/sharebox.php:45
+#: ../../../views/content/blocks/subsubMenu.php:21
+msgid "CREATION"
+msgstr "Création"
+
+#: ../../../helpers/format.php:933
+#: ../../../views/content/blocks/sharebox.php:50
+#: ../../../views/content/blocks/subsubMenu.php:22
+#: ../../../views/content/inner/types/displayDash_Content.php:42
+msgid "QUESTION"
+msgstr "Question"
+
+#: ../../../helpers/format.php:933
+#: ../../../views/content/blocks/subsubMenu.php:20
+#: ../../../views/content/inner/types/displayDash_Content.php:42
+msgid "SCOOP"
+msgstr "Scoop"
+
+#: ../../../helpers/format.php:934 ../../../helpers/format.php:935
+#: ../../../views/content/inner/types/displayDash_Content.php:42
+msgid "OF_THE"
+msgstr "du"
+
+#: ../../../helpers/format.php:936
+#: ../../../views/content/inner/displayAllCritiques.php:23
+msgid "OF"
+msgstr "de"
+
+#: ../../../helpers/format.php:945
+msgid "HIDDEN"
+msgstr "Invisible"
+
+#: ../../../helpers/format.php:945
+msgid "LISTENING"
+msgstr "A l'écoute"
+
+#: ../../../helpers/format.php:945 ../../../lang/__lang.php:227
+msgid "BUSY"
+msgstr "chargé"
+
+#: ../../../helpers/format.php:945
+msgid "NOT_LISTENING"
+msgstr "Indisponible sur le marché"
+
+#: ../../../lang/__lang.php:2 ../../../views/layout/javascript.php:14
+msgid "LOADING"
+msgstr "Chargement"
+
+#: ../../../lang/__lang.php:5
+#: ../../../views/people/inner/actions-follow.php:67
+msgid "ATTACH"
+msgstr "Suivre"
+
+#: ../../../lang/__lang.php:6
+#: ../../../views/people/inner/actions-follow.php:41
+#: ../../../views/people/inner/actions-follow.php:49
+#: ../../../views/people/inner/actions-follow.php:59
+#: ../../../views/people/inner/actions-follow.php:83
+msgid "DETTACH"
+msgstr "Se déttacher"
+
+#: ../../../lang/__lang.php:7 ../../../models/badgesModel.php:243
+#: ../../../models/filterModel.php:280 ../../../models/userModel.php:447
+#: ../../../views/content/blocks/sidebar-left.php:23
+#: ../../../views/content/blocks/subMenu.php:32
+#: ../../../views/people/blocks/subMenu.php:34
+msgid "ATTACHED"
+msgstr "Suivi"
+
+#: ../../../lang/__lang.php:8 ../../../models/filterModel.php:303
+#: ../../../models/userModel.php:671
+#: ../../../views/content/blocks/sidebar-left.php:21
+#: ../../../views/content/blocks/subMenu.php:30
+#: ../../../views/people/blocks/subMenu.php:32
+msgid "DETTACHED"
+msgstr "Non suivi"
+
+#: ../../../lang/__lang.php:9 ../../../models/userModel.php:496
+#: ../../../views/content/blocks/sidebar-left.php:27
+#: ../../../views/content/blocks/subMenu.php:36
+#: ../../../views/people/blocks/subMenu.php:38
+msgid "IN_DEAL"
+msgstr "En collaboration et suivi"
+
+#: ../../../lang/__lang.php:10 ../../../models/badgesModel.php:290
+#: ../../../models/userModel.php:472
+#: ../../../views/content/blocks/sidebar-left.php:25
+#: ../../../views/content/blocks/subMenu.php:34
+#: ../../../views/people/blocks/subMenu.php:36
+msgid "WAIT_DEAL"
+msgstr "En attente de collaboration et suivi"
+
+#: ../../../lang/__lang.php:11
+#: ../../../views/people/inner/actions-follow.php:56
+#: ../../../views/people/inner/actions-follow.php:73
+#: ../../../views/people/module/inviteToWork.php:88
+msgid "DEAL"
+msgstr "Collaborer"
+
+#: ../../../lang/__lang.php:12
+#: ../../../views/people/inner/actions-follow.php:38
+msgid "UNDEAL"
+msgstr "Clore"
+
+#: ../../../lang/__lang.php:17
+#: ../../../views/people/inner/actions-follow.php:80
+msgid "CANCEL_DEAL"
+msgstr "Annuler"
+
+#: ../../../lang/__lang.php:18
+#: ../../../views/people/inner/actions-follow.php:14
+#: ../../../views/people/inner/actions-follow.php:27
+msgid "TIPS_ACCEPT_DEAL"
+msgstr ""
+"Accpeter la demande de collaboration et échanger vos données de contact."
+
+#: ../../../lang/__lang.php:19
+#: ../../../views/people/inner/actions-follow.php:17
+#: ../../../views/people/inner/actions-follow.php:30
+msgid "TIPS_REJECT_DEAL"
+msgstr ""
+"Rejeter la demande de collaboration et conserver vos données de contact "
+"privées."
+
+#: ../../../lang/__lang.php:20
+#: ../../../views/people/inner/actions-follow.php:81
+msgid "TIPS_CANCEL_DEAL"
+msgstr "Annuler votre demande de collaboration."
+
+#: ../../../lang/__lang.php:21
+#: ../../../views/people/inner/actions-follow.php:57
+#: ../../../views/people/inner/actions-follow.php:74
+#: ../../../views/people/module/inviteToWork.php:88
+msgid "TIPS_DEAL"
+msgstr "Suivre ses activités et inviter la personne à collaborer avec vous."
+
+#: ../../../lang/__lang.php:22
+#: ../../../views/people/inner/actions-follow.php:39
+msgid "TIPS_UNDEAL"
+msgstr "Clore votre collaboration en conservant votre pistage."
+
+#: ../../../lang/__lang.php:23
+#: ../../../views/people/inner/actions-follow.php:68
+msgid "TIPS_ATTACH"
+msgstr "Suivre ses activités"
+
+#: ../../../lang/__lang.php:24
+#: ../../../views/people/inner/actions-follow.php:42
+#: ../../../views/people/inner/actions-follow.php:50
+#: ../../../views/people/inner/actions-follow.php:60
+#: ../../../views/people/inner/actions-follow.php:84
+msgid "TIPS_DETTACH"
+msgstr ""
+"Ne plus suivre ses activités (met fin à la collaboration si elle existe)"
+
+#: ../../../lang/__lang.php:26
+#: ../../../views/message/mail/askForCollaboration.php:20
+#: ../../../views/message/msg/askForCollaboration.php:16
+msgid "MSG_REQUEST_DEAL"
+msgstr ""
+"Si vous acceptez la collaboration, il sera possible à cette personne de vous "
+"contacter ou de visualiser votre vrai nom pendant toute la durée de votre "
+"entente. "
+
+#: ../../../lang/__lang.php:27 ../../../models/userModel.php:541
+msgid "MSG_ATTACH"
+msgstr "Vous êtes maintenant suivi par {#user}."
+
+#: ../../../lang/__lang.php:28 ../../../models/userModel.php:494
+msgid "MSG_ACCEPT_DEAL"
+msgstr ""
+"{#user} a accepté de collaborer avec vous. Vous pouvez dès à présent le "
+"contacter."
+
+#: ../../../lang/__lang.php:29 ../../../models/userModel.php:526
+msgid "MSG_REJECT_DEAL"
+msgstr "{#user} a rejeté votre offre de collaboration."
+
+#: ../../../lang/__lang.php:30 ../../../models/userModel.php:477
+#: ../../../models/userModel.php:478
+msgid "MSG_STOP_DEAL"
+msgstr "{#user} a mis fin à votre collaboration."
+
+#: ../../../lang/__lang.php:35 ../../../views/maintenance.php:63
+msgid "SLOGAN"
+msgstr "Simplement possible"
+
+#: ../../../lang/__lang.php:36
+msgid "PAP"
+msgstr "Particulier à Particulier"
+
+#: ../../../lang/__lang.php:37
+msgid "PAP_1"
+msgstr "Élargissez vos pistes"
+
+#: ../../../lang/__lang.php:38
+msgid "PAP_2"
+msgstr "Publiez votre savoir faire"
+
+#: ../../../lang/__lang.php:39
+msgid "PAP_3"
+msgstr "Ciblez les travailleurs à proximité"
+
+#: ../../../lang/__lang.php:41
+msgid "TOOL"
+msgstr "Outil"
+
+#: ../../../lang/__lang.php:42
+msgid "TOOL_1"
+msgstr "Filtrez vos désintérêts"
+
+#: ../../../lang/__lang.php:43
+msgid "TOOL_2"
+msgstr "Restez connecté à vos pistes"
+
+#: ../../../lang/__lang.php:44
+msgid "TOOL_3"
+msgstr "Visez les ressources disponibles"
+
+#: ../../../lang/__lang.php:46
+msgid "CAREER"
+msgstr "Carrière"
+
+#: ../../../lang/__lang.php:47
+msgid "CAREER_1"
+msgstr "Exprimez votre talent"
+
+#: ../../../lang/__lang.php:48
+msgid "CAREER_2"
+msgstr "Testez votre business"
+
+#: ../../../lang/__lang.php:49
+msgid "CAREER_3"
+msgstr "Enrichissez vous d'expériences"
+
+#: ../../../lang/__lang.php:52 ../../../views/layout/javascript.php:57
+msgid "SEARCH"
+msgstr "Recherche…"
+
+#: ../../../lang/__lang.php:53 ../../../views/layout/module/feedback.php:23
+msgid "SEND"
+msgstr "Transmettre"
+
+#: ../../../lang/__lang.php:57
+msgid "NOTAG"
+msgstr "Tag indéfini..."
+
+#: ../../../lang/__lang.php:60
+msgid "SPACE"
+msgstr "E s p a c e"
+
+#: ../../../lang/__lang.php:61
+msgid "SPACE_JB"
+msgstr "J O B"
+
+#: ../../../lang/__lang.php:62
+msgid "SPACE_SV"
+msgstr "P R E S T A"
+
+#: ../../../lang/__lang.php:63 ../../../views/layout/registerbox_fb.php:29
+#: ../../../views/layout/registerbox_gen.php:87
+#: ../../../views/layout/module/connection.php:227
+msgid "PRESTA"
+msgstr "Je propose mes services"
+
+#: ../../../lang/__lang.php:64 ../../../views/layout/registerbox_fb.php:29
+#: ../../../views/layout/registerbox_gen.php:88
+#: ../../../views/layout/module/connection.php:233
+msgid "EMPLOYER"
+msgstr "Je demande les services"
+
+#: ../../../lang/__lang.php:65 ../../../views/layout/registerbox_fb.php:29
+#: ../../../views/layout/registerbox_gen.php:89
+#: ../../../views/layout/module/connection.php:239
+msgid "BOTH_PROFIL"
+msgstr "Profile mixte"
+
+#: ../../../lang/__lang.php:66 ../../../views/content/one.php:27
+#: ../../../views/content/inner/types/displayDash_Content.php:17
+#: ../../../views/content/inner/types/displayIsotope_Content.php:17
+#: ../../../views/question/inner/displayDash.php:25
+msgid "JOB"
+msgstr "Profession"
+
+#: ../../../lang/__lang.php:67
+msgid "JOBS"
+msgstr "Profession"
+
+#: ../../../lang/__lang.php:68 ../../../views/content/one.php:27
+#: ../../../views/content/inner/types/displayDash_Content.php:17
+#: ../../../views/content/inner/types/displayIsotope_Content.php:17
+#: ../../../views/question/inner/displayDash.php:25
+msgid "SERVICE"
+msgstr "Service"
+
+#: ../../../lang/__lang.php:69
+msgid "SERVICES"
+msgstr "Services"
+
+#: ../../../lang/__lang.php:70 ../../../views/comment/all.php:67
+#: ../../../views/message/view.php:11
+msgid "POST"
+msgstr "Poster"
+
+#: ../../../lang/__lang.php:71
+msgid "POSTED"
+msgstr "Posté"
+
+#: ../../../lang/__lang.php:72 ../../../views/layout/module/myProfile.php:60
+#: ../../../views/user/view.php:38
+#: ../../../views/user/blocks/sidebarAll-left.php:27
+msgid "WHO_I_AM"
+msgstr "Qui je suis ?"
+
+#: ../../../lang/__lang.php:81
+msgid "TODAY_AT"
+msgstr "Aujourd'hui à"
+
+#: ../../../lang/__lang.php:82
+msgid "DAY"
+msgstr "Jour"
+
+#: ../../../lang/__lang.php:83
+#: ../../../views/content/blocks/sidebar-left.php:50
+#: ../../../views/layout/javascript.php:82
+#: ../../../views/layout/module/myProfile.php:339
+#: ../../../views/layout/module/myProfile.php:340
+#: ../../../views/people/blocks/subMenu.php:55
+#: ../../../views/people/inner/____displayBulle.php:59
+#: ../../../views/people/inner/displayBulle.php:179
+msgid "HOUR"
+msgstr "Heure"
+
+#: ../../../lang/__lang.php:86
+msgid "REACT"
+msgstr "Réactualiser"
+
+#: ../../../lang/__lang.php:87 ../../../views/comment/view.php:16
+#: ../../../views/content/blocks/sidebar-left.php:105
+#: ../../../views/content/blocks/sidebar-left.php:170
+#: ../../../views/content/inner/types/displayDash_Activity.php:43
+#: ../../../views/content/inner/types/displayDash_Content.php:154
+#: ../../../views/layout/footer.php:15
+#: ../../../views/people/inner/____displayBulle.php:89
+#: ../../../views/question/inner/displayDash.php:113
+msgid "GETMORE"
+msgstr "Lire la suite"
+
+#: ../../../lang/__lang.php:89
+msgid "_OR_"
+msgstr "OR"
+
+#: ../../../lang/__lang.php:90
+msgid "_AND_"
+msgstr "ET"
+
+#: ../../../lang/__lang.php:92 ../../../views/home/view.php:216
+msgid "SIGN_UP"
+msgstr "S'inscrire"
+
+#: ../../../lang/__lang.php:93 ../../../views/layout/____box/connection.php:69
+#: ../../../views/layout/module/connection.php:69
+msgid "LOGIN"
+msgstr "Connexion"
+
+#: ../../../lang/__lang.php:94 ../../../views/layout/____box/connection.php:59
+msgid "LOGOUT"
+msgstr "Déconnexion"
+
+#: ../../../lang/__lang.php:96 ../../../views/layout/footer.php:37
+#: ../../../views/layout/mainMenu.php:65
+#: ../../../views/people/inner/displayBulle.php:222
+msgid "ABOUT_US"
+msgstr "A propos"
+
+#: ../../../lang/__lang.php:99
+#: ../../../views/layout/____box/connection.php:104
+#: ../../../views/layout/module/connection.php:314
+msgid "PASSWORD"
+msgstr "Mot de passe"
+
+#: ../../../lang/__lang.php:100
+#: ../../../views/layout/____box/connection.php:109
+#: ../../../views/layout/module/connection.php:318
+msgid "REMEMBER_ME"
+msgstr "Se souvenir de moi"
+
+#: ../../../lang/__lang.php:101
+#: ../../../views/layout/____box/connection.php:117
+#: ../../../views/layout/module/connection.php:319
+msgid "FORGOT"
+msgstr "Pass oublié?"
+
+#: ../../../lang/__lang.php:102
+#: ../../../views/layout/____box/connection.php:121
+#: ../../../views/layout/module/connection.php:308
+#: ../../../views/layout/module/connection.php:327
+#: ../../../views/layout/module/connection.php:334
+#: ../../../views/layout/module/connection.php:351
+msgid "CONNECT"
+msgstr "Se connecter"
+
+#: ../../../lang/__lang.php:103
+msgid "FIELD_REQUIRED"
+msgstr "Ce champs est requis."
+
+#: ../../../lang/__lang.php:106 ../../../views/layout/javascript.php:37
+msgid "LABEL_LNAME"
+msgstr "Nom de Famille"
+
+#: ../../../lang/__lang.php:107 ../../../views/layout/javascript.php:36
+#: ../../../views/layout/registerbox_gen.php:41
+msgid "LABEL_FNAME"
+msgstr "Nom complet"
+
+#: ../../../lang/__lang.php:108 ../../../views/layout/module/feedback.php:17
+msgid "LABEL_LFNAME"
+msgstr "Nom et prénom"
+
+#: ../../../lang/__lang.php:109 ../../../views/layout/javascript.php:38
+#: ../../../views/layout/registerbox_gen.php:95
+msgid "LABEL_MDP"
+msgstr "Mot de passe"
+
+#: ../../../lang/__lang.php:110 ../../../views/home/inner/resetpass.php:28
+#: ../../../views/layout/javascript.php:39
+#: ../../../views/layout/registerbox_gen.php:102
+msgid "LABEL_MDP2"
+msgstr "Confirmer mot de passe"
+
+#: ../../../lang/__lang.php:111 ../../../views/layout/javascript.php:40
+#: ../../../views/layout/registerbox_fb.php:29
+#: ../../../views/layout/registerbox_gen.php:83
+msgid "LABEL_PROFIL"
+msgstr "Sélectionner votre profile actuel"
+
+#: ../../../lang/__lang.php:112 ../../../views/layout/javascript.php:41
+#: ../../../views/layout/registerbox_gen.php:70
+#: ../../../views/layout/module/feedback.php:20
+msgid "LABEL_EMAIL"
+msgstr "Adresse électronique"
+
+#: ../../../lang/__lang.php:113 ../../../views/layout/module/feedback.php:22
+msgid "LABEL_MSG"
+msgstr "Message"
+
+#: ../../../lang/__lang.php:116 ../../../views/layout/javascript.php:49
+msgid "LABEL_TITLE_PRESTA"
+msgstr "Titre, savoir faire, métier…"
+
+#: ../../../lang/__lang.php:117 ../../../views/layout/javascript.php:50
+msgid "LABEL_TITLE_JOB"
+msgstr "Titre, intitulé du poste…"
+
+#: ../../../lang/__lang.php:118 ../../../views/layout/javascript.php:51
+msgid "LABEL_DESC_PRESTA"
+msgstr "Votre annonce, offre…"
+
+#: ../../../lang/__lang.php:119 ../../../views/layout/javascript.php:52
+msgid "LABEL_DESC_JOB"
+msgstr "Votre annonce, offre…"
+
+#: ../../../lang/__lang.php:120 ../../../models/spotsModel.php:84
+#: ../../../models/spotsModel.php:128 ../../../views/layout/javascript.php:53
+#: ../../../views/layout/registerbox_gen.php:109
+msgid "LABEL_LOCATION"
+msgstr "Lieu"
+
+#: ../../../lang/__lang.php:122
+#: ../../../views/layout/____box/smartFilter.php:135
+#: ../../../views/layout/____box/smartFilter.php:293
+#: ../../../views/layout/module/smartFilter.php:146
+#: ../../../views/layout/module/smartFilter.php:305
+msgid "LABEL_FILTER"
+msgstr "Alias du filtre..."
+
+#: ../../../lang/__lang.php:123 ../../../views/layout/javascript.php:54
+msgid "LABEL_CITY"
+msgstr "Ville"
+
+#: ../../../lang/__lang.php:124
+msgid "LABEL_NEARBY"
+msgstr "A proximité (<{#rayon} km) de ma position"
+
+#: ../../../lang/__lang.php:125 ../../../views/filter/module/nearby.php:106
+msgid "LABEL_NEARBY_1"
+msgstr "le système localise automatiquement ma position."
+
+#: ../../../lang/__lang.php:126 ../../../views/filter/module/nearby.php:112
+#: ../../../views/filter/module/nearby.php:114
+msgid "LABEL_NEARBY_2_1"
+msgstr ""
+"Saisisser une adresse afin qu'elle soit utilisée comme point de référence"
+
+#: ../../../lang/__lang.php:127 ../../../views/filter/module/nearby.php:114
+msgid "LABEL_NEARBY_2_2"
+msgstr "(la localisation automatique est désactivée)"
+
+#: ../../../lang/__lang.php:128
+msgid "LABEL_NEARBY_DISTANCE"
+msgstr ""
+"Modifier le rayon, vous permet d'ajuster le périmètre de recherche par lieu."
+
+#: ../../../lang/__lang.php:129 ../../../views/layout/module/myOption.php:128
+msgid "LABEL_OPEN_COUNTRIES"
+msgstr ""
+"L'ouverture vers un autre pays donné, vous permet d'accéder aux contenus "
+"provenant de ce dernier (par défaut seul les contenus provenant de votre "
+"pays d'origine sont diffusés)."
+
+#: ../../../lang/__lang.php:131 ../../../views/layout/javascript.php:59
+#: ../../../views/message/view.php:10
+msgid "WRITE_MSG"
+msgstr "Ecrire votre message..."
+
+#: ../../../lang/__lang.php:132
+msgid "TITLE_WAITING_LIST"
+msgstr "Inscription en liste d'attente"
+
+#: ../../../lang/__lang.php:133
+msgid "TITLE_SIGNUP"
+msgstr "Créer un compte Yoomken"
+
+#: ../../../lang/__lang.php:134 ../../../views/layout/registerbox_gen.php:131
+msgid "ACCEPT_POLICY"
+msgstr "J'accepte <a>les termes et conditions d'utilisation</a> de Yoomken."
+
+#: ../../../lang/__lang.php:136
+msgid "DRAG_FILTER"
+msgstr "Glisser et poser pour l'attacher en favori"
+
+#: ../../../lang/__lang.php:147 ../../../views/layout/module/myProfile.php:646
+#: ../../../views/user/view.php:30
+msgid "ERR_NO_COLLABORATE"
+msgstr ""
+"Les coordonnées de cette personne ne vous sont pas accessibles vu que vous "
+"n'êtes pas actuellement en collaboration avec elle."
+
+#: ../../../lang/__lang.php:148 ../../../views/layout/module/myProfile.php:648
+#: ../../../views/user/view.php:30
+msgid "SUGEST_COLLABORATE"
+msgstr ""
+"Solliciter une demande de collaboration à cette personne, ainsi elle "
+"pourrait accepter de vous publier ses coordonnées"
+
+#: ../../../lang/__lang.php:150 ../../../models/peopleModel.php:531
+msgid "ERR_USR_EXIST"
+msgstr "Vous vous êtes déjà enregistré auparavant avec cet email."
+
+#: ../../../lang/__lang.php:152 ../../../views/layout/javascript.php:58
+msgid "ERR_FIELD_REQUIRED"
+msgstr "Ce champs est requis."
+
+#: ../../../lang/__lang.php:153 ../../../views/content/all.php:47
+#: ../../../views/question/all.php:47
+msgid "ERR_NOACT"
+msgstr "Aucune activité ne correspond à vos critères de sélection !"
+
+#: ../../../lang/__lang.php:154 ../../../views/people/all.php:43
+msgid "ERR_NOUSR"
+msgstr "Aucun profil ne correspond à vos critères de sélection !"
+
+#: ../../../lang/__lang.php:159 ../../../views/layout/___subMenu.php:24
+msgid "FLUX"
+msgstr "Actualité"
+
+#: ../../../lang/__lang.php:160 ../../../views/layout/module/myProfile.php:44
+msgid "PROFIL"
+msgstr "Profil"
+
+#: ../../../lang/__lang.php:161 ../../../views/layout/module/myOption.php:25
+msgid "OPTIONS"
+msgstr "Options"
+
+#: ../../../lang/__lang.php:162 ../../../views/layout/module/myOption.php:35
+msgid "GEOLOC"
+msgstr "Géolocalisation"
+
+#: ../../../lang/__lang.php:163
+msgid "NEARBY_DISTANCE"
+msgstr "Rayon de proximité"
+
+#: ../../../lang/__lang.php:164
+msgid "DISTANCE_FROM_ME"
+msgstr "Renseigner le rayon pour définir votre zone géographique de proximité"
+
+#: ../../../lang/__lang.php:165 ../../../views/layout/module/myOption.php:79
+msgid "OPEN_COUNTRIES"
+msgstr "Ouverture aux pays"
+
+#: ../../../lang/__lang.php:167
+msgid "NEWS"
+msgstr "Message"
+
+#: ../../../lang/__lang.php:168 ../../../views/layout/footer.php:31
+#: ../../../views/user/blocks/sidebarAll-left.php:55
+msgid "CONTACT"
+msgstr "Contact"
+
+#: ../../../lang/__lang.php:169
+msgid "CONTACT_ME"
+msgstr "Me contacter"
+
+#: ../../../lang/__lang.php:170
+msgid "CONTACT_DETAILS"
+msgstr "Contact détails"
+
+#: ../../../lang/__lang.php:171
+msgid "TCHAT"
+msgstr "Message"
+
+#: ../../../lang/__lang.php:172
+msgid "MESSAGE"
+msgstr "Message"
+
+#: ../../../lang/__lang.php:173
+msgid "OFFER_FLUX"
+msgstr "Flux d'offres"
+
+#: ../../../lang/__lang.php:174
+msgid "FIRSTNAME"
+msgstr "Prénom"
+
+#: ../../../lang/__lang.php:175
+#: ../../../views/user/blocks/sidebarAll-right.php:10
+msgid "LASTNAME"
+msgstr "Nom"
+
+#: ../../../lang/__lang.php:176 ../../../views/layout/module/myProfile.php:81
+#: ../../../views/user/blocks/sidebarAll-right.php:17
+msgid "AGE"
+msgstr "Age"
+
+#: ../../../lang/__lang.php:177 ../../../views/layout/module/myProfile.php:140
+msgid "UPLOAD"
+msgstr "Uploader"
+
+#: ../../../lang/__lang.php:178
+msgid "NB_YEARS"
+msgstr "Nbre d'années"
+
+#: ../../../lang/__lang.php:179 ../../../views/layout/module/myProfile.php:422
+#: ../../../views/user/view.php:90
+msgid "LEVEL"
+msgstr "Niveau"
+
+#: ../../../lang/__lang.php:180 ../../../views/layout/module/myProfile.php:363
+msgid "EXPERIENCES"
+msgstr "Expériences"
+
+#: ../../../lang/__lang.php:181 ../../../views/layout/module/myProfile.php:160
+#: ../../../views/people/blocks/subMenu.php:133
+msgid "ABOUT_ME"
+msgstr "A propos"
+
+#: ../../../lang/__lang.php:182
+msgid "SKILLS"
+msgstr "Compétences"
+
+#: ../../../lang/__lang.php:183 ../../../views/layout/module/myProfile.php:394
+#: ../../../views/user/view.php:78
+msgid "DEGREES"
+msgstr "Diplômes"
+
+#: ../../../lang/__lang.php:184 ../../../views/layout/module/myProfile.php:296
+#: ../../../views/user/view.php:53
+msgid "SERVICES_PRESTA"
+msgstr "Services prônés"
+
+#: ../../../lang/__lang.php:185 ../../../views/layout/module/myProfile.php:532
+#: ../../../views/user/view.php:165
+msgid "SERVICES_CUSTO"
+msgstr "Services recherchés"
+
+#: ../../../lang/__lang.php:186 ../../../views/layout/module/myProfile.php:67
+#: ../../../views/user/view.php:49
+#: ../../../views/user/blocks/sidebarAll-left.php:42
+msgid "DETAIL_PRESTA"
+msgstr "Détails Intervenant"
+
+#: ../../../lang/__lang.php:187 ../../../views/layout/module/myProfile.php:64
+#: ../../../views/user/view.php:161
+#: ../../../views/user/blocks/sidebarAll-left.php:34
+msgid "DETAIL_CUSTO"
+msgstr "Détails Recruteur"
+
+#: ../../../lang/__lang.php:188 ../../../views/user/view.php:50
+msgid "JOB_PRESTA"
+msgstr "Statut & Savoir faire"
+
+#: ../../../lang/__lang.php:189
+msgid "JOB_CUSTO"
+msgstr "Savoir faire recherché"
+
+#: ../../../lang/__lang.php:190
+msgid "MOBIL"
+msgstr "Mobile"
+
+#: ../../../lang/__lang.php:191
+msgid "PHONE"
+msgstr "Fixe"
+
+#: ../../../lang/__lang.php:192
+#: ../../../views/content/inner/types/displayDash_Activity.php:108
+#: ../../../views/layout/module/myProfile.php:601
+msgid "LOCATION"
+msgstr "Lieu"
+
+#: ../../../lang/__lang.php:193
+msgid "NEARBY"
+msgstr "à proximité"
+
+#: ../../../lang/__lang.php:194 ../../../views/filter/module/nearby.php:68
+msgid "_STATIC_"
+msgstr "Fixe"
+
+#: ../../../lang/__lang.php:195
+msgid "_AUTO_"
+msgstr "Auto"
+
+#: ../../../lang/__lang.php:196
+msgid "CUSTO"
+msgstr "Perso"
+
+#: ../../../lang/__lang.php:197 ../../../views/filter/module/nearby.php:6
+#: ../../../views/filter/module/nearby.php:76
+msgid "MY_CURRENT_POSITION"
+msgstr "Ma position actuelle"
+
+#: ../../../lang/__lang.php:198
+msgid "STATIC_POSITION"
+msgstr "Position fixe"
+
+#: ../../../lang/__lang.php:199 ../../../views/filter/module/nearby.php:64
+msgid "CURRENT"
+msgstr "actuelle"
+
+#: ../../../lang/__lang.php:200
+msgid "HOME"
+msgstr "Maison"
+
+#: ../../../lang/__lang.php:201
+msgid "MODE_LOCATION"
+msgstr "Mode de localisation"
+
+#: ../../../lang/__lang.php:202
+#: ../../../views/layout/module/smartFilter.php:312
+msgid "RULE_FILTER"
+msgstr "Gestion des règles de filtrage"
+
+#: ../../../lang/__lang.php:203
+msgid "PRICE_CUSTO"
+msgstr "Paye offerte"
+
+#: ../../../lang/__lang.php:204 ../../../views/layout/module/myProfile.php:324
+#: ../../../views/user/view.php:64
+msgid "PRICE_PRESTA"
+msgstr "Paye souhaitée"
+
+#: ../../../lang/__lang.php:205 ../../../views/layout/javascript.php:81
+#: ../../../views/layout/module/myProfile.php:327
+#: ../../../views/layout/module/myProfile.php:349
+#: ../../../views/user/view.php:65
+msgid "FREE_SERVICE"
+msgstr "Service gratuit"
+
+#: ../../../lang/__lang.php:207
+msgid "_6_p"
+msgstr "personne"
+
+#: ../../../lang/__lang.php:208
+msgid "_6_c"
+msgstr "contenu"
+
+#: ../../../lang/__lang.php:209
+msgid "_6_t"
+msgstr "tag"
+
+#: ../../../lang/__lang.php:210
+msgid "_6_l"
+msgstr "lieu"
+
+#: ../../../lang/__lang.php:211
+msgid "_6_d"
+msgstr "date"
+
+#: ../../../lang/__lang.php:212
+msgid "_6_s"
+msgstr "service"
+
+#: ../../../lang/__lang.php:216 ../../../lang/__lang.php:331
+msgid "ALL"
+msgstr "Tous"
+
+#: ../../../lang/__lang.php:217
+msgid "MY_SERVICES"
+msgstr "Mes services"
+
+#: ../../../lang/__lang.php:220
+msgid "PIC_UPLOAD"
+msgstr "Uploader"
+
+#: ../../../lang/__lang.php:222 ../../../views/question/all.php:58
+msgid "DISPLAYED"
+msgstr "affichés"
+
+#: ../../../lang/__lang.php:223 ../../../views/question/all.php:63
+msgid "FETCH_MORE"
+msgstr "Plus de résultats"
+
+#: ../../../lang/__lang.php:225 ../../../views/layout/javascript.php:73
+#: ../../../views/layout/javascript.php:74
+msgid "AVAILABLE"
+msgstr "A l'écoute du marché"
+
+#: ../../../lang/__lang.php:226 ../../../views/layout/javascript.php:75
+msgid "UNAVAILABLE"
+msgstr "Indisponible"
+
+#: ../../../lang/__lang.php:228 ../../../views/layout/javascript.php:76
+msgid "INVISIBLE"
+msgstr "Invisible"
+
+#: ../../../lang/__lang.php:230 ../../../views/layout/javascript.php:26
+#: ../../../views/layout/____box/myProfile.php:180
+#: ../../../views/layout/module/myProfile.php:426
+#: ../../../views/layout/module/myProfile.php:429
+#: ../../../views/user/view.php:91
+msgid "JUNIOR"
+msgstr "Débutant"
+
+#: ../../../lang/__lang.php:231 ../../../views/layout/javascript.php:27
+#: ../../../views/layout/____box/myProfile.php:181
+#: ../../../views/layout/module/myProfile.php:430
+msgid "INTERMEDIATE"
+msgstr "Confirmé"
+
+#: ../../../lang/__lang.php:232 ../../../views/layout/javascript.php:28
+#: ../../../views/layout/____box/myProfile.php:182
+#: ../../../views/layout/module/myProfile.php:431
+msgid "EXPERT"
+msgstr "Expert"
+
+#: ../../../lang/__lang.php:234
+msgid "FILTER_ACT"
+msgstr "Filtre Actualité"
+
+#: ../../../lang/__lang.php:235
+msgid "FILTER_USR"
+msgstr "Filtre Profil"
+
+#: ../../../lang/__lang.php:236
+msgid "FILTER_ASK"
+msgstr " Filtre Question"
+
+#: ../../../lang/__lang.php:239
+msgid "MAIL_MESS_TITLE"
+msgstr "Yoomken - Nouveau message de'"
+
+#: ../../../lang/__lang.php:240
+msgid "YOO_TEAM"
+msgstr "L'équipe Yoomken"
+
+#: ../../../lang/__lang.php:241
+msgid "THE_TEAM"
+msgstr "La team"
+
+#: ../../../lang/__lang.php:243 ../../../views/filter/blocks/filters.php:52
+#: ../../../views/filter/blocks/filters.php:90
+#: ../../../views/filter/blocks/filters.php:130
+msgid "ACTIVE_FILTER"
+msgstr "Activer/Désactiver le filtre"
+
+#: ../../../lang/__lang.php:248
+msgid "GOOD_VISIT"
+msgstr "A trés bientôt!"
+
+#: ../../../lang/__lang.php:257 ../../../views/message/mail/welcome.php:2
+msgid "MAIL_WELC_TXT3"
+msgstr ""
+"Merci pour votre inscription et bienvenue chez Yoomken. Afin d'accéder au "
+"réseau, il vous reste une dernière étape. Activer votre compte en cliquant "
+"sur le bouton suivant :"
+
+#: ../../../lang/__lang.php:258
+msgid "MAIL_WELC_TXT4"
+msgstr "A tout de suite chez Yoomken!"
+
+#: ../../../lang/__lang.php:261 ../../../views/layout/module/feedback.php:24
+msgid "TXT_FEEDBACK"
+msgstr ""
+"Des idées, des remarques à nous suggérer pour améliorer le  site.  Sentez "
+"vous libre de donner votre avis."
+
+#: ../../../lang/__lang.php:265
+msgid "TXT_NEARBY"
+msgstr ""
+"Paramétrer votre position, afin que le filtre retienne seulement les "
+"contenus localisés dans votre zone géographique"
+
+#: ../../../lang/__lang.php:270
+msgid "TEAM_TITLE_1"
+msgstr " "
+
+#: ../../../lang/__lang.php:271 ../../../views/advice/team.php:8
+msgid "TEAM_TXT_1_1"
+msgstr ""
+"Yoomken est né du mélange des expériences vécues dans le monde du travail "
+"par ses différents membres. <br/><br/>\n"
+"Partant du constat que le rapport au travail a évolué et que les promoteurs "
+"d’offres ne sont plus vraiment en phase avec les besoins des clients, "
+"Yoomken a pour objectif de recréer des opportunités de travail en améliorant "
+"la visibilité des offres et de la demande.<br/>\n"
+"<!--Le mot Yoomken est d'origine berbère et se traduit par “Tout m’est "
+"possible!”.-->"
+
+#: ../../../lang/__lang.php:272
+msgid "TEAM_SEP_JOB"
+msgstr "CEO & Co-fondateur"
+
+#: ../../../lang/__lang.php:273 ../../../views/advice/team.php:25
+msgid "TEAM_SEP_TXT"
+msgstr ""
+"Ingénieur en électronique de formation, je me suis reconverti dans les "
+"nouvelles technologies en devenant un Free-lance confirmé. Mon indépendance "
+"me plaît beaucoup et je m'investis dans Yoomken pour vous la faire partager. "
+"J'ose croire en son potentiel à servir de tremplin aux jeunes dans leur "
+"carrière et à faciliter la recherche de job ponctuel au quotidien."
+
+#: ../../../lang/__lang.php:274
+msgid "TEAM_AHK_JOB"
+msgstr "Co-fondateur"
+
+#: ../../../lang/__lang.php:275 ../../../views/advice/team.php:49
+msgid "TEAM_AHK_TXT"
+msgstr ""
+"Consultant en Organisation et Conduite du Changement, je suis d'abord passé "
+"par le management et le commerce. Si je me suis lancé dans le projet "
+"Yoomken, c'est parce que je suis persuadé qu'il propose un concept pertinent "
+"pour répondre aux nouvelles problématiques du travail. Je veux, à travers "
+"Yoomken, contribuer à permettre à ceux qui ont des savoirs faire, de les "
+"faire valoir de façons autonome. "
+
+#: ../../../lang/__lang.php:276
+msgid "TEAM_KIM_JOB"
+msgstr "Co-fondateur"
+
+#: ../../../lang/__lang.php:277 ../../../views/advice/team.php:72
+msgid "TEAM_KIM_TXT"
+msgstr ""
+"Ingénieur généraliste diplômé de L'ENSTA, et Analyste financier de carrière, "
+"ce projet est pour moi une source d’inspiration pour de nombreux "
+"développements futurs. L’idée charnière du site, mûrement réfléchie, n'a été "
+"possible que grâce au développement récent des réseaux sociaux et la mise à "
+"disposition relativement aisée des technologies associées. Je crois "
+"fermement au potentiel de Yoomken à redessiner le paysage social du web."
+
+#: ../../../lang/__lang.php:278
+msgid "TEAM_SAB_JOB"
+msgstr "Co-fondateur"
+
+#: ../../../lang/__lang.php:279 ../../../views/advice/team.php:96
+msgid "TEAM_SAB_TXT"
+msgstr ""
+"Urbaniste de systèmes d'informations et expert en bases de données, je "
+"recherche sans cesse de nouveaux défis. Yoomken en est un. Et parce que je "
+"crois en son potentiel, j'espère que mon expérience me permettra d'apporter "
+"la qualité et la stabilité nécessaire à ce projet, afin de vous assurer le "
+"meilleur service possible."
+
+#: ../../../lang/__lang.php:281
+msgid "SV_DEV_WEB"
+msgstr "Développement de site Web"
+
+#: ../../../lang/__lang.php:282
+msgid "SV_OTHER_SPORT"
+msgstr "Divers activités sportives"
+
+#: ../../../lang/__lang.php:283
+msgid "SV_ELECTRICITY"
+msgstr "Travaux d'électricité"
+
+#: ../../../lang/__lang.php:284
+msgid "SV_LINGE"
+msgstr "Ménage / Linge"
+
+#: ../../../lang/__lang.php:285
+msgid "SV_MOVE_OUT"
+msgstr "Déménagement"
+
+#: ../../../lang/__lang.php:286
+msgid "SV_MENUSIER"
+msgstr "Menuserie"
+
+#: ../../../lang/__lang.php:287
+msgid "SV_DECOR"
+msgstr "Décoration"
+
+#: ../../../lang/__lang.php:288
+msgid "SV_MOBILITY"
+msgstr "Mobilité"
+
+#: ../../../lang/__lang.php:289
+msgid "SV_CONTRUCTION"
+msgstr "Travaux de contruction"
+
+#: ../../../lang/__lang.php:290
+msgid "SV_ELECTROMENAGER"
+msgstr "Panne Electromanager"
+
+#: ../../../lang/__lang.php:291
+msgid "SV_SOUTIEN_COURS"
+msgstr "Soutien / Cours"
+
+#: ../../../lang/__lang.php:292
+msgid "SV_BEAUTY"
+msgstr "Entretien & Beauté"
+
+#: ../../../lang/__lang.php:293
+msgid "SV_WELLNESS_BODY"
+msgstr "Soins du corps"
+
+#: ../../../lang/__lang.php:294
+msgid "SV_HOME"
+msgstr "Maison"
+
+#: ../../../lang/__lang.php:295
+msgid "SV_PANNE_INFO"
+msgstr "Panne informatique"
+
+#: ../../../lang/__lang.php:296
+msgid "SV_PLOMBERIE"
+msgstr "Plomberie"
+
+#: ../../../lang/__lang.php:297
+msgid "SV_LESSON_MUSIC"
+msgstr "Cours de musique"
+
+#: ../../../lang/__lang.php:298
+msgid "SV_GARDIEN"
+msgstr "Gardiennage"
+
+#: ../../../lang/__lang.php:299
+msgid "SV_SPORT"
+msgstr "Sport"
+
+#: ../../../lang/__lang.php:300
+msgid "SV_RECEPTION"
+msgstr "Réceptions"
+
+#: ../../../lang/__lang.php:301
+msgid "SV_ASSIST_INFO"
+msgstr "Assistance informatique"
+
+#: ../../../lang/__lang.php:302
+msgid "SV_PANNE_AUTO"
+msgstr "Panne de voiture"
+
+#: ../../../lang/__lang.php:303
+msgid "SV_LESSON_COOKING"
+msgstr "Cours de cuisine"
+
+#: ../../../lang/__lang.php:304
+msgid "SV_FITNESS"
+msgstr "Remise en forme / Fitness"
+
+#: ../../../lang/__lang.php:305
+msgid "SV_HELP_PERSON"
+msgstr "Aide à la personne / Enfants"
+
+#: ../../../lang/__lang.php:306
+msgid "SV_PAINT"
+msgstr "Peinture"
+
+#: ../../../lang/__lang.php:307
+msgid "SV_SINGER_MUSICIAN"
+msgstr "Chanteur / Musicien / DJ"
+
+#: ../../../lang/__lang.php:308
+msgid "SV_OLD_PERSON"
+msgstr "Assistance aux personnes agées"
+
+#: ../../../lang/__lang.php:309
+msgid "SV_DRIVER_DELIVERY"
+msgstr "Chauffeur / Livraisons"
+
+#: ../../../lang/__lang.php:310
+msgid "SV_LESSON_LANG"
+msgstr "Cours de langue"
+
+#: ../../../lang/__lang.php:311
+msgid "SV_BABY_SITTING"
+msgstr "Garde d'enfants / Baby-sitting"
+
+#: ../../../lang/__lang.php:312
+msgid "SV_RESTAURATION"
+msgstr "Restauration (Serveur, Cuisinier...)"
+
+#: ../../../lang/__lang.php:313
+msgid "SV_LESSON_INFO"
+msgstr "Cours d'informatique"
+
+#: ../../../lang/__lang.php:314
+msgid "SV_MASSAGE"
+msgstr "Massage"
+
+#: ../../../lang/__lang.php:315
+msgid "SV_INFO"
+msgstr "Informatique"
+
+#: ../../../lang/__lang.php:316
+msgid "SV_GARDEN"
+msgstr "Jardiennage"
+
+#: ../../../lang/__lang.php:317
+msgid "SV_TEACHING"
+msgstr "Soutien scolaire"
+
+#: ../../../lang/__lang.php:318
+msgid "SV_FRISOR"
+msgstr "Coiffure & Maquillage"
+
+#: ../../../lang/__lang.php:319
+msgid "SV_ENTRAINMENT"
+msgstr "Autres services d'amusements"
+
+#: ../../../lang/__lang.php:320
+msgid "SV_GARDE_MALADE"
+msgstr "Garde malade"
+
+#: ../../../lang/__lang.php:322
+msgid "TXT_MAINTENANCE"
+msgstr "Ce site web est monentanement en construction."
+
+#: ../../../lang/__lang.php:324
+msgid "TOOLTIP_NW"
+msgstr "Nouvelle"
+
+#: ../../../lang/__lang.php:325
+msgid "TOOLTIP_AV"
+msgstr "Avis de recomendation ou de plainte."
+
+#: ../../../lang/__lang.php:326
+msgid "TOOLTIP_OF"
+msgstr "Offre de prestation ou de job"
+
+#: ../../../lang/__lang.php:332
+msgid "ALL_ACT"
+msgstr "Toute l'actualité"
+
+#: ../../../lang/__lang.php:333
+msgid "ALL_ACT_TITLE"
+msgstr "Toute l'actualité"
+
+#: ../../../lang/__lang.php:334
+msgid "ALL_USR"
+msgstr "Tous les contacts"
+
+#: ../../../lang/__lang.php:335
+msgid "ALL_USR_TITLE"
+msgstr "Tous les contacts"
+
+#: ../../../lang/__lang.php:336
+msgid "ALL_ASK"
+msgstr "Toutes les questions"
+
+#: ../../../lang/__lang.php:337
+msgid "ALL_ASK_TITLE"
+msgstr "Toutes les questions"
+
+#: ../../../lang/__lang.php:338
+msgid "MY_PISTS_ACT"
+msgstr "Mes suivis"
+
+#: ../../../lang/__lang.php:339
+msgid "MY_PISTS_ACT_OTH"
+msgstr "Ses posts suivis"
+
+#: ../../../lang/__lang.php:340
+msgid "MY_PISTS_ACT_TITLE"
+msgstr "Les posts des profils que je suis"
+
+#: ../../../lang/__lang.php:341
+msgid "MY_PISTS_ACT_TITLE_OTH"
+msgstr "Les posts des profils qui le suivent"
+
+#: ../../../lang/__lang.php:342
+msgid "MY_SUIVEURS_ACT"
+msgstr "Mes suiveurs"
+
+#: ../../../lang/__lang.php:343
+msgid "MY_SUIVEURS_ACT_OTH"
+msgstr "Ses suiveurs"
+
+#: ../../../lang/__lang.php:344
+msgid "MY_SUIVEURS_ACT_TITLE"
+msgstr "Les posts des profils qui me suivent"
+
+#: ../../../lang/__lang.php:345
+msgid "MY_SUIVEURS_ACT_TITLE_OTH"
+msgstr "Les posts des profils qui le suivent"
+
+#: ../../../lang/__lang.php:346
+msgid "MY_POSTS_ACT"
+msgstr "Mes posts"
+
+#: ../../../lang/__lang.php:347
+msgid "MY_POSTS_ACT_OTH"
+msgstr "Ses posts"
+
+#: ../../../lang/__lang.php:348
+msgid "MY_POSTS_ACT_TITLE"
+msgstr "Mes posts"
+
+#: ../../../lang/__lang.php:349
+msgid "MY_POSTS_ACT_TITLE_OTH"
+msgstr "Ses posts"
+
+#: ../../../lang/__lang.php:350
+msgid "MY_PISTS_ASK"
+msgstr "Questions suivis"
+
+#: ../../../lang/__lang.php:351
+msgid "MY_PISTS_ASK_OTH"
+msgstr "Questions suivis"
+
+#: ../../../lang/__lang.php:352
+msgid "MY_PISTS_ASK_TITLE"
+msgstr "Les questions des profils que je suit"
+
+#: ../../../lang/__lang.php:353
+msgid "MY_PISTS_ASK_TITLE_OTH"
+msgstr "Les questions des profils qu'il suit"
+
+#: ../../../lang/__lang.php:354
+msgid "MY_SUIVEURS_ASK"
+msgstr "Questions de mes suiveurs"
+
+#: ../../../lang/__lang.php:355
+msgid "MY_SUIVEURS_ASK_OTH"
+msgstr "Questions de ses suiveurs"
+
+#: ../../../lang/__lang.php:356
+msgid "MY_SUIVEURS_ASK_TITLE"
+msgstr "Les questions des profils qui me suivent"
+
+#: ../../../lang/__lang.php:357
+msgid "MY_SUIVEURS_ASK_TITLE_OTH"
+msgstr "Les questions des profils qui le pistent"
+
+#: ../../../lang/__lang.php:358
+msgid "MY_POSTS_ASK"
+msgstr "Mes questions"
+
+#: ../../../lang/__lang.php:359
+msgid "MY_POSTS_ASK_OTH"
+msgstr "Ses questions"
+
+#: ../../../lang/__lang.php:360
+msgid "MY_POSTS_ASK_TITLE"
+msgstr "Questions que j'ai posté"
+
+#: ../../../lang/__lang.php:361
+msgid "MY_POSTS_ASK_TITLE_OTH"
+msgstr "Questions qu'il a posté."
+
+#: ../../../lang/__lang.php:362
+msgid "MY_PISTS_USR"
+msgstr "Mes suivis"
+
+#: ../../../lang/__lang.php:363
+msgid "MY_PISTS_USR_OTH"
+msgstr "Ses profils suivis"
+
+#: ../../../lang/__lang.php:364
+msgid "MY_PISTS_USR_TITLE"
+msgstr "Tous les profils que je suit"
+
+#: ../../../lang/__lang.php:365
+msgid "MY_PISTS_USR_TITLE_OTH"
+msgstr "Tous les profils qu'il suit"
+
+#: ../../../lang/__lang.php:366
+msgid "MY_SUIVEURS_USR"
+msgstr "Mes suiveurs"
+
+#: ../../../lang/__lang.php:367
+msgid "MY_SUIVEURS_USR_OTH"
+msgstr "Ses suiveurs"
+
+#: ../../../lang/__lang.php:368
+msgid "MY_SUIVEURS_USR_TITLE"
+msgstr "Tous les profils qui me suivent"
+
+#: ../../../lang/__lang.php:369
+msgid "MY_SUIVEURS_USR_TITLE_OTH"
+msgstr "Tous les profils qui le suivent"
+
+#: ../../../lang/__lang.php:370
+msgid "MY_COLLS_USR"
+msgstr "Mes collaborateurs"
+
+#: ../../../lang/__lang.php:371
+msgid "MY_COLLS_USR_OTH"
+msgstr "Ses collaborateurs"
+
+#: ../../../lang/__lang.php:372
+msgid "MY_COLLS_USR_TITLE"
+msgstr "Tous les profils avec qui je collabore actuellement"
+
+#: ../../../lang/__lang.php:373
+msgid "MY_COLLS_USR_TITLE_OTH"
+msgstr "Tous les profils avec qu'il a collaboré une fois"
+
+#: ../../../lang/__lang.php:374
+msgid "MY_COLLS_ACT"
+msgstr "Mes collaborateurs"
+
+#: ../../../lang/__lang.php:375
+msgid "MY_COLLS_ACT_OTH"
+msgstr "Mes collaborateurs"
+
+#: ../../../lang/__lang.php:376
+msgid "MY_COLLS_ACT_TITLE"
+msgstr "Les posts de mes actuels collaborateurs "
+
+#: ../../../lang/__lang.php:378
+msgid "GN_NEARBY"
+msgstr "ma proximité"
+
+#: ../../../lang/__lang.php:379
+msgid "GN_PROVIDERS"
+msgstr "Provider"
+
+#: ../../../lang/__lang.php:380
+msgid "GN_ASKERS"
+msgstr "Asker"
+
+#: ../../../lang/__lang.php:381
+msgid "GN_LISTENING"
+msgstr "à L'écoute"
+
+#: ../../../lang/__lang.php:382
+msgid "GN_NEARBY_OTH"
+msgstr "à sa proximité"
+
+#: ../../../lang/__lang.php:383
+msgid "GN_PROVIDERS_OTH"
+msgstr "Provider"
+
+#: ../../../lang/__lang.php:384
+msgid "GN_ASKERS_OTH"
+msgstr "Asker"
+
+#: ../../../lang/__lang.php:385
+msgid "GN_LISTENING_OTH"
+msgstr "à L'écoute"
+
+#: ../../../lang/__lang.php:386
+msgid "GN_NEARBY_TITLE"
+msgstr "Profils à ma proximité"
+
+#: ../../../lang/__lang.php:387
+msgid "GN_PROVIDERS_TITLE"
+msgstr "Seul les fournisseurs de services."
+
+#: ../../../lang/__lang.php:388
+msgid "GN_ASKERS_TITLE"
+msgstr "Seul les demandeurs de services."
+
+#: ../../../lang/__lang.php:389
+msgid "GN_LISTENING_TITLE"
+msgstr "Seul les profils qui sont à l'écoute du marché."
+
+#: ../../../lang/__lang.php:390
+msgid "GN_NEARBY_TITLE_OTH"
+msgstr "Profis à sa proximité."
+
+#: ../../../lang/__lang.php:391
+msgid "GN_PROVIDERS_TITLE_OTH"
+msgstr "Seul les intervenants."
+
+#: ../../../lang/__lang.php:392
+msgid "GN_ASKERS_TITLE_OTH"
+msgstr "Seul les demandeurs."
+
+#: ../../../lang/__lang.php:393
+msgid "GN_LISTENING_TITLE_OTH"
+msgstr "Seul les profils qui sont à l'écoute du marché."
+
+#: ../../../lang/__lang.php:396
+msgid "GN_MY_SERVICES_ACT"
+msgstr "Mes services"
+
+#: ../../../lang/__lang.php:397
+msgid "GN_MY_SERVICES_ACT_OTH"
+msgstr "Ses services"
+
+#: ../../../lang/__lang.php:398
+msgid "GN_MY_SERVICES_USR"
+msgstr "Mes services"
+
+#: ../../../lang/__lang.php:399
+msgid "GN_MY_SERVICES_USR_OTH"
+msgstr "Ses services"
+
+#: ../../../lang/__lang.php:400
+msgid "GN_MY_SERVICES_ACT_TITLE"
+msgstr "Seul les contenus qui répondent à mes services suivis"
+
+#: ../../../lang/__lang.php:401
+msgid "GN_MY_SERVICES_ACT_TITLE_OTH"
+msgstr "Seul les contenus qui répondent à ses services suivis."
+
+#: ../../../lang/__lang.php:402
+msgid "GN_MY_SERVICES_USR_TITLE"
+msgstr "Seul les profils qui répondent à mes services suivis"
+
+#: ../../../lang/__lang.php:403
+msgid "GN_MY_SERVICES_USR_TITLE_OTH"
+msgstr "Seul les profils qui répondent à ses services suivis."
+
+#: ../../../lang/__lang.php:405
+msgid "IS_ACTUAL_COLLABORATOR"
+msgstr "est un actuel collaborateur"
+
+#: ../../../lang/__lang.php:406
+msgid "IS_OLD_COLLABORATOR"
+msgstr "est un ancien collaborateur"
+
+#: ../../../lang/__lang.php:408
+msgid "PROFIL_P"
+msgstr "Fournisseur de services (Intervenant)"
+
+#: ../../../lang/__lang.php:409
+msgid "PROFIL_C"
+msgstr "Demandeur de services"
+
+#: ../../../lang/__lang.php:410
+msgid "PROFIL_B"
+msgstr "Propose ses services et demande d'autres services en même temps. "
+
+#: ../../../lang/__lang.php:411
+msgid "STATUS_1"
+msgstr "A l'écoute du marché."
+
+#: ../../../lang/__lang.php:412
+msgid "STATUS_2"
+msgstr "A l'écoute du marché."
+
+#: ../../../lang/__lang.php:413
+msgid "STATUS_4"
+msgstr "Non à l'écoute du marché."
+
+#: ../../../lang/__lang.php:414
+msgid "STATUS_-1"
+msgstr "Invisible sur le marché du travail."
+
+#: ../../../lang/__lang.php:416
+msgid "TIT_BADGE_PERS"
+msgstr "Badges Personnalité"
+
+#: ../../../lang/__lang.php:417
+msgid "TIT_BADGE_SKILL"
+msgstr "Badges Savoir-Faire"
+
+#: ../../../lang/__lang.php:418
+msgid "TIT_BADGE_ACTION"
+msgstr "Badges Action"
+
+#: ../../../lang/__lang.php:419
+msgid "TIT_BADGE_WISH"
+msgstr "Badges Souhait"
+
+#: ../../../lang/__lang.php:420
+msgid "TXT_BADGE_PERS"
+msgstr ""
+"Ces badges représentent un ensemble de qualités de la personnalité serviable "
+"dans le domaine des services à proximité. Par l'intermédiaire de vos "
+"relations dans le réseau, il est possible d'en acquérir autant souhaité. "
+"Recevoir un de ces badges, signifie qu'une relation recommande un trait de "
+"votre caractère."
+
+#: ../../../lang/__lang.php:421
+msgid "TXT_BADGE_SKILL"
+msgstr ""
+"Ces badges représentent un ensemble de compétences acquis dans le domaine "
+"des services à proximité. Par l'intermédiaire de vos relations dans le "
+"réseau, il est possible d'en acquérir autant souhaité. Recevoir un de ces "
+"badges, signifie qu'une relation recommande votre savoir-faire dans un "
+"service précis."
+
+#: ../../../lang/__lang.php:422
+msgid "TXT_BADGE_ACTION"
+msgstr ""
+"Ces badges sont distribués seulement par le système (non recevable par une "
+"relation). Elles résument un ensemble d'interactions spécifiques établit "
+"pour ou dans le réseau Yoomken. Débloquer un badge Action, vous récompense "
+"d'une action ou d'un effort social qui a été bénéfique à la communauté."
+
+#: ../../../lang/__lang.php:423
+msgid "TXT_BADGE_WISH"
+msgstr ""
+"Ces badges sont en étude d'intégration. ils ont été initié par vous et "
+"représentent vos souhaits ou idées de nouveaux badges. Il est possible de "
+"soumettre autant de souhait de badge que vous le désirez. A la fin de chaque "
+"mois, la Team sélectionnera 5 Badges Souhait à concrétiser en fonction des "
+"votes reçus."
+
+#: ../../../models/badgesModel.php:231
+msgid "WARN_BADGE_ALREADY_GIVEN_BY"
+msgstr ""
+"Le don de votre badge {#badge}  ne peut être accordé une seconde fois à la "
+"même personne: <br/> Vous avez déjà donné ce badge à "
+
+#: ../../../models/badgesModel.php:233
+msgid "WARN_BADGE_ASKED_ALREADY_GIVEN_BY"
+msgstr "Le badge {#badge}  ne peut être demandé si vous l'avez déjà reçu de "
+
+#: ../../../models/badgesModel.php:235
+msgid "WARN_BADGE_ALREADY_ASKED_TO"
+msgstr ""
+"Le demande de votre badge {#badge}  ne peut être accordé une seconde fois à "
+"la même personne: <br/>Une demande de votre part a déjà été faite à"
+
+#: ../../../models/badgesModel.php:256 ../../../models/badgesModel.php:296
+msgid "SUBJECT_HAVE_NEW_BADGE"
+msgstr "vous avez reçu un nouveau badge."
+
+#: ../../../models/badgesModel.php:258
+msgid "GIVEN"
+msgstr "Donné"
+
+#: ../../../models/badgesModel.php:288
+msgid "SUBJECT_ASK_FOR_BADGE"
+msgstr "vous avez reçu une demande de badge."
+
+#: ../../../models/badgesModel.php:295
+msgid "MSG_ACCEPT_GIVE_BADGE"
+msgstr "Féliciatations ! {#user} a accepté de vous donner le badge "
+
+#: ../../../models/badgesModel.php:324
+msgid "MSG_HAVE_REJECTED_YOUR_REQUEST_TO_RECEVE_BADGE"
+msgstr " {#user} a rejeté votre demande de recevoir le badge"
+
+#: ../../../models/badgesModel.php:325
+msgid "MSG_REQUEST_BADGE_REJECTED"
+msgstr "la demande de votre badge a été refusé."
+
+#: ../../../models/badgesModel.php:389
+msgid "SUCCESS_BADGE_GIVEN_TO"
+msgstr "Bravo ! Le badge {#badge}  a été donné à "
+
+#: ../../../models/badgesModel.php:390
+msgid "SUCCESS_BADGE_ASKED_TO"
+msgstr "La demande du badge {#badge}  a été envoyé à"
+
+#: ../../../models/commentsModel.php:95 ../../../models/commentsModel.php:96
+msgid "COMMENTED_YOUR_QUESTION"
+msgstr "a commenté votre question"
+
+#: ../../../models/commentsModel.php:95 ../../../models/commentsModel.php:96
+msgid "COMMENTED_YOUR_POST"
+msgstr "a commenté votre post"
+
+#: ../../../models/commentsModel.php:99 ../../../models/commentsModel.php:100
+msgid "ADDED_COMMENT"
+msgstr "a ajouté un commentaire dans une conversation où vous aviez pris part"
+
+#: ../../../models/commentsModel.php:118 ../../../models/commentsModel.php:137
+msgid "CLICK_ACCESS_CMT"
+msgstr "accéder aux commentaires"
+
+#: ../../../models/contentsModel.php:132 ../../../models/contentsModel.php:136
+#: ../../../views/message/mail/postedInWall.php:6
+msgid "POSTED_ON_YOUR_WALL"
+msgstr "{#user} a posté sur votre journal"
+
+#: ../../../models/contentsModel.php:132
+#: ../../../views/message/inner/goThereNow.php:5
+#: ../../../views/message/msg/mentionedYou.php:6
+msgid "Go there now"
+msgstr "Accéder tout de suite"
+
+#: ../../../models/messageModel.php:86
+msgid "NO_MESSAGE_CONTACT"
+msgstr "Aucun message entre vous.."
+
+#: ../../../models/peopleModel.php:600
+msgid "WELCOME_TO_YOOMKEN"
+msgstr ""
+"Bienvenue  {#user},<br>\n"
+"Prenez quelques minutes afin que Yoomken vous rende service. Préparez votre "
+"profil qui vous définit le mieux, et vous réaliserez avec quelle rapidité "
+"l'outil vous aidera à détecter vos cibles.<br>\n"
+"Comment suivre les bonnes personnes ? Le filtrage est au cœur du "
+"fonctionnement de Yoomken. Utilisez la puissance de vos filtres (qui se "
+"trouvent dans le block foncé de droite des pages {a#Réseau|network#a} et "
+"{a#Journal|timeline#a}) afin de construire un réseau de contact qui vous "
+"convient.<br>\n"
+"A bientôt pour une nouvelle découverte."
+
+#: ../../../models/peopleModel.php:727
+#: ../../../views/message/mail/mentionedYou.php:8
+#: ../../../views/message/msg/mentionedYou.php:4
+msgid "mentioned you"
+msgstr "vous a mentionné"
+
+#: ../../../models/userModel.php:387
+msgid "SUBJECT_RECOMMAND_YOU_A_RELATION"
+msgstr "vous suggère une relation de travail"
+
+#: ../../../models/userModel.php:417
+msgid "RECOMANDATION USER SEND TO"
+msgstr "Votre recommandation d'entrer en relation avec {#user} a été envoyé à"
+
+#: ../../../models/userModel.php:463
+msgid "INVITATION_DEAL_SEND"
+msgstr "Votre demande de collaboration a été envoyé à {#user}."
+
+#: ../../../models/userModel.php:470
+msgid "HAVE_NEW_DEAL"
+msgstr "{#user} vous a transmis une invitation pour collaborer sur Yoomken."
+
+#: ../../../models/userModel.php:495 ../../../models/userModel.php:527
+msgid "HAVE_ANSWER_ABOUT_DEAL"
+msgstr "vous avez une réponse à votre demande de collaboration."
+
+#: ../../../models/userModel.php:535 ../../../models/userModel.php:536
+msgid "MSG_CANCEL_DEAL"
+msgstr "{#user} a annulé sa demande de collaboration."
+
+#: ../../../models/userModel.php:542
+msgid "HAVE_NEW_FOLLOWER"
+msgstr "vous avez un nouveau suiveur sur Yoomken."
+
+#: ../../../models/adapters/userAdapter.php:47
+#: ../../../views/people/inner/____displayBulle.php:3
+#: ../../../views/people/inner/actions-follow.php:88
+#: ../../../views/people/inner/displayBulle.php:4
+msgid "YOU"
+msgstr "vous"
+
+#: ../../../views/advice/aboutus.php:9
+msgid "HUMAIN_NETWORK"
+msgstr "Un réseau social humain"
+
+#: ../../../views/advice/aboutus.php:11
+msgid "ABOUTUS_WHATS_YOOMKEN_1"
+msgstr ""
+"Partant du principe que les relations de services sont avant tout des "
+"relations humaines, le réseau de yoomken a pour objectif de recréer cette "
+"réalité en ligne en permettant à ses membres d’interagir entre eux et "
+"d’apprendre à se connaitre.<br/>\n"
+"<br/>\n"
+"Parce qu’il est fondé sur la mise en relation des utilisateurs et la "
+"réduction de la distance sociale, il créé ainsi des opportunités de small "
+"business.<br/>\n"
+"<br/>\n"
+"Se basant sur une architecture performante et un algorithme de filtrage "
+"innovant, l’outil offre à l’utilisateur une visibilité sans pareille sur le "
+"contenu pour une meilleure interactivité."
+
+#: ../../../views/advice/aboutus.php:13
+msgid "ABOUTUS_DEST_SERVICE"
+msgstr "A qui s'adresse Yoomken ?"
+
+#: ../../../views/advice/aboutus.php:15
+msgid "ABOUTUS_DEST_SERVICE_1"
+msgstr ""
+"Yoomken est avant tout un service pour et par les particuliers. Si vous "
+"pensez posséder une compétence que vous pourrez monnayer ou si vous cherchez "
+"quelqu’un de qualifié pour un travail que vous ne pouvez réaliser ou que "
+"vous ne voulez pas effectuer alors Yoomken est l’outil adapté.<br/>\n"
+"<br/>\n"
+"Dans cette optique, Yoomken introduit les profils Provider et Asker: "
+"Provider étant celui qui soumet un service (fournissant le service) et Asker "
+"celui qui est prêt à rémunérer ce service (demandant le service).<br/>\n"
+"<br/>\n"
+"Il est important de souligner que le profil d’un utilisateur n'étant pas "
+"figé, Provider peut être lui-même Asker et vice-versa."
+
+#: ../../../views/advice/aboutus.php:17
+msgid "ABOUTUS_NETWORK"
+msgstr "Un réseau social pas comme les autres"
+
+#: ../../../views/advice/aboutus.php:19
+msgid "ABOUTUS_NETWORK_1_1"
+msgstr ""
+"Au-delà des divers possibilités mises à disposition pour publier et "
+"référencer les offres, Yoomken s’attache plus particulièrement à offrir les "
+"meilleures services en matière de filtrage des contenus.<br/>\n"
+"<br/>\n"
+"Un problème récurrent et commun à beaucoup de réseaux sociaux est le manque "
+"de visibilité d'une information, cette dernière étant souvent noyée dans la "
+"masse. Pour y remédier, Yoomken apporte un système de filtrage sophistiqué "
+"et innovant: il vous est en effet possible de créer autant de flux que vous "
+"désirez en combinant autant de filtres que de critères souhaités.<br/>\n"
+"<br/>\n"
+"En général, beaucoup d'informations sont diffusées via les cercles d'amis, "
+"la famille, le travail, mais dans la vie réelle ce modèle a ses limites car "
+"il est difficile d'étendre ses contacts au delà de ce seuil. Grâce à une "
+"technologie performante, Yoomken vous permet d'étendre ce modèle de façon "
+"quasi-infinie et ainsi de profiter d’une information toujours plus riche et "
+"plus pertinente.<br/>\n"
+"<br/>\n"
+"Tout ceci vous garantit en tant que Asker de pister plus facilement les "
+"profils les plus appropriés et en tant que Provider de vous positionner au "
+"mieux et de décrocher les meilleures offres."
+
+#: ../../../views/advice/presta.php:12
+msgid "Propose your services"
+msgstr "Proposer vos services"
+
+#: ../../../views/advice/presta.php:17
+msgid "TEXT_PART_PROVIDER_1"
+msgstr ""
+"<h4>Avez-vous le profil d’un Provider ?</h4><br/>\n"
+"<p>Un Provider est celui qui soumet un service (fournisseur de service). "
+"Cela peut être par exemple donner des cours de langues, de sport, de cuisine "
+"ou d’art. Faire du baby-sitting, s’occuper du jardin, coaches, organiser une "
+"fête, faire une traduction, photographier, etc ….</p>\n"
+"<h4>Exprimez votre talent</h4><br/>\n"
+"<p>Chacun possède des talents cachés. Nous sommes certains que vous en "
+"possédez aussi. Vous savez ce dont vous êtes capable et ce que vous valez? "
+"alors nous serons heureux de vous être utile en étant la vitrine de votre "
+"savoir faire. <br/><br/>\n"
+"Pour ce faire, vous avez besoin d'exposer vos compétences, vos atouts et "
+"plus particulièrement votre volonté de bien travailler. Vous ne pourrez "
+"exprimer votre plein potentiel qu‘au contact des autres. En effet, Yoomken "
+"se repose sur la tendance structurelle de la consommation collaborative, un "
+"phénomène au sein duquel l’entraide et la solidarité occupent une place de "
+"choix.<br/><br/>\n"
+"Faites vous donc connaître! Yoomken est fait pour ça.</p>\n"
+"<h4>Nos Atouts</h4><br/>\n"
+"<p>Avant toute chose, vous disposez de services totalement gratuit pour "
+"publier et référencer vos offres de manière géolocalisée.<br/><br/>\n"
+"Vous pouvez proposer tous les talents manuels ou intellectuels (légaux) "
+"possibles, et de même choisir de mutualiser vos ressources avec d’autres "
+"Yoomkeur-providers si l’un de vos Askers a besoin de plus d’une ressource."
+"<br/><br/>\n"
+"A la fin d’une collaboration réussie, L’asker pourra vous récompenser en "
+"vous attribuant un badge personnalisé confirmant votre expertise dans une "
+"catégorie de service ou/et la qualité humaine qui vous décrit le mieux. Vous "
+"pourrez ainsi cumulez autant de badges que possible pour obtenir très "
+"rapidement un statut de premier rang dans le réseau.<br/><br/>\n"
+"Enfin, Yoomken est un réseau  social qui libère les échanges. Chaque "
+"Yoomkeurs peut contribuer, pister ou faire partager l’information a la vue "
+"de tous.<br/><br/>\n"
+"Dernier aspect, et non le moindre, Yoomken utilise le modèle des graphes "
+"afin de faire émerger des interactions possibles entre les utilisateurs. "
+"L’idée est de pouvoir utiliser vos contacts acquis que ce soit à l’extérieur "
+"ou à l’intérieur du réseau afin de rechercher un partenaire le plus proche "
+"de votre giron d’influence.</p>"
+
+#: ../../../views/advice/recruiter.php:10
+msgid "Find your trader"
+msgstr "Trouver votre intervenant"
+
+#: ../../../views/advice/recruiter.php:16
+msgid "TEXT_PART_ASKER_1"
+msgstr ""
+"<h4/>Avez-vous le profil d’un Asker?</h4><br/>\n"
+"<p>Un Asker est celui qui est prêt à rémunérer un service (demandeur de "
+"service). Vous seriez prêt par exemple a payer quelqu’un de qualifié pour "
+"accomplir des travaux à votre place, vous faire coaches, vous donnez des "
+"cours,  garder vos enfants, faire le ménage, et bien d’autres…il n’y a pas "
+"de limites pour répondre a vos besoins.</p>\n"
+"<h4>Exprimez-vous</h4><br/>\n"
+"<p>Vous savez ce que vous chercher ? Alors ne vous posez pas de questions, "
+"publiez votre demande en quelques clics et vous recevrez rapidement des "
+"réponses en partant du principe que toute la communauté vous aidera à "
+"trouver.<br/><br/>\n"
+" En effet, Yoomken se repose sur la tendance structurelle de la consommation "
+"collaborative, un phénomène au sein duquel l’entraide et la solidarité "
+"occupent une place de choix.<br/><br/>\n"
+"Pour ce faire, vous avez besoin d'exposer vos demandes, vos attentes et plus "
+"particulièrement vos interrogations. Ce n’est qu‘au contact des autres que "
+"vous identifierez les personnes de bonne qualité. Faites vous donc "
+"connaître! Yoomken est fait pour ça.\n"
+"</p>\n"
+"<h4>Nos Atouts</h4><br/>\n"
+"<p>Vous disposez de services totalement gratuit pour publier et référencer "
+"vos demandes de manière géolocalisée.<br/><br/>\n"
+"Vous pourrez rechercher et poster tous les talents manuels ou intellectuels "
+"(légaux) possibles.A la fin d’une collaboration réussie, Le provider pourra "
+"vous attribuer un badge personnalisé confirmant la qualité humaine qui vous "
+"décrit le mieux. Vous pourrez ainsi cumulez autant de badges que possible "
+"pour obtenir très rapidement un statut de premier rang dans le réseau.<br/"
+"><br/>\n"
+"Enfin, Yoomken est un réseau  social qui libère les échanges. Chaque "
+"Yoomkeurs peut contribuer, pister ou faire partager l’information a la vue "
+"de tous.<br/><br/>\n"
+"Dernier aspect, Yoomken utilise le modèle des graphes afin de faire émerger "
+"des interactions possibles entre les utilisateurs. L’idée est de pouvoir "
+"utiliser vos contacts acquis que ce soit à l’extérieur ou à l’intérieur du "
+"réseau afin de rechercher un partenaire le plus proche de votre giron "
+"d’influence.</p>"
+
+#: ../../../views/advice/terms.php:4
+msgid "TEXT_PRIVACY_AND_TERMS"
+msgstr ""
+"<h4>Introduction</h4>\n"
+"<h5>En utilisant le service offert par l'entremise de ce site web, vous êtes "
+"lié par les termes et conditions énoncées ci-dessous. Si vous n'acceptez pas "
+"d'être lié par ces termes et conditions, vous ne pouvez pas utiliser ou "
+"accéder à notre service.</h5>\n"
+"<br>\n"
+"<h4>Définitions Clés</h4>\n"
+"<h5>\n"
+"<div class='hide'><div class='ui-icon ui-icon-pin-s left' style='width:20px;"
+"margin-bottom:-5px'></div>\n"
+"«Société», «Yoomken» («nous», «notre» et «nos») signifie Yoomken SARL, "
+"immatriculé en France sous le numéro XXXXXX domicilié 8 avenue des Chardons, "
+"94800 Villejuif, France.<br/></div>\n"
+"<div class='ui-icon ui-icon-pin-s left' style='width:20px;margin-"
+"bottom:-5px'></div>\n"
+"«Emploi» «Travail» désigne un projet / travail de service à la personne "
+"soumis par un client via notre service.<br/>\n"
+"<div class='ui-icon ui-icon-pin-s left' style='width:20px;margin-"
+"bottom:-5px'></div>\n"
+"«Utilisateurs», «Particuliers» «Client» «Vous», signifie que toute personne "
+"faisant usage des services Yoomken.<br/>\n"
+"<div class='ui-icon ui-icon-pin-s left' style='width:20px;margin-"
+"bottom:-5px'></div>\n"
+"«Service» désigne toute procédure ou fonction fourni par Yoomken aux "
+"utilisateurs, ce qui inclut, et ce sans limitations: l'information, les "
+"services et les produits fournis par le site Internet, par téléphone ou par "
+"e-mail.<br/>\n"
+"<div class='ui-icon ui-icon-pin-s left' style='width:20px;margin-"
+"bottom:-5px'></div>\n"
+"«Site» désigne le site Yoomken.com et toutes les pages, le contenu et les "
+"sous-domaines qui y sont contenues.<br/>\n"
+"<div class='ui-icon ui-icon-pin-s left' style='width:20px;margin-"
+"bottom:-5px'></div>\n"
+"«Asker» désigne celui qui est prêt à rémunérer un emploi de service à la "
+"personne (demandant le service).<br/>\n"
+"<div class='ui-icon ui-icon-pin-s left' style='width:20px;margin-"
+"bottom:-5px'></div>\n"
+"«Provider» désigne celui qui soumet un emploi de service à la personne "
+"(fournissant le service).\n"
+"</h5>\n"
+"<br/>\n"
+"\n"
+" <h4>Loi applicable & Juridiction</h4>\n"
+"<h5>Ces Termes et Conditions sont régies par et interprétées conformément au "
+"droit français. Les différends nés dans le cadre de ces Conditions générales "
+"seront soumis à la compétence exclusive des tribunaux français.<br/>\n"
+"<br/>\n"
+"Si des dispositions de ces présentes Conditions sont tenues pour illégales "
+"ou inapplicables par la loi en vigueur ou par décision de justice, ces "
+"dispositions devront être censurées et le reste de cet accord restera "
+"cependant toujours en vigueur et de plein effet.<br/>\n"
+"</h5>\n"
+"<br/>\n"
+"<h4>Vus d’ensemble</h4>\n"
+"<h5>Yoomken est un réseau social professionnel spécialisé dans les Small "
+"Business (services à la personne) qui vise à rapprocher les particuliers et "
+"intervenants dans les meilleures conditions.<br/>\n"
+"<br/>\n"
+"Partant du principe que les relations de services à la personne sont avant "
+"tout des relations humaines, le réseau de yoomken a pour objectif de recréer "
+"cette réalité en ligne en permettant à ses membres d’interagir entre eux et "
+"d’apprendre à se connaître.<br/>\n"
+"</h5><br/>\n"
+"<br/>\n"
+"<h4>Exactitudes de l’information</h4>\n"
+"<h5>\n"
+"Bien que nous fassions tous les efforts afin de s'assurer que l’information "
+"soit correct et précis, Yoomken ne peut pas garantir l'exactitude de "
+"l'information sur ce Service, et n’est pas responsable de tout problème ou "
+"perte résultant d'erreurs dans le contenu.<br/>\n"
+"\n"
+"En utilisant les Services offerts par Yoomken, vous reconnaissez que Yoomken "
+"n'agit pas comme un entrepreneur ou agent et n'est pas responsable pour tout "
+"travail effectué. Il est de la responsabilité de l’Aster de choisir un "
+"Provider approprié et de négocier les conditions du travail requis, Yoomken "
+"ne sera pas impliqué ou tenu responsable de l'accord entre les Providers et "
+"les Askers.<br/>\n"
+"\n"
+"Nous recommandons à tout Asker, avant de conclure un contrat avec un "
+"Provider, d’obtenir la confirmation d’une assurance de couverture, la "
+"garantie des qualifications et tout autre document nécessaire. Si vous "
+"subissez des problèmes ou des pertes résultant des informations fournies, "
+"Yoomken ne sera pas responsable.<br/>\n"
+"</h5>\n"
+"<br/>\n"
+"<h4>Mot de passe</h4>\n"
+"<h5>\n"
+"Vous êtes responsable de la protection du mot de passe que vous utilisez "
+"pour accéder aux services de Yoomken et pour toutes les activités ou les "
+"actions faites après authentification avec votre mot de passe. Nous vous "
+"encourageons à utiliser pour votre compte des mots de passe forts (mots de "
+"passe constitués d'une combinaison de lettres majuscules et minuscules, de "
+"chiffres et de caractères spéciaux). Yoomken ne saurait être responsable "
+"d'un quelconque dommage résultant d'un manquement de votre part sur ce qui "
+"précède.<br/>\n"
+"</h5>\n"
+"<br/>\n"
+"<h4>Informations personnelles</h4>\n"
+"<h5>\n"
+"Les services aux particuliers sont une question de confiance. Vos "
+"informations personnelles ne doivent pas être mensongères ou erronées.<br/>\n"
+"Vous devez utiliser vos vrais noms et prénoms. Vous n’utiliserez qu’un seul "
+"compte sur Yoomken. Vous ne pouvez le supprimer pour en recréer un autre. "
+"Vous ne pouvez le céder à des tiers, y compris ses évaluations et "
+"commentaires.<br/>\n"
+"Vos informations personnelles doivent respecter le droit d’auteur ou des "
+"brevets, des marques et la propriété intellectuelle en général.<br/>\n"
+"</h5>\n"
+"<br/>\n"
+"<h4>Contenu</h4>\n"
+"<h5>\n"
+"Vous vous engagez à utiliser le site à des fins légales et d'une manière qui "
+"ne porte pas atteinte à ses droits ou de restreindre ou empêcher les "
+"Utilisateurs de la pleine jouissance du site. Les messages, profils, "
+"descriptions d'emploi et tout autre contenu doit être civile et de bon goût."
+"<br/>\n"
+"<br/>\n"
+"Vous comprenez et acceptez que tous les contenus tel que les messages, "
+"textes, fichiers, images, photos, vidéos, sons ou autres supports, transmis "
+"ou relié via Yoomken, sont de la seule responsabilité de la personne à qui "
+"un tel contenu origine. Vous êtes entièrement responsable du contenu que "
+"vous publiez ou de toute autre manière via le Service.<br/>\n"
+"<br/>\n"
+"Vous comprenez et acceptez que Yoomken ne contrôle pas et n'est pas "
+"responsable du contenu mis à disposition via le Service. En outre, le site "
+"Yoomken et le contenu disponible via le Service peut contenir des liens vers "
+"d'autres sites qui sont totalement indépendants de Yoomken. Yoomken ne fait "
+"aucune représentation ou garantie quant à l'exactitude, l'exhaustivité ou "
+"l'authenticité de l'information contenue dans ces sites.<br/>\n"
+"<br/>\n"
+"Vous comprenez et acceptez que Yoomken ne peux examiner de prés ou approuver "
+"les fournisseurs qui figurent sur le site. Nous croyons fermement que le "
+"Service fournit la meilleure aide pour décider qui embaucher.<br/>\n"
+"<br/>\n"
+"Votre connexion à d'autres sites Web est à vos propres risques. Vous "
+"convenez que vous devez évaluer et supporter tous les risques associés à "
+"l'utilisation de tout contenu, et que, dans aucun cas, vous ne pouvez tenir "
+"responsable Yoomken en aucune façon de tout contenu ou pour toute perte ou "
+"dommage de toute nature subies à la suite de l'utilisation de tout contenu "
+"affiché, envoyé par mail ou autrement rendu disponible par l'intermédiaire "
+"de Yoomken.<br/>\n"
+"<br/>\n"
+"Vous reconnaissez que Yoomken ne peut prévisualiser ou approuver tout le "
+"contenu, mais que Yoomken aura le droit, à sa seule discrétion, d'effacer ou "
+"de déplacer tout contenu qui est disponible sur le site pour avoir enfreint "
+"les présentes conditions ou pour toute autre raison.<br/>\n"
+"</h5>\n"
+"<br/>\n"
+"<h4>Droit d’auteur</h4>\n"
+"<h5>\n"
+"Yoomken détient tous les droits de propriété intellectuelle relatifs au "
+"site, y compris les dessins, textes, bases de données, graphiques et mises "
+"en page, et vous acceptez de ne pas utiliser ou reproduire le tout ou une "
+"partie de celle-ci sans notre autorisation expresse.<br/>\n"
+"<br/>\n"
+"Les droits d’auteur sur les contenus tel que les messages, textes, fichiers, "
+"images, photos, vidéos, sons ou autres supports sont réservés au  "
+"propriétaire du Copyright. Yommken n'est pas en mesure de surveiller ou de "
+"contrôler les droits d’auteur sur les contenus postés au travers de son site "
+"web, et ne peut engager sa responsabilité vis-à-vis de ces contenus. Vous "
+"reconnaissez que toute mauvaise utilisation des droits de Copyright publiés "
+"au travers des Services, est à vos entiers risques et périls. Ce faisant, "
+"vous donnez l'autorisation expresse et irrévocable à Yoomken de stocker, "
+"afficher et utiliser le contenu.<br/>\n"
+"<br/>\n"
+"Yoomken respecte les droits de propriété intellectuelle d'autrui et s'attend "
+"à ce que les utilisateurs en fassent de même. Nous répondons aux "
+"notifications relatives à une violation des droits d'auteur dès lors "
+"qu'elles sont conformes à la législation applicable et nous sont adressées "
+"correctement. Si vous pensez que vos contenus ont été reproduits ou diffusés "
+"de manière contrefaisante, veuillez nous le signaler en prenant contact avec "
+"l’equipe Yoomken.<br/>\n"
+"<br/>\n"
+"Nous nous réservons le droit de supprimer les contenus présumés "
+"contrefaisants sans préavis, à notre seule discrétion et sans engager notre "
+"responsabilité envers vous. Lorsque les circonstances le justifient, Yoomken "
+"sera également en droit de résilier le compte d'un utilisateur si "
+"l'utilisateur est considéré à plusieurs reprises comme contrefacteur.<br/>\n"
+"</h5>\n"
+"<br/>\n"
+"<h4>Relation avec les organisations et particuliers</h4>\n"
+"<h5>\n"
+"Vos interactions avec les organisations et / ou particuliers trouvés sur ou "
+"via le Site, y compris le paiement et la livraison de biens ou de services, "
+"ainsi que toutes autres conditions, garanties ou protestations associées à "
+"ces transactions, sont uniquement entre vous et ces organisations et / ou "
+"particuliers.<br/>\n"
+"<br/>\n"
+"Vous acceptez que Yoomken ne peut être tenu responsable de toute perte ou "
+"dommage de toutes sortes encourus comme résultat de telle activité "
+"commerciale. S'il y a un différend entre les utilisateurs sur ce site Web, "
+"ou entre les utilisateurs et les tiers, vous comprenez et acceptez que "
+"Yoomken n'est soumis à aucune obligation d'intervenir.<br/>\n"
+"<br/>\n"
+"Dans le cas où vous avez un litige avec un ou plusieurs autres Utilisateurs, "
+"vous dégagez Yoomken, ses dirigeants, employés, mandataires et ayants droits "
+"des réclamations, demandes et dommages (réels et indirects) de quelque "
+"nature que ce soit, connus ou inconnus , soupçonnés ou non, divulgués ou "
+"non, découlant de ou en aucune façon liés à ces litiges et / ou de notre "
+"service.<br/>\n"
+"</h5>\n"
+"<br/>\n"
+"<h4>Conditions de paiement et remboursement</h4>\n"
+"<h5>\n"
+"Le Service offert par Yoomken via le Site,  est entièrement gratuit. Yoomken "
+"n’accepte aucun paiement d’aucune sorte des utilisateurs du site, de ce "
+"fait  il n'existe aucune politique de remboursement applicable sur ce site."
+"<br/>\n"
+"<br/>\n"
+"Les utilisateurs ne pourront pas obtenir de remboursements de la part de "
+"Yoomken pour les opérations effectuées au sein du site web. Chaque Asker / "
+"Provider est responsable de son propre paiement / rémunération.<br/>\n"
+"</h5>\n"
+"<br/>\n"
+"<h4>Avis et Commentaires</h4>\n"
+"<h5>\n"
+"Vous acceptez que d’autres utilisateurs puissent laisser des commentaires à "
+"votre encontre et cela dès lors le premier contact ou/et fin de l’entente."
+"<br/>\n"
+"<br/>\n"
+"Le Provider qui accepte de fournir un service sera  soumis à l’évaluation de "
+"l’Asker qu’il l’emploie. Yoomken n'est pas responsable du contenu de "
+"l’évaluation que les utilisateurs publient, ou de tout autre dommage causé "
+"par de tels contenus.<br/>\n"
+"<br/>\n"
+"Le Asker qui publie un commentaire est directement responsable de son "
+"évaluation écrite. Dans certaines circonstances exceptionnelles, Yoomken "
+"peut supprimer des commentaires, mais seulement à sa seule discrétion. De "
+"même, les utilisateurs du site qui publient des commentaires en référence à "
+"un fournisseur est responsable de son exactitude et légalité.<br/>\n"
+"<br/>\n"
+"Tous les utilisateurs doivent se restreindre de l’utilisation de jurons, de "
+"comportement diffamatoire, ou de toute autre forme d'abus. Le cas échéant "
+"sera signalés aux autorités.<br/>\n"
+"<br/>\n"
+"Yoomken effectue un certain nombre de contrôles sur les avis et commentaires "
+"afin d'assurer l'authenticité et pouvons, à notre seule discrétion, retirer "
+"tout commentaire que nous ne pouvons vérifier.<br/>\n"
+"</h5>\n"
+"<br/>\n"
+"<h4>Limitations</h4>\n"
+"<h5>\n"
+"Vous reconnaissez que Yoomken peut établir des limites concernant "
+"l'utilisation du Site, y compris le nombre maximal de jours pendant lesquels "
+"le contenu sera conservé par le site Web, le nombre et la taille maximale "
+"des publications, messages électroniques, ou tout autre contenu qui peut "
+"être transmise ou conservée par le site Web, et la fréquence à laquelle vous "
+"pouvez accéder au site Web.<br/>\n"
+"<br/>\n"
+"Vous acceptez que Yoomken n'a aucune responsabilité ou garantie pour la "
+"suppression ou le défaut de stockage de tout contenu maintenu ou transmis "
+"par le Site. Vous reconnaissez également que Yoomken se réserve le droit à "
+"tout moment de modifier ou interrompre le site Web (ou toute partie de celle-"
+"ci) avec ou sans préavis, et que Yoomken ne sera pas responsable envers vous "
+"ou tout tiers pour toute modification, suspension ou interruption du tous "
+"les services.<br/>\n"
+"<br/>\n"
+"Vous acceptez que Yoomken ne sera pas responsable de toute perte ou dommages "
+"résultant de la fourniture (ou non) d'une partie du Service, y compris la "
+"perte de profits ou dommages.<br/>\n"
+"</h5>\n"
+"<br/>\n"
+"<h4>Désactivation de compte</h4>\n"
+"<h5>\n"
+"Vous acceptez que Yoomken, à sa seule discrétion, a le droit de supprimer ou "
+"de désactiver votre compte, de bloquer votre adresse e-mail, ou de suspendre "
+"ou restreindre votre accès à ou l'utilisation du site, immédiatement et sans "
+"préavis, et retirer et supprimer tout contenu du site Web, pour une raison "
+"quelconque, y compris, sans limitation, si Yoomken croit que vous avez agi "
+"de manière contraire au présentes Termes et Conditions.<br/>\n"
+"<br/>\n"
+"En outre, vous convenez que Yoomken ne sera pas responsable envers vous ou "
+"tout tiers pour toute résiliation ou blocage de votre accès au site Web.<br/"
+">\n"
+"<br/>\n"
+"Enfin, Vous acceptez de ne pas tenter d'utiliser le site Web après cette "
+"résiliation.<br/>\n"
+"</h5>\n"
+"<br/>\n"
+"<h4>Changements<h4>\n"
+"<h5>\n"
+"Yoomken se réserve le droit de modifier ou mettre à jour ces termes et "
+"conditions de temps à autre. En tant qu'utilisateur du site, vous êtes "
+"responsable de la reconnaissance de mises à jour de ces Termes et Conditions "
+"en visitant cette section. Tout changement important dans les termes et "
+"conditions sera suivie d'e-mails de notification à tous les utilisateurs "
+"actifs.<br/>\n"
+"</h5>"
+
+#: ../../../views/advice/blocks/subMenu.php:10
+msgid "ABOUTUS_WHATS_YOOMKEN"
+msgstr "Qu'est ce que Yoomken ?"
+
+#: ../../../views/advice/blocks/subMenu.php:22
+msgid "ABOUTUS_WHATS_PROVIDER"
+msgstr "Libérez votre plein potentiel"
+
+#: ../../../views/advice/blocks/subMenu.php:28
+msgid "WHATS_PROVIDER_DETAIL"
+msgstr ""
+"Rendez service, gagnez confiance, agrandissez votre réseau, Yoomken vous "
+"donne le pouvoir d’aller au bout de vos ambitions, de révéler le meilleur de "
+"vous-même, de vivre de vos savoir faire en toute liberté."
+
+#: ../../../views/advice/blocks/subMenu.php:34
+msgid "ABOUTUS_WHATS_ASKER"
+msgstr "Découvrez ce que les gens autour de vous savent faire"
+
+#: ../../../views/advice/blocks/subMenu.php:40
+msgid "WHATS_ASKER_DETAIL"
+msgstr ""
+"Vous recherchez quelqu’un de qualifié pour un conseil ou un travail que vous "
+"ne savez faire alors Yoomken est l'outil adapté ! Grâce à ses fonctions à "
+"orientation sociale, vous allez entretenir un portefeuille de contacts "
+"fiables et de confiance adapté aux services de proximité."
+
+#: ../../../views/advice/blocks/subMenu.php:46
+msgid "ABOUTUS_WHATS_TEAM"
+msgstr "Une intention sociale et solidaire"
+
+#: ../../../views/advice/blocks/subMenu.php:52
+msgid "WHATS_TEAM_DETAIL"
+msgstr ""
+"Nous vous proposons un réseau social adapté aux services de proximité qui "
+"tisse vos relations sur les bases équivalentes de vos qualités humaines et "
+"de savoir-faire. <br/>\n"
+"Nous espérons contribuer à améliorer le quotidien de chacun et développer "
+"une place adéquate à l'éclosion de nouvelles opportunités de travail. Notre "
+"meilleure des récompenses sera que Yoomken  puisse vous rendre service."
+
+#: ../../../views/badge/all.php:35
+msgid "MEANING"
+msgstr "Signification"
+
+#: ../../../views/badge/all.php:43
+msgid "Rules for obtaining"
+msgstr "Régles d'obtention"
+
+#: ../../../views/badge/all.php:43
+msgid "Rules for donation"
+msgstr "Régles de donation"
+
+#: ../../../views/badge/all.php:45
+msgid "None."
+msgstr "Aucune."
+
+#: ../../../views/badge/all.php:50 ../../../views/badge/one.php:4
+#: ../../../views/layout/module/actions-button.php:32
+#: ../../../views/people/inner/displayBulle.php:107
+msgid "GIVE BADGE"
+msgstr "Donner badge"
+
+#: ../../../views/badge/all.php:50 ../../../views/badge/all.php:52
+#: ../../../views/badge/one.php:4 ../../../views/badge/one.php:6
+#: ../../../views/layout/module/actions-button.php:32
+#: ../../../views/layout/module/actions-button.php:39
+#: ../../../views/people/inner/displayBulle.php:107
+msgid "TO"
+msgstr "à"
+
+#: ../../../views/badge/all.php:51 ../../../views/badge/one.php:5
+#: ../../../views/layout/module/actions-button.php:32
+msgid "DON BADGE"
+msgstr "Don Badge"
+
+#: ../../../views/badge/all.php:52 ../../../views/badge/one.php:6
+msgid "ASK BADGE"
+msgstr "Demander Badge"
+
+#: ../../../views/badge/all.php:53 ../../../views/badge/one.php:7
+#: ../../../views/layout/module/actions-button.php:29
+msgid "ASKING BADGE"
+msgstr "Demande Badge"
+
+#: ../../../views/badge/wish.php:14
+msgid "Planed"
+msgstr "Planifié"
+
+#: ../../../views/badge/wish.php:18
+msgid "Accepted"
+msgstr "Accepté"
+
+#: ../../../views/badge/wish.php:26
+#: ../../../views/content/inner/types/displayDash_Content.php:167
+msgid "by"
+msgstr "by"
+
+#: ../../../views/badge/blocks/subMenu.php:8
+#, fuzzy
+msgid "TIT_BADGE_"
+msgstr "Signification"
+
+#: ../../../views/badge/blocks/subMenu.php:14
+#, fuzzy
+msgid "TXT_BADGE_"
+msgstr "Signification"
+
+#: ../../../views/badge/blocks/subMenu.php:24
+msgid "WISH_NEW_BADGE"
+msgstr "Souhaiter un nouveau badge"
+
+#: ../../../views/badge/blocks/subMenu.php:25
+msgid "WISH_BADGE"
+msgstr "Suggérer Badge"
+
+#: ../../../views/badge/blocks/subMenu.php:34
+#: ../../../views/badge/inner/displayInColumns.php:13
+#: ../../../views/badge/inner/displayLine.php:15
+msgid "Personality"
+msgstr "Personnalité"
+
+#: ../../../views/badge/blocks/subMenu.php:39
+#: ../../../views/badge/inner/displayInColumns.php:13
+#: ../../../views/badge/inner/displayLine.php:15
+msgid "Know-How"
+msgstr "Savoir-Faire"
+
+#: ../../../views/badge/blocks/subMenu.php:44
+msgid "Action"
+msgstr "Action"
+
+#: ../../../views/badge/blocks/subMenu.php:51
+msgid "Wish"
+msgstr "Souhait"
+
+#: ../../../views/badge/module/findBadges.php:74
+msgid "GIVE_IT"
+msgstr "Le donner"
+
+#: ../../../views/badge/module/findBadges.php:74
+msgid "ASK_IT"
+msgstr "Le demander"
+
+#: ../../../views/badge/module/findBadges.php:75
+#: ../../../views/people/module/findFriends.php:110
+msgid "TITLE_GIVE"
+msgstr "Donner le badge selectionné"
+
+#: ../../../views/badge/module/findBadges.php:75
+#: ../../../views/people/module/findFriends.php:110
+msgid "TITLE_ASK"
+msgstr "Demander le badge sélectionné"
+
+#: ../../../views/badge/module/findBadges.php:81
+msgid "SEARCH_BADGES"
+msgstr "Recherche Badge"
+
+#: ../../../views/badge/module/findBadges.php:115
+msgid "MUST SELECT BADGE"
+msgstr "Sélectionnez un badge."
+
+#: ../../../views/badge/module/wishNew.php:5
+msgid "IDEA_MESSAGE_SUBMITED"
+msgstr ""
+"L'idée du badge a été enregistré. L'équipe prendra soin de l'étudier. Je "
+"vous remercie!"
+
+#: ../../../views/badge/module/wishNew.php:28
+msgid "TITLE_REQUIRED"
+msgstr "- Le titre est requis."
+
+#: ../../../views/badge/module/wishNew.php:29
+msgid "NAME_BADGE_UNAVAILABLE"
+msgstr "- Le titre de ce Badge est déjà répertorié."
+
+#: ../../../views/badge/module/wishNew.php:30
+msgid "TITLE_MAX_PASSED"
+msgstr "- Le titre du badge ne doit pas dépasser 64 caractères."
+
+#: ../../../views/badge/module/wishNew.php:33
+#: ../../../views/layout/javascript.php:147
+msgid "DESC_REQUIRED"
+msgstr "- La description est requise."
+
+#: ../../../views/badge/module/wishNew.php:69
+msgid "TITLE_BADGE"
+msgstr "Titre du badge"
+
+#: ../../../views/badge/module/wishNew.php:71
+msgid "DESC_BADGE"
+msgstr "Description de votre idée."
+
+#: ../../../views/badge/module/wishNew.php:74
+msgid "SUBMIT_BADGE"
+msgstr "Soumettre Badge"
+
+#: ../../../views/comment/all.php:16 ../../../views/comment/all.php:21
+msgid "COMMENTS"
+msgstr "Commentaires"
+
+#: ../../../views/comment/all.php:17
+msgid "ANSWERS"
+msgstr "Toutes les réponses"
+
+#: ../../../views/comment/all.php:22
+msgid "ANSWER"
+msgstr "réponse"
+
+#: ../../../views/comment/all.php:26
+msgid "LEAVE_ANSWER"
+msgstr "Laisser une réponse"
+
+#: ../../../views/comment/all.php:28
+msgid "DISPLAY_ALL"
+msgstr "Tout afficher"
+
+#: ../../../views/comment/view.php:24
+msgid "DELETE_ANSW"
+msgstr "supprimer ce post"
+
+#: ../../../views/comment/view.php:24
+msgid "DELETE_CMT"
+msgstr "supprimer le commentaire"
+
+#: ../../../views/content/all.php:53 ../../../views/people/all.php:64
+msgid "NEXT"
+msgstr "SUIVANT"
+
+#: ../../../views/content/one.php:33
+#: ../../../views/content/inner/types/displayDash_Content.php:33
+#: ../../../views/content/inner/types/displayDash_Content.php:155
+#: ../../../views/content/inner/types/displayIsotope_Content.php:33
+#: ../../../views/people/inner/____displayBulle.php:90
+#: ../../../views/question/inner/displayDash.php:114
+msgid "ON"
+msgstr "sur"
+
+#: ../../../views/content/one.php:94
+#: ../../../views/content/inner/types/displayDash_Content.php:101
+#: ../../../views/content/inner/types/displayIsotope_Content.php:62
+msgid "DEL_POST"
+msgstr "Supprimer le post"
+
+#: ../../../views/content/one.php:116
+msgid "UPDATE"
+msgstr "Mettre à jour"
+
+#: ../../../views/content/one.php:116
+#: ../../../views/content/inner/types/displayDash_Content.php:105
+msgid "UPDATE_POST"
+msgstr "Réactualiser le post"
+
+#: ../../../views/content/one.php:118
+#: ../../../views/content/blocks/sharebox.php:104
+msgid "Pay"
+msgstr "Paie"
+
+#: ../../../views/content/one.php:144
+msgid "SERVICES_&_TAGS"
+msgstr "Services associés"
+
+#: ../../../views/content/one.php:149
+#: ../../../views/content/blocks/subsubMenu.php:16
+#: ../../../views/content/inner/types/displayDash_Content.php:132
+#: ../../../views/content/inner/types/displayIsotope_Content.php:87
+msgid "Proposal"
+msgstr "Proposition"
+
+#: ../../../views/content/one.php:149
+#: ../../../views/content/blocks/subsubMenu.php:17
+#: ../../../views/content/inner/types/displayDash_Content.php:132
+#: ../../../views/content/inner/types/displayIsotope_Content.php:87
+msgid "Searching"
+msgstr "Recherche"
+
+#: ../../../views/content/one.php:171
+msgid "ADDRESS_ASSOCIATED"
+msgstr "Adresse associée"
+
+#: ../../../views/content/one.php:189 ../../../views/content/one.php:198
+msgid "DESCRIPTION"
+msgstr "Description"
+
+#: ../../../views/content/one.php:213
+msgid "ABOUT_AUTHOR"
+msgstr "A propos de l'auteur"
+
+#: ../../../views/content/blocks/sharebox.php:85
+msgid "BETA_FONCTION"
+msgstr "Bêta fonction en cours de développement."
+
+#: ../../../views/content/blocks/sharebox.php:86
+msgid "VISIBLE_BY"
+msgstr "visible par"
+
+#: ../../../views/content/blocks/sharebox.php:86
+msgid "ALL_WORLD"
+msgstr "Tous"
+
+#: ../../../views/content/blocks/sharebox.php:88
+msgid "Add a picture"
+msgstr "Ajouter une image"
+
+#: ../../../views/content/blocks/sharebox.php:92
+msgid "Add a title to your content"
+msgstr "Ajouter un titre à votre contenu"
+
+#: ../../../views/content/blocks/sharebox.php:93
+msgid "Add a Title"
+msgstr "Ajouter Titre"
+
+#: ../../../views/content/blocks/sharebox.php:111
+#: ../../../views/layout/javascript.php:56
+msgid "LABEL_COLLABO"
+msgstr "Placer ici le nom du collaborateur concernné."
+
+#: ../../../views/content/blocks/sharebox.php:154
+#: ../../../views/content/blocks/sharebox.php:161
+#: ../../../views/content/blocks/sharebox.php:168
+#: ../../../views/question/blocks/sharebox.php:36
+#: ../../../views/question/blocks/sharebox.php:43
+msgid "Publier"
+msgstr "Publier"
+
+#: ../../../views/content/blocks/sharebox.php:154
+#: ../../../views/content/blocks/sharebox.php:168
+msgid "AS_EN"
+msgstr "en"
+
+#: ../../../views/content/blocks/sidebar-left.php:37
+msgid "MY_PROFIL"
+msgstr "Profil"
+
+#: ../../../views/content/blocks/sidebar-left.php:44
+#: ../../../views/people/inner/____displayBulle.php:54
+msgid "IS_"
+msgstr "Aucun contact trouvé."
+
+#: ../../../views/content/blocks/sidebar-left.php:61
+msgid "ANS"
+msgstr "ans"
+
+#: ../../../views/content/blocks/sidebar-left.php:70
+msgid "STATUS"
+msgstr "Statut"
+
+#: ../../../views/content/blocks/sidebar-left.php:72
+msgid "PROFIL_"
+msgstr "Mon espace"
+
+#: ../../../views/content/blocks/sidebar-left.php:77
+msgid "STATUS_"
+msgstr "Fixe"
+
+#: ../../../views/content/blocks/sidebar-left.php:100
+#: ../../../views/filter/blocks/filters.php:17
+#: ../../../views/layout/module/myProfile.php:108
+#: ../../../views/layout/module/myProfile.php:163
+#: ../../../views/layout/module/myProfile.php:374
+#: ../../../views/layout/module/myProfile.php:402
+#: ../../../views/layout/module/myProfile.php:586
+#: ../../../views/layout/module/myProfile.php:628
+#: ../../../views/user/view.php:40 ../../../views/user/view.php:43
+#: ../../../views/user/view.php:51 ../../../views/user/view.php:61
+#: ../../../views/user/view.php:75 ../../../views/user/view.php:86
+#: ../../../views/user/view.php:173
+#: ../../../views/user/blocks/sidebarAll-right.php:18
+#: ../../../views/user/blocks/sidebarAll-right.php:33
+msgid "NO_DATA"
+msgstr "Non renseigné"
+
+#: ../../../views/content/blocks/sidebar-left.php:107
+#: ../../../views/layout/module/myProfile.php:62
+#: ../../../views/layout/module/myProfile.php:566
+#: ../../../views/user/blocks/sidebarAll-right.php:31
+msgid "COORDONNEES"
+msgstr "Coordonnées"
+
+#: ../../../views/content/blocks/sidebar-left.php:132
+msgid "MY_RELATIONS"
+msgstr "Relations"
+
+#: ../../../views/content/blocks/sidebar-left.php:134
+msgid "SEARCH_RELATION"
+msgstr "Recherche relation"
+
+#: ../../../views/content/blocks/sidebar-left.php:144
+msgid "PROFILS_FOLLOWED_BY_AND_NOT_FOLLOW"
+msgstr "Les profils qui sont suivis par {#user} sans retour de suivis"
+
+#: ../../../views/content/blocks/sidebar-left.php:147
+#: ../../../views/content/blocks/sidebar-left.php:153
+#: ../../../views/content/blocks/sidebar-left.php:159
+#: ../../../views/content/blocks/sidebar-left.php:165
+msgid "MYS"
+msgstr "Mes"
+
+#: ../../../views/content/blocks/sidebar-left.php:147
+#: ../../../views/content/blocks/sidebar-left.php:153
+#: ../../../views/content/blocks/sidebar-left.php:159
+#: ../../../views/content/blocks/sidebar-left.php:165
+msgid "HISS"
+msgstr "Ses"
+
+#: ../../../views/content/blocks/sidebar-left.php:147
+msgid "FOLLOWED_PUR"
+msgstr "suivis seuls"
+
+#: ../../../views/content/blocks/sidebar-left.php:150
+msgid "PROFILS_FOLLOW_AND_NOT_FOLLOWED"
+msgstr "Profils qui suivent {#user} sans qu'il les suit"
+
+#: ../../../views/content/blocks/sidebar-left.php:153
+msgid "FOLLOWER_PUR"
+msgstr "suiveurs seuls "
+
+#: ../../../views/content/blocks/sidebar-left.php:156
+msgid "PROFILS_FOLLOW_AND_FOLLOWED"
+msgstr "Les profils qui suivent et qui sont suivis par"
+
+#: ../../../views/content/blocks/sidebar-left.php:159
+msgid "FOLLOWER_AND_FOLLOWED"
+msgstr "suiveurs & suivis"
+
+#: ../../../views/content/blocks/sidebar-left.php:162
+msgid "PROFILS_IS_COLLABORATING_NOW_WITH"
+msgstr "les Profils qui collaborent actuellement avec"
+
+#: ../../../views/content/blocks/sidebar-left.php:165
+msgid "ACTUAL_COLLABORATOR"
+msgstr "actuels collaborateurs"
+
+#: ../../../views/content/blocks/subMenu.php:63
+msgid "TIMELINE"
+msgstr "Fil d'actualité"
+
+#: ../../../views/content/blocks/subsubMenu.php:13
+#: ../../../views/people/blocks/subsubMenu.php:5
+msgid "Disable all filters"
+msgstr "Désactiver tous les filtres"
+
+#: ../../../views/content/blocks/subsubMenu.php:16
+#: ../../../views/content/blocks/subsubMenu.php:17
+#: ../../../views/content/blocks/subsubMenu.php:20
+#: ../../../views/content/blocks/subsubMenu.php:21
+#: ../../../views/content/blocks/subsubMenu.php:22
+#: ../../../views/content/blocks/subsubMenu.php:24
+msgid "Only"
+msgstr "Seulement"
+
+#: ../../../views/content/blocks/subsubMenu.php:20
+#: ../../../views/content/blocks/subsubMenu.php:21
+#: ../../../views/content/blocks/subsubMenu.php:22
+#: ../../../views/content/blocks/subsubMenu.php:24
+msgid "Ses"
+msgstr "Ses"
+
+#: ../../../views/content/blocks/subsubMenu.php:29
+#: ../../../views/people/blocks/subsubMenu.php:8
+msgid "Outils de recherche"
+msgstr "Outils de recherche"
+
+#: ../../../views/content/inner/displayAllCritiques.php:23
+msgid "AVIS"
+msgstr "Critique"
+
+#: ../../../views/content/inner/types/displayDash_Activity.php:8
+msgid "NOWFOL"
+msgstr "suit maintenant"
+
+#: ../../../views/content/inner/types/displayDash_Activity.php:8
+msgid "NOWCOLLABO"
+msgstr "a initié une collaboration avec "
+
+#: ../../../views/content/inner/types/displayDash_Activity.php:8
+msgid "NOWRECOMAND"
+msgstr "a recommandé"
+
+#: ../../../views/content/inner/types/displayDash_Activity.php:22
+msgid "AND"
+msgstr "ET"
+
+#: ../../../views/content/inner/types/displayDash_Activity.php:42
+msgid "LIK_ACT"
+msgstr "a aimé le post de {#user} dont voici un extrait :"
+
+#: ../../../views/content/inner/types/displayDash_Activity.php:51
+msgid "HAVE_GIVEN_TO_USER"
+msgstr "a donné à {#user} le badge"
+
+#: ../../../views/content/inner/types/displayDash_Activity.php:51
+msgid "HAVE_RECEIVED_FROM_USER"
+msgstr "a reçu de {#user} le badge"
+
+#: ../../../views/content/inner/types/displayDash_Activity.php:72
+msgid "HIS_HER_S"
+msgstr "ses"
+
+#: ../../../views/content/inner/types/displayDash_Activity.php:72
+#: ../../../views/content/inner/types/displayDash_Activity.php:78
+#: ../../../views/content/inner/types/displayDash_Activity.php:90
+#: ../../../views/content/inner/types/displayDash_Activity.php:96
+#: ../../../views/content/inner/types/displayDash_Activity.php:102
+#: ../../../views/content/inner/types/displayDash_Activity.php:108
+#: ../../../views/content/inner/types/displayDash_Activity.php:114
+#: ../../../views/content/inner/types/displayDash_Activity.php:120
+#: ../../../views/content/inner/types/displayDash_Activity.php:126
+#: ../../../views/content/inner/types/displayDash_Activity.php:132
+#: ../../../views/content/inner/types/displayDash_Activity.php:136
+msgid "HIS"
+msgstr "son"
+
+#: ../../../views/content/inner/types/displayDash_Activity.php:72
+#: ../../../views/content/inner/types/displayDash_Activity.php:78
+#: ../../../views/content/inner/types/displayDash_Activity.php:90
+#: ../../../views/content/inner/types/displayDash_Activity.php:96
+#: ../../../views/content/inner/types/displayDash_Activity.php:102
+#: ../../../views/content/inner/types/displayDash_Activity.php:108
+#: ../../../views/content/inner/types/displayDash_Activity.php:114
+#: ../../../views/content/inner/types/displayDash_Activity.php:120
+#: ../../../views/content/inner/types/displayDash_Activity.php:126
+#: ../../../views/content/inner/types/displayDash_Activity.php:132
+#: ../../../views/content/inner/types/displayDash_Activity.php:136
+msgid "HER"
+msgstr "sa"
+
+#: ../../../views/content/inner/types/displayDash_Activity.php:72
+msgid "SERVICES_FOLLOWED"
+msgstr "services suivis"
+
+#: ../../../views/content/inner/types/displayDash_Activity.php:78
+#: ../../../views/layout/module/myProfile.php:80
+#: ../../../views/layout/module/myProfile.php:99
+msgid "FULLNAME"
+msgstr "Nom complet"
+
+#: ../../../views/content/inner/types/displayDash_Activity.php:90
+#: ../../../views/layout/module/myProfile.php:110
+msgid "BIRTHDATE"
+msgstr "Date de naissance"
+
+#: ../../../views/content/inner/types/displayDash_Activity.php:96
+msgid "BIOGRAPHIE"
+msgstr "biographie"
+
+#: ../../../views/content/inner/types/displayDash_Activity.php:102
+msgid "NO_TEL"
+msgstr "numero de téléphone"
+
+#: ../../../views/content/inner/types/displayDash_Activity.php:114
+msgid "EMAIL"
+msgstr "Adresse électronique"
+
+#: ../../../views/content/inner/types/displayDash_Activity.php:120
+msgid "PROFILE_PICTURE"
+msgstr "photo de profil"
+
+#: ../../../views/content/inner/types/displayDash_Activity.php:126
+#: ../../../views/layout/module/myProfile.php:79
+#: ../../../views/user/blocks/sidebarAll-right.php:5
+msgid "PSEUDO"
+msgstr "Pseudo"
+
+#: ../../../views/content/inner/types/displayDash_Activity.php:132
+msgid "UPD_CALENDAR"
+msgstr "Calendrier"
+
+#: ../../../views/content/inner/types/displayDash_Activity.php:136
+msgid "PROFILE"
+msgstr "Profil"
+
+#: ../../../views/content/inner/types/displayDash_Activity.php:142
+msgid "HAS_UPDATED"
+msgstr "a mis à jour"
+
+#: ../../../views/content/inner/types/displayDash_Activity.php:165
+#: ../../../views/content/inner/types/displayDash_Content.php:50
+#: ../../../views/question/inner/displayDash.php:38
+msgid "TOOLTIP_"
+msgstr ""
+"Vos informations ne seront pas enregistrées tant que vous n’avez pas saisie "
+"toutes les données nécessaires."
+
+#: ../../../views/content/inner/types/displayDash_Content.php:42
+msgid "CRITIQUE"
+msgstr "Critique"
+
+#: ../../../views/content/inner/types/displayDash_Content.php:156
+msgid "THE_POST"
+msgstr "le post"
+
+#: ../../../views/content/inner/types/displayDash_Content.php:157
+msgid "THE_AUTHOR"
+msgstr "l'auteur"
+
+#: ../../../views/content/inner/types/displayDash_Content.php:175
+#: ../../../views/content/inner/types/displayIsotope_Content.php:114
+msgid "PERSON_LIKES_POST"
+msgstr "personne aime ce post"
+
+#: ../../../views/content/inner/types/displayDash_Content.php:175
+#: ../../../views/content/inner/types/displayIsotope_Content.php:114
+msgid "PERSONS_LIKE_POST"
+msgstr "personnes aiment ce post"
+
+#: ../../../views/content/inner/types/displayDash_Content.php:180
+#: ../../../views/content/inner/types/displayIsotope_Content.php:108
+msgid "CMT_ADDED"
+msgstr "commentaire ajouté"
+
+#: ../../../views/content/inner/types/displayDash_Content.php:180
+#: ../../../views/content/inner/types/displayIsotope_Content.php:108
+msgid "CMTS_ADDED"
+msgstr "commentaires ajoutés"
+
+#: ../../../views/content/inner/types/displayIsotope_Content.php:48
+msgid "a partagé >>"
+msgstr "a partagé >>"
+
+#: ../../../views/content/inner/types/displayIsotope_Content.php:123
+msgid "Partagé"
+msgstr "Partagé"
+
+#: ../../../views/content/inner/types/displayIsotope_Content.php:123
+msgid "fois"
+msgstr "fois"
+
+#: ../../../views/content/messages/error.php:5
+#: ../../../views/question/messages/error.php:5
+msgid "SORRY_PRIVATE_CONTENT"
+msgstr " "
+
+#: ../../../views/content/messages/error.php:8
+#: ../../../views/question/messages/error.php:8
+msgid "SORRY_404_CONTENT"
+msgstr " "
+
+#: ../../../views/errors/js.php:3
+msgid "HEAD_JS_REQUIRED"
+msgstr "Module JavaScript non activé !"
+
+#: ../../../views/errors/js.php:5
+msgid "TXT_JS_REQUIRED"
+msgstr ""
+"Le module JavaScript de votre navigateur est requis afin de visualiser notre "
+"site."
+
+#: ../../../views/errors/maintenance.php:5
+msgid "Page en maintenance !"
+msgstr ""
+
+#: ../../../views/errors/notFound.php:3
+msgid "HEAD_NOTFOUND"
+msgstr "Page inconnue!"
+
+#: ../../../views/errors/notFound.php:6
+msgid "TXT_NOTFOUNDD"
+msgstr "Error 404, la page que vous recherchez n'existe plus..."
+
+#: ../../../views/filter/blocks/filters.php:29
+msgid "Criteria"
+msgstr "Critère"
+
+#: ../../../views/filter/blocks/filters.php:39
+#, fuzzy
+msgid "USR"
+msgstr "Tous les contacts"
+
+#: ../../../views/filter/blocks/filters.php:42
+msgid "ALL_PROFIL"
+msgstr "Les profils"
+
+#: ../../../views/filter/blocks/filters.php:42
+msgid "ALL_CONTENT"
+msgstr "Les contenus"
+
+#: ../../../views/filter/blocks/filters.php:42
+msgid "AU_PLUS_PRES_DU_LIEU"
+msgstr "localisés {#radius}au plus prés du lieu"
+
+#: ../../../views/filter/blocks/filters.php:46
+msgid "DANS_RAYON"
+msgstr "dans un rayon de"
+
+#: ../../../views/filter/blocks/filters.php:57
+#: ../../../views/filter/blocks/filters.php:59
+#: ../../../views/filter/blocks/filters.php:66
+#: ../../../views/filter/blocks/filters.php:72
+#: ../../../views/filter/blocks/filters.php:95
+#: ../../../views/filter/blocks/filters.php:97
+#, fuzzy
+msgid "GN_"
+msgstr "Inscription"
+
+#: ../../../views/filter/blocks/filters.php:66
+#: ../../../views/filter/blocks/filters.php:72
+msgid "EDIT_FILTER"
+msgstr "Editer le filtre."
+
+#: ../../../views/filter/blocks/filters.php:66
+#: ../../../views/filter/blocks/filters.php:72
+msgid "PARAM_FILTER"
+msgstr "Paramétrage du filtre"
+
+#: ../../../views/filter/blocks/filters.php:81
+msgid "Profil"
+msgstr "Profile"
+
+#: ../../../views/filter/blocks/filters.php:105
+msgid "Relation"
+msgstr "Relation"
+
+#: ../../../views/filter/blocks/filters.php:135
+#: ../../../views/filter/blocks/filters.php:137
+msgid "_"
+msgstr " "
+
+#: ../../../views/filter/module/myservices.php:44
+msgid "MYSERVICES_PROVIDER"
+msgstr "En Provider"
+
+#: ../../../views/filter/module/myservices.php:48
+msgid "MYSERVICES_ASKER"
+msgstr "En Asker"
+
+#: ../../../views/filter/module/nearby.php:51
+msgid "MY_POSITION_FIX"
+msgstr "Mon lieu fixe"
+
+#: ../../../views/filter/module/nearby.php:61
+msgid "MY_POSITION"
+msgstr "Mon lieu"
+
+#: ../../../views/filter/module/nearby.php:87
+msgid "MY_RAYON_NEARBY"
+msgstr "Rayon du périmètre géographique de mon lieu"
+
+#: ../../../views/filter/module/nearby.php:120
+msgid "LABEL_NEARBY_3"
+msgstr ""
+"Ajuster le rayon de proximité, afin que le filtre retienne seulement les "
+"contenus localisés dans votre zone géographique."
+
+#: ../../../views/home/view.php:5
+msgid "SLOGAN_1"
+msgstr "Le réseau social d'entraide dédié aux "
+
+#: ../../../views/home/view.php:5
+msgid "SLOGAN_2"
+msgstr "activités à domicile."
+
+#: ../../../views/home/view.php:8
+msgid "SUB_SLOGAN"
+msgstr "Partagez un besoin. Proposez un savoir-faire. Rendez-vous service."
+
+#: ../../../views/home/view.php:217
+#: ../../../views/layout/registerbox_gen.php:53
+#: ../../../views/layout/module/myProfile.php:88
+msgid "LABEL_PSEUDO"
+msgstr "Nom d'ulisateur"
+
+#: ../../../views/home/view.php:234
+msgid "REASON_0_TITLE"
+msgstr "Rendez service."
+
+#: ../../../views/home/view.php:236
+msgid "REASON_0_DETAIL"
+msgstr ""
+"Avec Yoomken, c’est l’entraide avant tout : vous pouvez proposer ou échanger "
+"des services, poster des conseils, partager des news et événements utiles."
+
+#: ../../../views/home/view.php:250
+msgid "REASON_1_TITLE"
+msgstr "Trouvez la personne qu'il vous faut."
+
+#: ../../../views/home/view.php:252
+msgid "REASON_1_DETAIL"
+msgstr ""
+"Vous recherchez des services à domicile ? Trouvez la personne en échangeant "
+"avec des gens qui sont les plus proches de votre giron."
+
+#: ../../../views/home/view.php:270
+msgid "REASON_2_TITLE"
+msgstr "Construisez votre réseau."
+
+#: ../../../views/home/view.php:272
+msgid "REASON_2_DETAIL"
+msgstr ""
+"Construisez votre réseau en offrant à vos contacts des badges personnalisés "
+"qui révèlent leurs qualités humaines ou/et leur expertise dans une catégorie "
+"de service. Choisissez vos nouvelles relations en évaluant les badges acquis "
+"dans le réseau."
+
+#: ../../../views/home/view.php:289
+msgid "WHY_YOU_WILL_LIKE"
+msgstr "Quoi d'autre ?"
+
+#: ../../../views/home/view.php:306
+msgid "IDEA_NEARBY_HEAD"
+msgstr "Proche de chez vous"
+
+#: ../../../views/home/view.php:308
+msgid "IDEA_NEARBY_TXT"
+msgstr ""
+"Tous les contenus sont géolocalisés afin de cibler, grâce aux filtres mis à "
+"votre disposition, les profils et les actualités autour de votre commune."
+
+#: ../../../views/home/view.php:315
+msgid "IDEA_FREE_HEAD"
+msgstr "Gratuit et sûr"
+
+#: ../../../views/home/view.php:317
+msgid "IDEA_FREE_TXT"
+msgstr ""
+"Le dépôt d'offre et la prise de contact sont gratuits. Le contact n'est "
+"possible que durant une collaboration dont vous seul décidez de sa fin."
+
+#: ../../../views/home/view.php:328
+msgid "IDEA_SHARE_HEAD"
+msgstr "Echange avec la communauté"
+
+#: ../../../views/home/view.php:330
+msgid "IDEA_SHARE_TXT"
+msgstr ""
+"Partagez vos travaux, vos découvertes et vos questions avec les personnes "
+"attachés aux mêmes services que vous."
+
+#: ../../../views/home/view.php:337
+msgid "IDEA_REPUTATION_HEAD"
+msgstr "Système de réputation"
+
+#: ../../../views/home/view.php:339
+msgid "IDEA_REPUTATION_TXT"
+msgstr ""
+"Augmentez votre réputation grâce aux badges reçus de vos relations et au "
+"nombre de vos suiveurs."
+
+#: ../../../views/home/inner/resetpass.php:6
+msgid "TITLE_RESET_PASS"
+msgstr "Changez votre mot de passe"
+
+#: ../../../views/home/inner/resetpass.php:15
+msgid "TXT_RESET_PASSWORD"
+msgstr ""
+"Assurez-vous que ce soit quelque chose de facile à retenir, mais difficile à "
+"deviner pour les autres. Essayez d'inclure des lettres et des chiffres ou de "
+"la ponctuation."
+
+#: ../../../views/home/inner/resetpass.php:21
+msgid "LABEL_NEW_MDP"
+msgstr "Nouveau mot de passe"
+
+#: ../../../views/home/inner/resetpass.php:47
+#: ../../../views/home/inner/sendpass.php:43
+msgid "RESET"
+msgstr "Réinitialiser"
+
+#: ../../../views/home/inner/resetpass.php:57
+msgid "PASS_RESET_DONE"
+msgstr "Votre nouveau mot de passe a été mise à jour avec succès. "
+
+#: ../../../views/home/inner/sendpass.php:10
+msgid "TITLE_INIT_PASS"
+msgstr "Réinitialiser votre mot de passe"
+
+#: ../../../views/home/inner/sendpass.php:18
+msgid "TXT_SEND_LINK_PASSWORD"
+msgstr ""
+"Veuillez saisir votre adresse e-mail. Nous vous enverrons un courrier "
+"électronique avec un lien qui vous permettra de réinitialiser votre mot de "
+"passe."
+
+#: ../../../views/home/inner/sendpass.php:23
+msgid "EMAIL_OR_USERNAME"
+msgstr "Email ou nom d'utilisateur"
+
+#: ../../../views/home/inner/sendpass.php:53
+msgid "SENDPASS_SUCCESSFULLY"
+msgstr ""
+"L'e-mail de confirmation a été expédié ! Si pour quelques raisons vous ne "
+"recevez pas l'email d'activation, contactez-nous à contact@yoomken.com et "
+"nous ferons de notre mieux pour vous aider. <b> S'IL VOUS PLAÎT vérifier "
+"tout de même dans votre dossier indésirable (ou spam) avant de nous "
+"contacter , car il est très fréquent d'avoir des problèmes de réception du "
+"courrier électronique à cause des filtres automatisés de votre boite e-mail."
+"</b>"
+
+#: ../../../views/layout/footer.php:10
+msgid "SLOGON_CONFIANT"
+msgstr "Le réseau social qui vous rend service"
+
+#: ../../../views/layout/footer.php:21
+msgid "YOOMKEN WORLD"
+msgstr "YOOMWORD"
+
+#: ../../../views/layout/footer.php:35
+msgid "DOSSIER"
+msgstr "DOSSIER"
+
+#: ../../../views/layout/footer.php:39
+msgid "PRESSE"
+msgstr "Presse"
+
+#: ../../../views/layout/footer.php:44
+msgid "LEGAL STUFF"
+msgstr "LEGAL STUFF"
+
+#: ../../../views/layout/footer.php:47
+msgid "TEXT LEGAL STUFF"
+msgstr ""
+"L'utilisation de ce site implique l'acceptation des <a href='/privacy-and-"
+"terms'><b>termes d'utilisation et politique de confidentialité</b></a> de "
+"Yoomken."
+
+#: ../../../views/layout/footer.php:60
+msgid "UPDATE_CONTENT_SUCESSFULLY"
+msgstr "Votre contenu a été réactualisé et transféré en tête de flux !"
+
+#: ../../../views/layout/javascript.php:43
+msgid "ERR_LOGIN_EMAIL_PSEUDO"
+msgstr "- L'email ou le pseudo est requis"
+
+#: ../../../views/layout/javascript.php:46
+#: ../../../views/layout/module/myProfile.php:121
+#: ../../../views/layout/module/myProfile.php:125
+#: ../../../views/user/blocks/sidebarAll-right.php:25
+msgid "MAN"
+msgstr "Homme"
+
+#: ../../../views/layout/javascript.php:47
+#: ../../../views/layout/module/myProfile.php:121
+#: ../../../views/layout/module/myProfile.php:126
+#: ../../../views/user/blocks/sidebarAll-right.php:25
+msgid "WOMAN"
+msgstr "Femme"
+
+#: ../../../views/layout/javascript.php:64
+msgid "LABEL_DESC_NEWS"
+msgstr ""
+"Partager une découverte ou un conseil. Utiliser @ pour mentionner des "
+"personnes."
+
+#: ../../../views/layout/javascript.php:65
+msgid "LABEL_DESC_AVIS"
+msgstr ""
+"Donner un avis sur une expérience vécue avec un de vos collaborateurs. "
+"Utiliser @ pour mentionner des personnes."
+
+#: ../../../views/layout/javascript.php:66
+msgid "LABEL_DESC_CREATION"
+msgstr ""
+"Publier vos réalisations personnelles. Utiliser @ pour mentionner des "
+"personnes."
+
+#: ../../../views/layout/javascript.php:67
+#: ../../../views/question/blocks/sharebox.php:15
+msgid "LABEL_DESC_QUESTION"
+msgstr ""
+"Sentez-vous libre de poser vos questions à la communauté. Utiliser @ pour "
+"mentionner des personnes."
+
+#: ../../../views/layout/javascript.php:68
+msgid "LABEL_DESC_OFFER_B"
+msgstr ""
+"Publier une offre soit pour engager votre intervenant ou promouvoir vos "
+"services. Utiliser @ pour mentionner des personnes."
+
+#: ../../../views/layout/javascript.php:69
+msgid "LABEL_DESC_OFFER_P"
+msgstr ""
+"Publier une offre afin de promouvoir vos services. Utiliser @ pour "
+"mentionner des personnes."
+
+#: ../../../views/layout/javascript.php:70
+msgid "LABEL_DESC_OFFER_C"
+msgstr ""
+"Publier une offre afin d'engager votre intervenant. Utiliser @ pour "
+"mentionner des personnes."
+
+#: ../../../views/layout/javascript.php:78
+msgid "SERV_SELECT_LEFT"
+msgstr "Choisir au moins une catégorie de service"
+
+#: ../../../views/layout/javascript.php:79
+msgid "SERV_SELECT_RIGHT"
+msgstr "Vos selections"
+
+#: ../../../views/layout/javascript.php:94
+msgid "FULLNAME_REQUIRED"
+msgstr "- Le nom complet est requis."
+
+#: ../../../views/layout/javascript.php:95
+msgid "FULLNAME_MAX_CHAR_ALLOWED"
+msgstr "- Le nom complet doit contenir au minimum {#n} caractères."
+
+#: ../../../views/layout/javascript.php:98
+msgid "PWD_REQUIRED"
+msgstr "- Le mot de passe est requis."
+
+#: ../../../views/layout/javascript.php:99
+msgid "PWD_MAX_CHAR_ALLOWED"
+msgstr "- Le mot de passe doit contenir au minimum {#n} caractères."
+
+#: ../../../views/layout/javascript.php:102
+msgid "PWD2_REQUIRED"
+msgstr "- La confirmation du second mot de passe est requise."
+
+#: ../../../views/layout/javascript.php:103
+msgid "PWD2_EQUALTO"
+msgstr "- Les deux mots de passe ne sont pas identiques."
+
+#: ../../../views/layout/javascript.php:106
+msgid "EMAIL_REQUIRED"
+msgstr "- L'email est requis."
+
+#: ../../../views/layout/javascript.php:107
+msgid "EMAIL_MUST_VALID"
+msgstr "- L'email n'est pas valide."
+
+#: ../../../views/layout/javascript.php:108
+msgid "EMAIL_REMOTE"
+msgstr "- L'email est déjà enregistré."
+
+#: ../../../views/layout/javascript.php:111
+msgid "LOCATION_REQUIRED"
+msgstr "- L'adresse est requise."
+
+#: ../../../views/layout/javascript.php:114
+msgid "POLICY_REQUIRED"
+msgstr "- Accepter les conditions d'utilisation."
+
+#: ../../../views/layout/javascript.php:117
+msgid "PSEUDO_REQUIRED"
+msgstr "- Le pseudonyme est requis."
+
+#: ../../../views/layout/javascript.php:118
+msgid "PSEUDO_REMOTE"
+msgstr "- Le pseudonyme est déjà utilisé."
+
+#: ../../../views/layout/javascript.php:119
+msgid "PSEUDO_REGEX"
+msgstr ""
+"- Le pseudonyme est non valide, seul les caractères alphanumériques sont "
+"acceptés."
+
+#: ../../../views/layout/javascript.php:120
+msgid "PSEUDO_MAX_CHAR_ALLOWED"
+msgstr "- Le pseudonyme doit contenir au minimum {#n} caractères."
+
+#: ../../../views/layout/javascript.php:123
+msgid "WEBS_URL_UNVALID"
+msgstr "- L'un de vos liens URL est invalide."
+
+#: ../../../views/layout/javascript.php:126
+msgid "RESUMY_NB_ERRORS"
+msgstr "Votre formulaire contient {#n} erreur(s) :"
+
+#: ../../../views/layout/javascript.php:129
+msgid "DATEDISPO_UNVALID"
+msgstr ""
+"- La date de votre disponibilité est non valide, doit correspondre à la "
+"forme dd/mm/aaaa."
+
+#: ../../../views/layout/javascript.php:132
+msgid "BIRTHDATE_UNVALID"
+msgstr ""
+"- La date de naissance est non valide, doit correspondre à la forme dd/mm/"
+"aaaa."
+
+#: ../../../views/layout/javascript.php:144
+msgid "TITLE_MAX_CHAR_ALLOWED"
+msgstr "- Le titre ne peut contenir qu'au maximum {#n} caractères."
+
+#: ../../../views/layout/javascript.php:148
+msgid "DESC_MAX_CHAR_ALLOWED"
+msgstr "- Le description ne peut contenir qu'au maximum {#n} caractères."
+
+#: ../../../views/layout/javascript.php:151
+msgid "AVIS_COLLABO_REQUIRED"
+msgstr "- La critique doit nécessairement référencer un collaborateur."
+
+#: ../../../views/layout/javascript.php:152
+msgid "AVIS_COLLABO_NOTEXIST"
+msgstr ""
+"- Vous ne pouvez pour l'instant pas déposer d'avis vu que vous n'avez encore "
+"collaboré avec personne."
+
+#: ../../../views/layout/javascript.php:155
+msgid "ASK_SERVICES_REQUIRED"
+msgstr "- Choisir au moins une catégorie de service pour votre question."
+
+#: ../../../views/layout/javascript.php:156
+msgid "SERVICES_ASKER_REQUIRED"
+msgstr "- En tant que Asker, sélectionner au minimum un service recherché."
+
+#: ../../../views/layout/javascript.php:157
+msgid "SERVICES_PROVIDER_REQUIRED"
+msgstr "- En tant que Provider, sélectionner au minimum un service prôné."
+
+#: ../../../views/layout/javascript.php:158
+msgid "SERVICES_REQUIRED"
+msgstr "- Choisir au moins une catégorie de service à suivre."
+
+#: ../../../views/layout/mainMenu.php:30
+msgid "DISCOVER"
+msgstr "Découvrir"
+
+#: ../../../views/layout/mainMenu.php:40 ../../../views/layout/mainMenu.php:51
+msgid "MY_SPACE"
+msgstr "Moi"
+
+#: ../../../views/layout/registerbox_fb.php:29
+#: ../../../views/layout/registerbox_gen.php:86
+#: ../../../views/layout/module/connection.php:221
+msgid "NEUTRAL_PROFIL"
+msgstr "Profil neutre"
+
+#: ../../../views/layout/registerbox_gen.php:26
+msgid "FORM_SIGNUP_PREREMPPLI"
+msgstr ""
+"Le formulaire d’inscription a déjà été rempli avec les informations de votre "
+"profil  "
+
+#: ../../../views/layout/registerbox_gen.php:29
+msgid "TO_SAFE_TIME"
+msgstr "pour vous faire gagner du temps"
+
+#: ../../../views/layout/registerbox_gen.php:34
+msgid "JOIN_YOOMKEN_NOW"
+msgstr "Rejoignez Yoomken aujourd'hui !"
+
+#: ../../../views/layout/registerbox_gen.php:64
+#: ../../../views/layout/module/myProfile.php:152
+msgid "LABEL_PRIVACY"
+msgstr ""
+"Permettre d'afficher publiquement  le nom complet à la place du pseudo."
+
+#: ../../../views/layout/registerbox_gen.php:147
+msgid "SIGNUP_SUCCESSFULLY"
+msgstr "L'inscription est opéré ! Attendez un moment pour être redirigé."
+
+#: ../../../views/layout/registerbox_gen.php:172
+msgid "DATA_NOT_COPIED_UNTIL_SIGNUP"
+msgstr ""
+"Vos informations ne sont pas copiées tant que vous n'avez pas rempli toutes "
+"les données requises."
+
+#: ../../../views/layout/messages/warningBubble.php:7
+msgid "TRY_DISBABLE_FILTER"
+msgstr ""
+"Essayer de décocher un filtre parmi ceux activés  pour obtenir plus de "
+"resultats."
+
+#: ../../../views/layout/module/actions-button.php:28
+#: ../../../views/people/module/findFriends.php:109
+msgid "ASK"
+msgstr "Demander"
+
+#: ../../../views/layout/module/actions-button.php:28
+msgid "FOR"
+msgstr " "
+
+#: ../../../views/layout/module/actions-button.php:39
+#: ../../../views/layout/module/actions-button.php:40
+#: ../../../views/people/module/findFriends.php:117
+msgid "RECOMMAND"
+msgstr "Recommander"
+
+#: ../../../views/layout/module/actions-button.php:55
+#: ../../../views/people/inner/actions-follow.php:54
+#: ../../../views/people/inner/actions-follow.php:71
+msgid "INVIT"
+msgstr "Inviter"
+
+#: ../../../views/layout/module/actions-button.php:55
+#: ../../../views/people/inner/actions-follow.php:54
+#: ../../../views/people/inner/actions-follow.php:71
+msgid "TO_COLLABORATE"
+msgstr "à collaborer"
+
+#: ../../../views/layout/module/connection.php:216
+msgid "STATUS_MARKET"
+msgstr "Profil sur le réseau"
+
+#: ../../../views/layout/module/connection.php:268
+msgid "LANGUAGE"
+msgstr "Langue"
+
+#: ../../../views/layout/module/myOption.php:34
+msgid "OPT_ACCOUNT"
+msgstr "Compte"
+
+#: ../../../views/layout/module/myOption.php:44
+msgid "LABEL_MSG_NOTIF"
+msgstr ""
+"Permettre d'envoyer des emails de notifications au sujet des news ou des "
+"activités qui me sont liés."
+
+#: ../../../views/layout/module/myOption.php:48
+msgid "FIELD_NB_RESULT"
+msgstr "Nombre de résultats"
+
+#: ../../../views/layout/module/myOption.php:53
+#: ../../../views/layout/module/myOption.php:72
+msgid "LABEL_NB_RESULT"
+msgstr ""
+"Ajuster le nombre de résultats que vous souhaitez affichez pour une "
+"recherche."
+
+#: ../../../views/layout/module/myOption.php:94
+msgid "USE_LIMIT_INCOUNTRY"
+msgstr "(fonction en bêta, utilisation limitée pour l'instant dans votre pays)"
+
+#: ../../../views/layout/module/myOption.php:157
+#: ../../../views/layout/module/myProfile.php:666
+msgid "SAVE"
+msgstr "Sauver"
+
+#: ../../../views/layout/module/myOption.php:164
+#: ../../../views/layout/module/myProfile.php:675
+msgid "UPDATE_PROFIL_SUCCESSFULLY"
+msgstr "Les données de votre profile ont été mise à jour !"
+
+#: ../../../views/layout/module/myProfile.php:19
+#: ../../../views/people/inner/____displayBulle.php:32
+#: ../../../views/people/inner/displayBulle.php:30
+#: ../../../views/user/view.php:19
+msgid "DESC_NOT_SPECIFIED"
+msgstr "Description non renseignée."
+
+#: ../../../views/layout/module/myProfile.php:64
+#: ../../../views/layout/module/myProfile.php:532
+msgid "SERVICES_SUIVIS"
+msgstr "Services suivis"
+
+#: ../../../views/layout/module/myProfile.php:68
+#: ../../../views/user/view.php:97
+msgid "CALENDAR"
+msgstr "Calendrier Intervenant"
+
+#: ../../../views/layout/module/myProfile.php:76
+#: ../../../views/user/blocks/sidebarAll-right.php:2
+msgid "IDENTITY"
+msgstr "Identité"
+
+#: ../../../views/layout/module/myProfile.php:82
+#: ../../../views/user/blocks/sidebarAll-right.php:23
+msgid "GENDER"
+msgstr "Genre"
+
+#: ../../../views/layout/module/myProfile.php:192
+msgid "CALENDAR_OF_AVAILIBILITY"
+msgstr "Calendrier hebdomadaire de disponibilité"
+
+#: ../../../views/layout/module/myProfile.php:194
+msgid "INFORM_YOUR_AVAILIBILITY"
+msgstr ""
+"Veuillez informez à vos Asker vos heures de disponibilité dans le calendrier "
+"hebdomadaire suivant"
+
+#: ../../../views/layout/module/myProfile.php:200
+#: ../../../views/user/view.php:101
+msgid "Indisponible"
+msgstr "Indisponible"
+
+#: ../../../views/layout/module/myProfile.php:201
+#: ../../../views/user/view.php:102
+msgid "Disponible"
+msgstr "Disponible"
+
+#: ../../../views/layout/module/myProfile.php:203
+msgid "INFO_CALENDAR_SELECT_GROUP"
+msgstr "Possible de selectionner en groupe les coches"
+
+#: ../../../views/layout/module/myProfile.php:233
+#: ../../../views/user/view.php:134
+msgid "Monday"
+msgstr "Lundi"
+
+#: ../../../views/layout/module/myProfile.php:234
+#: ../../../views/user/view.php:135
+msgid "Tuesday"
+msgstr "Mardi"
+
+#: ../../../views/layout/module/myProfile.php:235
+#: ../../../views/user/view.php:136
+msgid "Wednesday"
+msgstr "Mercredi"
+
+#: ../../../views/layout/module/myProfile.php:236
+#: ../../../views/user/view.php:137
+msgid "Thursday"
+msgstr "Jeudi"
+
+#: ../../../views/layout/module/myProfile.php:237
+#: ../../../views/user/view.php:138
+msgid "Friday"
+msgstr "Vendredi"
+
+#: ../../../views/layout/module/myProfile.php:238
+#: ../../../views/user/view.php:139
+msgid "Saturday"
+msgstr "Samedi"
+
+#: ../../../views/layout/module/myProfile.php:239
+#: ../../../views/user/view.php:140
+msgid "Sunday"
+msgstr "Dimanche"
+
+#: ../../../views/layout/module/myProfile.php:259
+#: ../../../views/user/view.php:107
+msgid "AVAILABLE_FROM_DATE"
+msgstr "Disponible à partir du"
+
+#: ../../../views/layout/module/myProfile.php:327
+#: ../../../views/user/view.php:65
+msgid "EUR/HOUR"
+msgstr "€ / Heure"
+
+#: ../../../views/layout/module/myProfile.php:447
+#: ../../../views/user/view.php:92
+msgid "YEARS_EXPERIENCES"
+msgstr "Nombre d'années d'expériences"
+
+#: ../../../views/layout/module/myProfile.php:447
+#: ../../../views/user/view.php:92
+msgid "YEARS"
+msgstr "Années"
+
+#: ../../../views/layout/module/myProfile.php:570
+#: ../../../views/user/blocks/sidebarAll-right.php:32
+msgid "TEL."
+msgstr "Téléphone"
+
+#: ../../../views/layout/module/smartFilter.php:214
+msgid "_6_"
+msgstr "Pas de message entre vous."
+
+#: ../../../views/message/preview.php:10
+msgid "NOTIFICATIONS"
+msgstr "Notifications"
+
+#: ../../../views/message/preview.php:34
+msgid "NO_MESSAGE_NOW"
+msgstr "Aucun message pour le moment."
+
+#: ../../../views/message/blocks/recentContacts.php:2
+msgid "SEARCH_CONTACT"
+msgstr "Recherche contact"
+
+#: ../../../views/message/inner/displayDash.php:18
+msgid "DELETE_MSG"
+msgstr "supprimer le message"
+
+#: ../../../views/message/mail/askForCollaboration.php:7
+#: ../../../views/message/msg/askForCollaboration.php:2
+msgid "MAIL_REQUEST_DEAL"
+msgstr " souhaiterai collaborer avec vous"
+
+#: ../../../views/message/mail/askNewBadge.php:6
+#: ../../../views/message/msg/askNewBadge.php:2
+msgid "REQUEST_YOU_TO_RECEIVE_BADGE"
+msgstr "sollicite votre aide pour acquérir le badge "
+
+#: ../../../views/message/mail/askNewBadge.php:17
+#: ../../../views/message/mail/haveNewBadge.php:20
+#: ../../../views/message/msg/askNewBadge.php:26
+msgid "SKILL"
+msgstr "Compétences"
+
+#: ../../../views/message/mail/askNewBadge.php:17
+#: ../../../views/message/mail/haveNewBadge.php:20
+#: ../../../views/message/msg/askNewBadge.php:26
+msgid "PERSONALITY"
+msgstr "Personnalité"
+
+#: ../../../views/message/mail/askNewBadge.php:39
+msgid "NEED_TO_JOIN_YOOMKEN_TO_ACCEPT_REQUEST"
+msgstr "Rejoignez le réseau Yoomken pour répondre à sa demande !"
+
+#: ../../../views/message/mail/haveNewBadge.php:5
+#: ../../../views/message/msg/haveNewBadge.php:9
+msgid "CONGRAT YOU RECEIVED BADGE"
+msgstr "Félicitations ! Vous avez reçu le badge"
+
+#: ../../../views/message/mail/haveNewBadge.php:5
+#: ../../../views/message/msg/haveNewBadge.php:9
+msgid "FROM"
+msgstr "de"
+
+#: ../../../views/message/mail/inviteFriend.php:19
+msgid "INVITE YOU TO JOIN YOOMKEN"
+msgstr "vous invite à rejoindre Yoomken, le bon coin pour service rendu."
+
+#: ../../../views/message/mail/iRecommand.php:10
+#: ../../../views/message/msg/iRecommand.php:9
+msgid "RECOMMAND_USER_AS_WORK_RELATION_SPECIALAZED_IN_SERVICES"
+msgstr ""
+"vous recommande d'entrer en relation de travail avec {#user}  pour ses "
+"qualités  de services à la personne "
+
+#: ../../../views/message/mail/joinYoomken.php:9
+msgid "JOIN YOUR FRIEND IN YOOMKEN"
+msgstr ""
+"Rejoignez dés maintenant {#user} sur Yoomken, le réseau social qui vous rend "
+"service. "
+
+#: ../../../views/message/mail/sendpass.php:2
+msgid "MAIL_SEND_PASS_TXT1"
+msgstr ""
+" Vous avez recu cet e-mail parce que une demande a été faite pour changer le "
+"mot de passe Yoomken associée à cette adresse ({#email}). Si vous souhaitez "
+"réinitialiser le mot de passe de ce compte il suffit de cliquer sur le lien "
+"ci-dessous ou collez-le dans le champ URL de votre navigateur préféré :"
+
+#: ../../../views/message/mail/sendpass.php:5
+msgid "Reset"
+msgstr "Réinitialiser"
+
+#: ../../../views/message/mail/sendpass.php:8
+msgid "MAIL_SEND_PASS_TXT2"
+msgstr ""
+" Si vous n'avez pas demandé cet email, vous pouvez simplement l'ignorer - "
+"vos coordonnées n'ont été divulgués à personne.  Si vous avez des questions "
+"sur le système, n'hésitez pas à nous contacter à tout moment à <a "
+"href='mailto:contact@yoomken.com' >contact@yoomken.com</a>."
+
+#: ../../../views/message/mail/template.php:15
+msgid "HI"
+msgstr "Bonjour"
+
+#: ../../../views/message/mail/template.php:19
+msgid "YOO_TEAM_END_MAIL"
+msgstr ""
+"A très bientôt de la part de toute l’équipe <a href='http://yoomken.com' "
+"style='text-decoration: none;font-weight: bold;color: {#acolor}'>Yoomken</a>."
+
+#: ../../../views/message/mail/welcome.php:4
+msgid "Activate"
+msgstr "Activer"
+
+#: ../../../views/message/msg/askForCollaboration.php:16
+msgid "DO_YOU_ACCEPT_COLLABORATION"
+msgstr "Acceptez-vous sa demande de collaboration ? "
+
+#: ../../../views/message/msg/askNewBadge.php:36
+msgid "DO_YOU_ACCEPT_TO_GRANT_BADGE"
+msgstr "Acceptez-vous d'accorder sa demande de badge ?"
+
+#: ../../../views/people/blocks/subMenu.php:104
+msgid "HIS_WALL"
+msgstr "Son journal"
+
+#: ../../../views/people/blocks/subMenu.php:104
+msgid "MY_WALL"
+msgstr "Mon journal"
+
+#: ../../../views/people/blocks/subMenu.php:125
+msgid "Messages"
+msgstr "Messages"
+
+#: ../../../views/people/blocks/subsubMenu.php:6
+msgid "Toutes les relations"
+msgstr "Toutes les relations"
+
+#: ../../../views/people/inner/____displayBulle.php:6
+#: ../../../views/people/inner/actions-follow.php:91
+#: ../../../views/people/inner/displayBulle.php:7
+msgid "TXT_RELATION_ME->>"
+msgstr "{#who} et {#user} collaborez actuellement ensemble."
+
+#: ../../../views/people/inner/____displayBulle.php:10
+#: ../../../views/people/inner/actions-follow.php:95
+#: ../../../views/people/inner/displayBulle.php:11
+msgid "TXT_RELATION_<-ME->"
+msgstr "avec {#user}, vous vous suivez mutuellement (mais sans collaborer)."
+
+#: ../../../views/people/inner/____displayBulle.php:14
+#: ../../../views/people/inner/actions-follow.php:99
+#: ../../../views/people/inner/displayBulle.php:15
+msgid "TXT_RELATION_ME->"
+msgstr "{#who} suivez {#user} sans qu'elle ou il vous suit."
+
+#: ../../../views/people/inner/____displayBulle.php:18
+#: ../../../views/people/inner/actions-follow.php:103
+#: ../../../views/people/inner/displayBulle.php:19
+msgid "TXT_RELATION_<-ME"
+msgstr "{#user} vous suit sans que vous la ou le suivez "
+
+#: ../../../views/people/inner/____displayBulle.php:22
+#: ../../../views/people/inner/actions-follow.php:107
+#: ../../../views/people/inner/displayBulle.php:23
+msgid "TXT_RELATION_NONE"
+msgstr "{#who} n'avez pas encore de relation avec {#user}"
+
+#: ../../../views/people/inner/____displayBulle.php:91
+msgid "THE_PROFIL"
+msgstr "le profil"
+
+#: ../../../views/people/inner/____displayBulle.php:93
+msgid "THE_CRITIQUES"
+msgstr "les critiques"
+
+#: ../../../views/people/inner/____displayBulle.php:96
+msgid "THE_MESSAGES"
+msgstr "les messages "
+
+#: ../../../views/people/inner/____displayBulle.php:106
+msgid "PEOPLE_RECOMANDS"
+msgstr "personne recommande"
+
+#: ../../../views/people/inner/____displayBulle.php:106
+msgid "PEOPLE_RECOMAND"
+msgstr "personnes recommandent"
+
+#: ../../../views/people/inner/____displayBulle.php:112
+msgid "FOLLOWS"
+msgstr "suit"
+
+#: ../../../views/people/inner/____displayBulle.php:112
+msgid "PERSON(S)"
+msgstr "personne(s)"
+
+#: ../../../views/people/inner/____displayBulle.php:118
+msgid "PEOPLE_FOLLOWS"
+msgstr "personne suit"
+
+#: ../../../views/people/inner/____displayBulle.php:118
+msgid "PEOPLE_FOLLOW"
+msgstr "personnes suivent"
+
+#: ../../../views/people/inner/____displayBulle.php:124
+msgid "HAS_COLLABORATED"
+msgstr "personne a collaboré avec"
+
+#: ../../../views/people/inner/____displayBulle.php:124
+msgid "HAVE_COLLABORATED"
+msgstr "personnes ont collaboré"
+
+#: ../../../views/people/inner/____displayBulle.php:130
+msgid "AVIS_HAS_GOTTEN_FROM"
+msgstr "avis est référencé sur"
+
+#: ../../../views/people/inner/____displayBulle.php:130
+msgid "AVIS_HAVE_GOTTEN_FROM"
+msgstr "avis sont référencés sur"
+
+#: ../../../views/people/inner/____displayBulle.php:136
+msgid "MSG_HAS_SEND_FROM"
+msgstr "message vous a été destiné par"
+
+#: ../../../views/people/inner/____displayBulle.php:136
+msgid "MSG_HAVE_SEND_FROM"
+msgstr "messages vous ont été destiné par"
+
+#: ../../../views/people/module/findFriends.php:76
+msgid "SEARCH_CONTACT_OR_EMAIL"
+msgstr "Rechercher ami ou saisir email"
+
+#: ../../../views/people/module/findFriends.php:109
+msgid "GIVE"
+msgstr "Donner"
+
+#: ../../../views/people/module/findFriends.php:128
+msgid "MUST SELECT FRIEND"
+msgstr "Sélectionner un profil ou saisir un email valide."
+
+#: ../../../views/people/module/inviteToWork.php:54
+msgid "YOU CAN CONTACT WITHOUT COLLABORATING"
+msgstr ""
+"Vous ne pouvez pas contacter quelqu'un sans entrer en relation de travail "
+"avant. Inviter donc {#user} à collaborer avec vous. "
+
+#: ../../../views/people/module/inviteToWork.php:56
+msgid "ABOUT TO INVITE FOR COLLABORATING"
+msgstr ""
+"Vous êtes sur le point d'inviter {#user} à entrer en relation de travail "
+"avec vous. Ajouter un message  personnelle à votre invitation pour augmenter "
+"vos chances."
+
+#: ../../../views/people/module/inviteToWork.php:72
+msgid "MSG_WARN_INVIT_DEAL"
+msgstr ""
+"Si votre invitation est accepté, il sera possible à {#user} de vous "
+"contacter ou de visualiser votre vrai nom pendant toute la durée de votre "
+"entente. "
+
+#: ../../../views/question/all.php:21
+msgid "ASK_&_ANSWER"
+msgstr "Questions/Réponses"
+
+#: ../../../views/question/inner/displayDash.php:131
+msgid "PERSON_LIKES_ASK"
+msgstr "personne aime cette question"
+
+#: ../../../views/question/inner/displayDash.php:131
+msgid "PERSONS_LIKE_ASK"
+msgstr "personnes aiment cette question"
+
+#: ../../../views/question/inner/displayDash.php:134
+msgid "ANSWER_ADDED"
+msgstr "réponse(s) à cette question"
+
+#: ../../../views/user/view.php:39
+msgid "Description"
+msgstr "Description"
+
+#: ../../../views/user/view.php:42
+msgid "Pages Web"
+msgstr "Pages Web"
+
+#: ../../../views/user/blocks/sidebarAll-left.php:48
+msgid "Calendrier"
+msgstr "Calendrier"
+
+#~ msgid "Activities"
+#~ msgstr "Activités"
+
+#~ msgid "LISTEN_MARKET"
+#~ msgstr "Ecoute du réseau"
+
+#~ msgid "IAM_AWARE"
+#~ msgstr "A l'écoute"
+
+#~ msgid "IAM_UNAWARE"
+#~ msgstr "Indisponible"
+
+#~ msgid "IAM_HIDDEN"
+#~ msgstr "Invisible"
+
+#~ msgid "CLOSE"
+#~ msgstr "Fermer"
+
+#~ msgid "SHOW ALL"
+#~ msgstr "AFFICHER TOUS"
+
+#~ msgid "MONTRER_SEULEMENT"
+#~ msgstr "AFFICHER SELON"
+
+#~ msgid "QUELLE RELATION ?"
+#~ msgstr "QUELLE RELATION ?"
+
+#~ msgid "MYs"
+#~ msgstr "Mes"
+
+#~ msgid "READ_MORE_TXT"
+#~ msgstr "En savoir plus"
+
+#~ msgid "MAIL_NEW_MSG"
+#~ msgstr "{#user} vous a envoyé un nouveau message sur Yoomken."
+
+#~ msgid "ACCEPT INVITATION"
+#~ msgstr "ACCEPTER INVITATION"
+
+#~ msgid "MY_SERVICES_FOLLOWED"
+#~ msgstr "Mes services suivis"
+
+#~ msgid "HOME_SIGNUP"
+#~ msgstr "Acceuil"
+
+#~ msgid "USP_SHORT"
+#~ msgstr "Soyez convaincu de la personne <br/>qui vous faut."
+
+#~ msgid "USP_DETAIL"
+#~ msgstr ""
+#~ "Vous recherchez ou offrez des services à domicile ? Yoomken a été "
+#~ "construit pour agir comme vous. Trouver la personne qui vous faut en "
+#~ "échangeant avec les gens autour de vous des contacts, des conseils, des "
+#~ "informations utiles, des services en temps réel et de manière "
+#~ "géolocalisée."
+
+#~ msgid "IDEA_SERVICE_HEAD"
+#~ msgstr "Vos services mise en valeur"
+
+#~ msgid "IDEA_SERVICE_TXT"
+#~ msgstr ""
+#~ "Une fois inscrit, vous optez pour des services facilement distinguables "
+#~ "par vos futurs collaborateurs qui suivent les mêmes intérêts. "
+
+#~ msgid "IDEA_PROFIL_HEAD"
+#~ msgstr "Asker ou Provider"
+
+#~ msgid "IDEA_PROFIL_TXT"
+#~ msgstr ""
+#~ "Basculez simplement et à tout moment du statut de fournisseur à demandeur "
+#~ "de service, et vice versa."
+
+#~ msgid "OUR_CONCEPT"
+#~ msgstr "Le concept"
+
+#~ msgid "ATRACTIVE_RESUME_YOOMKEN"
+#~ msgstr ""
+#~ "Yoomken est un nouveau concept de réseau social élaboré pour les "
+#~ "activités de small Business. Si vous pensez posséder une compétence que "
+#~ "vous pourriez offrir ou monnayer, si vous cherchez quelqu’un de qualifié "
+#~ "pour un travail que vous ne pouvez réaliser ou que vous ne voulez pas "
+#~ "effectuer alors Yoomken est l'outil adapté."
+
+#~ msgid "CREATE_ACCOUNT_VIA_FB"
+#~ msgstr "Créer un compte via Facebook"
+
+#~ msgid "OR"
+#~ msgstr "OU"
+
+#~ msgid "CREATE_ACCOUNT_VIA_GOO"
+#~ msgstr "Créer un compte via Gmail"
+
+#~ msgid "FAQ"
+#~ msgstr "FAQ"
+
+#~ msgid "MY_JOURNAL_EXPRESS_YOURSELF"
+#~ msgstr ""
+#~ "Exprimez-vous en partageant sur le réseau vos expériences, vos "
+#~ "découvertes, vos offres ou vos questions :"
+
+#~ msgid "HIS_JOURNAL_EXPRESS_YOURSELF"
+#~ msgstr ""
+#~ "Poster un message sur le journal de {#user} sur des sujets qui lui "
+#~ "concernent :"
+
+#~ msgid "SHARING"
+#~ msgstr "Partage sur le Web"
+
+#~ msgid "Soutien(s)"
+#~ msgstr "Soutiens"
+
+#, fuzzy
+#~ msgid "SUGGEST_BADGE"
+#~ msgstr ""
+#~ "Solliciter une demande de collaboration à cette personne, ainsi elle "
+#~ "pourrait accepter de vous publier ses coordonnées"
+
+#~ msgid "TIT_BADGE_SUGGEST"
+#~ msgstr "Badges manquants ? "
+
+#~ msgid "TXT_BADGE_SUGGEST"
+#~ msgstr "Vous avez des idées de nouveaux badges à nous suggérer "
+
+#~ msgid "TIT_BADGE_MEMB"
+#~ msgstr "Badges Membres"
+
+#~ msgid "TXT_BADGE_MEMB"
+#~ msgstr ""
+#~ "Ces badges ne sont distribués que par le système (non recevable par une "
+#~ "relation). Elles résument un ensemble d'interactions spécifiques établit "
+#~ "dans le réseau Yoomken. Débloquer un badge membre, vous récompense  d'une "
+#~ "action ou d'un effort social qui a été bénéfique à la communauté."
+
+#~ msgid "Member"
+#~ msgstr "Membre"
+
+#~ msgid "SLOGON"
+#~ msgstr "Le bon coin pour service rendu"
+
+#~ msgid "HIS_ACTUALITIES"
+#~ msgstr "Son journal"
+
+#~ msgid "ABOUTUS_TITLE"
+#~ msgstr "Yoomken, le réseau social pour se rendre service"
+
+#~ msgid "THE_CONCEPT"
+#~ msgstr "Le concept"
+
+#~ msgid "TITLE_ABOUT_US"
+#~ msgstr "A propos de nous"
+
+#~ msgid "MY_ACTUALITES"
+#~ msgstr "Mon journal"
+
+#~ msgid "QUESTIONS"
+#~ msgstr "Questions"
+
+#~ msgid "RAPPEL_NB_FILTRE"
+#~ msgstr ""
+#~ "Rappel que vous avez actuellement {#nbfilters} filtre(s) activé(s) <br>\n"
+#~ "qui peut limiter votre recherche."
+
+#~ msgid "FILTER_"
+#~ msgstr " "
+
+#~ msgid "GENERAL"
+#~ msgstr "Général"
+
+#~ msgid "BETA"
+#~ msgstr "bêta"
+
+#~ msgid "DELETE_FILTER"
+#~ msgstr "Supprimer le filtre"
+
+#~ msgid "NEW_FILTER"
+#~ msgstr "Un nouveau filtre"
+
+#~ msgid "EDIT_PROFIL"
+#~ msgstr "Modifier le profil"
+
+#~ msgid "RECENT_CONTACT"
+#~ msgstr "Contacts"
+
+#~ msgid "PRESENTATION"
+#~ msgstr "Présentation"
+
+#~ msgid "PROFILS_FOLLOWED_BY"
+#~ msgstr "Profils qui sont suivis par"
+
+#~ msgid "AND_NOT_FOLLOW"
+#~ msgstr "et que {#user} ne les suit pas"
+
+#~ msgid "PROFILS_FOLLOW"
+#~ msgstr "Profils qui suivent"
+
+#~ msgid "AND_NOT_FOLLOWED"
+#~ msgstr "et qui ne suivent"
+
+#~ msgid "MODE_WAITING_LIST"
+#~ msgstr ""
+#~ "Votre plateforme Yoomken est en phase de finalisation. Nous vous invitons "
+#~ "cependant à vous inscrire, de cette façon vous serez les premiers "
+#~ "informés dès que le réseau sera ouvert."
+
+#, fuzzy
+#~ msgid "MOBILEPHONE"
+#~ msgstr "Mobile"
+
+#~ msgid "NOWLIKE"
+#~ msgstr "aime "
+
+#, fuzzy
+#~ msgid "CUR_LOCATION"
+#~ msgstr "Lieu"
+
+#, fuzzy
+#~ msgid "CUSTOM_URL"
+#~ msgstr "Perso"
+
+#~ msgid "Nouvelle"
+#~ msgstr "Scoop"
+
+#~ msgid "Avis"
+#~ msgstr "Opinion"
+
+#~ msgid "FLOW_ACTUALITY"
+#~ msgstr "Fil d'actualité"
+
+#~ msgid "STATUS_PROFIL"
+#~ msgstr "Profil actuel"
+
+#~ msgid "USE_LIMIT_RAYON_KM"
+#~ msgstr "(fonction en bêta, rayon fixé pour l'instant à 30 km)"
+
+#~ msgid "MY_SUIVIS"
+#~ msgstr "Mes profils suivis"
+
+#, fuzzy
+#~ msgid "MY_SUIVEURS"
+#~ msgstr "Posts de mes suiveurs"
+
+#~ msgid "NO_BIRTHDATE"
+#~ msgstr "Date de naissance non renseignée."
+
+#~ msgid "ACCORDING_MY_POSITION"
+#~ msgstr "Mon lieu"
+
+#~ msgid "A_ENTREPRIS"
+#~ msgstr "a entrepris"
+
+#~ msgid "DISLIKE_USR"
+#~ msgstr "Je ne recommande plus"
+
+#~ msgid "LIKE_USR"
+#~ msgstr "Je recommande"
+
+#~ msgid "PISTE_S_PISTEUR_ACT"
+#~ msgstr "Leurs pistes"
+
+#~ msgid "PISTE_S_PISTEUR_USR"
+#~ msgstr "Me pistant"
+
+#~ msgid "FB_APP"
+#~ msgstr " "
+
+#~ msgid "AWARE"
+#~ msgstr "A l'écoute"
+
+#~ msgid "UNAWARE"
+#~ msgstr "Pas à l'écoute"
+
+#~ msgid "SPACE_"
+#~ msgstr " "
+
+#, fuzzy
+#~ msgid "TEAM_TITLE_2"
+#~ msgstr " "
+
+#, fuzzy
+#~ msgid "TEAM_SAP_JOB"
+#~ msgstr "CEO & Co-fondateur"
+
+#, fuzzy
+#~ msgid "TEAM_SAP_TXT"
+#~ msgstr ""
+#~ "Ingénieur en électronique de formation, je me suis reconverti dans les "
+#~ "nouvelles technologies en devenant un Free-lance confirmé. Mon "
+#~ "indépendance me plaît beaucoup et je m'investis dans Yoomken pour vous la "
+#~ "faire partager. J'ose croire en son potentiel à servir de tremplin aux "
+#~ "jeunes dans leur carrière et à faciliter la recherche de job ponctuel au "
+#~ "quotidien."
+
+#, fuzzy
+#~ msgid "TEAM_AHM_JOB"
+#~ msgstr "Co-fondateur"
+
+#, fuzzy
+#~ msgid "TEAM_AHM_TXT"
+#~ msgstr ""
+#~ "Consultant en Business Intelligence, j'apporte ma vision de mon domaine "
+#~ "de travail. Il existe un besoin grandissant de la part des particuliers à "
+#~ "trouver une ressource qualifiée et en même temps libre pour accomplir "
+#~ "leurs tâches spécialisées. J'ai la conviction que Yoomken puisse être la "
+#~ "plateforme idéal pour répondre à ce besoin."
+
+#, fuzzy
+#~ msgid "ABOUTUS_2_PROFIL_2"
+#~ msgstr "Les deux"
+
+#, fuzzy
+#~ msgid "ABOUTUS_2_PROFIL_3"
+#~ msgstr "Les deux"
+
+#, fuzzy
+#~ msgid "ABOUTUS_DEST_SERVICE_2"
+#~ msgstr ""
+#~ "Alef est avant tout un service pour et par les particuliers. <br/>\n"
+#~ "Si tu penses posséder une compétence que tu pourrais monnayer ou si tu "
+#~ "cherches quelqu’un de qualifié pour un travail que tu ne peux réaliser ou "
+#~ "que tu ne veux pas effectuer alors Alef est l’outil adapté.<br/>\n"
+#~ "Dans cette optique, Alef introduit les profils Bidder et Asker: Bidder "
+#~ "étant celui qui soumet un service (offrant le service) et Asker celui qui "
+#~ "est prêt a rémunérer ce service (demandant le service).<br/>\n"
+#~ "Il est important de souligner que le profil d’un utilisateur n'étant pas "
+#~ "figé, Bidder peut être lui-même Asker et vice-versa."
+
+#, fuzzy
+#~ msgid "ABOUTUS_DEST_SERVICE_3"
+#~ msgstr ""
+#~ "Alef est avant tout un service pour et par les particuliers. <br/>\n"
+#~ "Si tu penses posséder une compétence que tu pourrais monnayer ou si tu "
+#~ "cherches quelqu’un de qualifié pour un travail que tu ne peux réaliser ou "
+#~ "que tu ne veux pas effectuer alors Alef est l’outil adapté.<br/>\n"
+#~ "Dans cette optique, Alef introduit les profils Bidder et Asker: Bidder "
+#~ "étant celui qui soumet un service (offrant le service) et Asker celui qui "
+#~ "est prêt a rémunérer ce service (demandant le service).<br/>\n"
+#~ "Il est important de souligner que le profil d’un utilisateur n'étant pas "
+#~ "figé, Bidder peut être lui-même Asker et vice-versa."
+
+#, fuzzy
+#~ msgid "ABOUTUS_DEST_SERVICE_4"
+#~ msgstr ""
+#~ "Alef est avant tout un service pour et par les particuliers. <br/>\n"
+#~ "Si tu penses posséder une compétence que tu pourrais monnayer ou si tu "
+#~ "cherches quelqu’un de qualifié pour un travail que tu ne peux réaliser ou "
+#~ "que tu ne veux pas effectuer alors Alef est l’outil adapté.<br/>\n"
+#~ "Dans cette optique, Alef introduit les profils Bidder et Asker: Bidder "
+#~ "étant celui qui soumet un service (offrant le service) et Asker celui qui "
+#~ "est prêt a rémunérer ce service (demandant le service).<br/>\n"
+#~ "Il est important de souligner que le profil d’un utilisateur n'étant pas "
+#~ "figé, Bidder peut être lui-même Asker et vice-versa."
+
+#, fuzzy
+#~ msgid "ABOUTUS_NETWORK_TITLE_1"
+#~ msgstr ""
+#~ "Au-delà des divers possibilités mises à disposition pour publier et "
+#~ "référencer les offres, Alef s’attache plus particulièrement à offrir les "
+#~ "meilleures services en matière de filtrage des contenus.<br/>\n"
+#~ "Un problème récurrent et commun à beaucoup de réseaux sociaux est le "
+#~ "manque de visibilité d'une information, cette dernière étant souvent "
+#~ "noyée dans la masse. Pour y remédier, Alef apporte un système de filtrage "
+#~ "sophistiqué et innovant: il t’est en effet possible de créer autant de "
+#~ "flux que tu désires en combinant autant de filtres que de critères "
+#~ "souhaités.<br/>\n"
+#~ "En général, beaucoup d'informations sont diffusées via les cercles "
+#~ "d'amis, la famille, le travail, mais dans la vie réelle ce modèle a ses "
+#~ "limites car il est difficile d'étendre ses contacts au delà de ce seuil. "
+#~ "Grâce à une technologie performante, Yoomken te permet d'étendre ce "
+#~ "modèle de façon quasi-infinie et ainsi de profiter d’une information "
+#~ "toujours plus riche et plus pertinente.<br/>\n"
+#~ "Tout ceci te garantit en tant que Asker de pister plus facilement les "
+#~ "profils les plus appropriés et en tant que Bidder de te positionner au "
+#~ "mieux et de décrocher les meilleures offres."
+
+#, fuzzy
+#~ msgid "ABOUTUS_NETWORK_TITLE_2"
+#~ msgstr ""
+#~ "Au-delà des divers possibilités mises à disposition pour publier et "
+#~ "référencer les offres, Alef s’attache plus particulièrement à offrir les "
+#~ "meilleures services en matière de filtrage des contenus.<br/>\n"
+#~ "Un problème récurrent et commun à beaucoup de réseaux sociaux est le "
+#~ "manque de visibilité d'une information, cette dernière étant souvent "
+#~ "noyée dans la masse. Pour y remédier, Alef apporte un système de filtrage "
+#~ "sophistiqué et innovant: il t’est en effet possible de créer autant de "
+#~ "flux que tu désires en combinant autant de filtres que de critères "
+#~ "souhaités.<br/>\n"
+#~ "En général, beaucoup d'informations sont diffusées via les cercles "
+#~ "d'amis, la famille, le travail, mais dans la vie réelle ce modèle a ses "
+#~ "limites car il est difficile d'étendre ses contacts au delà de ce seuil. "
+#~ "Grâce à une technologie performante, Yoomken te permet d'étendre ce "
+#~ "modèle de façon quasi-infinie et ainsi de profiter d’une information "
+#~ "toujours plus riche et plus pertinente.<br/>\n"
+#~ "Tout ceci te garantit en tant que Asker de pister plus facilement les "
+#~ "profils les plus appropriés et en tant que Bidder de te positionner au "
+#~ "mieux et de décrocher les meilleures offres."
+
+#, fuzzy
+#~ msgid "ABOUTUS_NETWORK_2_1"
+#~ msgstr ""
+#~ "Au-delà des divers possibilités mises à disposition pour publier et "
+#~ "référencer les offres, Alef s’attache plus particulièrement à offrir les "
+#~ "meilleures services en matière de filtrage des contenus.<br/>\n"
+#~ "Un problème récurrent et commun à beaucoup de réseaux sociaux est le "
+#~ "manque de visibilité d'une information, cette dernière étant souvent "
+#~ "noyée dans la masse. Pour y remédier, Alef apporte un système de filtrage "
+#~ "sophistiqué et innovant: il t’est en effet possible de créer autant de "
+#~ "flux que tu désires en combinant autant de filtres que de critères "
+#~ "souhaités.<br/>\n"
+#~ "En général, beaucoup d'informations sont diffusées via les cercles "
+#~ "d'amis, la famille, le travail, mais dans la vie réelle ce modèle a ses "
+#~ "limites car il est difficile d'étendre ses contacts au delà de ce seuil. "
+#~ "Grâce à une technologie performante, Yoomken te permet d'étendre ce "
+#~ "modèle de façon quasi-infinie et ainsi de profiter d’une information "
+#~ "toujours plus riche et plus pertinente.<br/>\n"
+#~ "Tout ceci te garantit en tant que Asker de pister plus facilement les "
+#~ "profils les plus appropriés et en tant que Bidder de te positionner au "
+#~ "mieux et de décrocher les meilleures offres."
+
+#, fuzzy
+#~ msgid "ABOUT_NETWORK_2_2"
+#~ msgstr ""
+#~ "Au-delà des divers possibilités mises à disposition pour publier et "
+#~ "référencer les offres, Alef s’attache plus particulièrement à offrir les "
+#~ "meilleures services en matière de filtrage des contenus.<br/>\n"
+#~ "Un problème récurrent et commun à beaucoup de réseaux sociaux est le "
+#~ "manque de visibilité d'une information, cette dernière étant souvent "
+#~ "noyée dans la masse. Pour y remédier, Alef apporte un système de filtrage "
+#~ "sophistiqué et innovant: il t’est en effet possible de créer autant de "
+#~ "flux que tu désires en combinant autant de filtres que de critères "
+#~ "souhaités.<br/>\n"
+#~ "En général, beaucoup d'informations sont diffusées via les cercles "
+#~ "d'amis, la famille, le travail, mais dans la vie réelle ce modèle a ses "
+#~ "limites car il est difficile d'étendre ses contacts au delà de ce seuil. "
+#~ "Grâce à une technologie performante, Yoomken te permet d'étendre ce "
+#~ "modèle de façon quasi-infinie et ainsi de profiter d’une information "
+#~ "toujours plus riche et plus pertinente.<br/>\n"
+#~ "Tout ceci te garantit en tant que Asker de pister plus facilement les "
+#~ "profils les plus appropriés et en tant que Bidder de te positionner au "
+#~ "mieux et de décrocher les meilleures offres."
+
+#, fuzzy
+#~ msgid "ABOUT_NETWORK_2_3_1"
+#~ msgstr ""
+#~ "Au-delà des divers possibilités mises à disposition pour publier et "
+#~ "référencer les offres, Alef s’attache plus particulièrement à offrir les "
+#~ "meilleures services en matière de filtrage des contenus.<br/>\n"
+#~ "Un problème récurrent et commun à beaucoup de réseaux sociaux est le "
+#~ "manque de visibilité d'une information, cette dernière étant souvent "
+#~ "noyée dans la masse. Pour y remédier, Alef apporte un système de filtrage "
+#~ "sophistiqué et innovant: il t’est en effet possible de créer autant de "
+#~ "flux que tu désires en combinant autant de filtres que de critères "
+#~ "souhaités.<br/>\n"
+#~ "En général, beaucoup d'informations sont diffusées via les cercles "
+#~ "d'amis, la famille, le travail, mais dans la vie réelle ce modèle a ses "
+#~ "limites car il est difficile d'étendre ses contacts au delà de ce seuil. "
+#~ "Grâce à une technologie performante, Yoomken te permet d'étendre ce "
+#~ "modèle de façon quasi-infinie et ainsi de profiter d’une information "
+#~ "toujours plus riche et plus pertinente.<br/>\n"
+#~ "Tout ceci te garantit en tant que Asker de pister plus facilement les "
+#~ "profils les plus appropriés et en tant que Bidder de te positionner au "
+#~ "mieux et de décrocher les meilleures offres."
+
+#, fuzzy
+#~ msgid "ABOUT_NETWORK_2_4_1"
+#~ msgstr ""
+#~ "Au-delà des divers possibilités mises à disposition pour publier et "
+#~ "référencer les offres, Alef s’attache plus particulièrement à offrir les "
+#~ "meilleures services en matière de filtrage des contenus.<br/>\n"
+#~ "Un problème récurrent et commun à beaucoup de réseaux sociaux est le "
+#~ "manque de visibilité d'une information, cette dernière étant souvent "
+#~ "noyée dans la masse. Pour y remédier, Alef apporte un système de filtrage "
+#~ "sophistiqué et innovant: il t’est en effet possible de créer autant de "
+#~ "flux que tu désires en combinant autant de filtres que de critères "
+#~ "souhaités.<br/>\n"
+#~ "En général, beaucoup d'informations sont diffusées via les cercles "
+#~ "d'amis, la famille, le travail, mais dans la vie réelle ce modèle a ses "
+#~ "limites car il est difficile d'étendre ses contacts au delà de ce seuil. "
+#~ "Grâce à une technologie performante, Yoomken te permet d'étendre ce "
+#~ "modèle de façon quasi-infinie et ainsi de profiter d’une information "
+#~ "toujours plus riche et plus pertinente.<br/>\n"
+#~ "Tout ceci te garantit en tant que Asker de pister plus facilement les "
+#~ "profils les plus appropriés et en tant que Bidder de te positionner au "
+#~ "mieux et de décrocher les meilleures offres."
+
+#, fuzzy
+#~ msgid "ABOUT_NETWORK_2_5"
+#~ msgstr ""
+#~ "Au-delà des divers possibilités mises à disposition pour publier et "
+#~ "référencer les offres, Alef s’attache plus particulièrement à offrir les "
+#~ "meilleures services en matière de filtrage des contenus.<br/>\n"
+#~ "Un problème récurrent et commun à beaucoup de réseaux sociaux est le "
+#~ "manque de visibilité d'une information, cette dernière étant souvent "
+#~ "noyée dans la masse. Pour y remédier, Alef apporte un système de filtrage "
+#~ "sophistiqué et innovant: il t’est en effet possible de créer autant de "
+#~ "flux que tu désires en combinant autant de filtres que de critères "
+#~ "souhaités.<br/>\n"
+#~ "En général, beaucoup d'informations sont diffusées via les cercles "
+#~ "d'amis, la famille, le travail, mais dans la vie réelle ce modèle a ses "
+#~ "limites car il est difficile d'étendre ses contacts au delà de ce seuil. "
+#~ "Grâce à une technologie performante, Yoomken te permet d'étendre ce "
+#~ "modèle de façon quasi-infinie et ainsi de profiter d’une information "
+#~ "toujours plus riche et plus pertinente.<br/>\n"
+#~ "Tout ceci te garantit en tant que Asker de pister plus facilement les "
+#~ "profils les plus appropriés et en tant que Bidder de te positionner au "
+#~ "mieux et de décrocher les meilleures offres."
+
+#, fuzzy
+#~ msgid "ABOUT_NETWORK_2_6"
+#~ msgstr ""
+#~ "Au-delà des divers possibilités mises à disposition pour publier et "
+#~ "référencer les offres, Alef s’attache plus particulièrement à offrir les "
+#~ "meilleures services en matière de filtrage des contenus.<br/>\n"
+#~ "Un problème récurrent et commun à beaucoup de réseaux sociaux est le "
+#~ "manque de visibilité d'une information, cette dernière étant souvent "
+#~ "noyée dans la masse. Pour y remédier, Alef apporte un système de filtrage "
+#~ "sophistiqué et innovant: il t’est en effet possible de créer autant de "
+#~ "flux que tu désires en combinant autant de filtres que de critères "
+#~ "souhaités.<br/>\n"
+#~ "En général, beaucoup d'informations sont diffusées via les cercles "
+#~ "d'amis, la famille, le travail, mais dans la vie réelle ce modèle a ses "
+#~ "limites car il est difficile d'étendre ses contacts au delà de ce seuil. "
+#~ "Grâce à une technologie performante, Yoomken te permet d'étendre ce "
+#~ "modèle de façon quasi-infinie et ainsi de profiter d’une information "
+#~ "toujours plus riche et plus pertinente.<br/>\n"
+#~ "Tout ceci te garantit en tant que Asker de pister plus facilement les "
+#~ "profils les plus appropriés et en tant que Bidder de te positionner au "
+#~ "mieux et de décrocher les meilleures offres."
+
+#, fuzzy
+#~ msgid "ABOUT_NETWORK_TITLE_3"
+#~ msgstr ""
+#~ "Au-delà des divers possibilités mises à disposition pour publier et "
+#~ "référencer les offres, Alef s’attache plus particulièrement à offrir les "
+#~ "meilleures services en matière de filtrage des contenus.<br/>\n"
+#~ "Un problème récurrent et commun à beaucoup de réseaux sociaux est le "
+#~ "manque de visibilité d'une information, cette dernière étant souvent "
+#~ "noyée dans la masse. Pour y remédier, Alef apporte un système de filtrage "
+#~ "sophistiqué et innovant: il t’est en effet possible de créer autant de "
+#~ "flux que tu désires en combinant autant de filtres que de critères "
+#~ "souhaités.<br/>\n"
+#~ "En général, beaucoup d'informations sont diffusées via les cercles "
+#~ "d'amis, la famille, le travail, mais dans la vie réelle ce modèle a ses "
+#~ "limites car il est difficile d'étendre ses contacts au delà de ce seuil. "
+#~ "Grâce à une technologie performante, Yoomken te permet d'étendre ce "
+#~ "modèle de façon quasi-infinie et ainsi de profiter d’une information "
+#~ "toujours plus riche et plus pertinente.<br/>\n"
+#~ "Tout ceci te garantit en tant que Asker de pister plus facilement les "
+#~ "profils les plus appropriés et en tant que Bidder de te positionner au "
+#~ "mieux et de décrocher les meilleures offres."
+
+#, fuzzy
+#~ msgid "ABOUT_NETWORK_3"
+#~ msgstr "Un réseau social professionnel pas comme les autres"
+
+#, fuzzy
+#~ msgid "ABOUTUS_DEFINE_YOOMKEN"
+#~ msgstr "Qu'est ce que Yoomken ?"
+
+#, fuzzy
+#~ msgid "SPACE_PRESTA"
+#~ msgstr "Paye souhaitée"
+
+#, fuzzy
+#~ msgid "SPACE_EMPLOYER"
+#~ msgstr "Recruteur"
+
+#, fuzzy
+#~ msgid "SPACE_PRESTA_INTRO"
+#~ msgstr "Paye souhaitée"
+
+#, fuzzy
+#~ msgid "SPACE_PRESTA_TITLE_1"
+#~ msgstr "Paye souhaitée"
+
+#, fuzzy
+#~ msgid "SPACE_PRESTA_1_1"
+#~ msgstr "Paye souhaitée"
+
+#, fuzzy
+#~ msgid "SPACE_PRESTA_TITLE_2"
+#~ msgstr "Paye souhaitée"
+
+#, fuzzy
+#~ msgid "SPACE_PRESTA_2_1"
+#~ msgstr "Paye souhaitée"
+
+#, fuzzy
+#~ msgid "SPACE_PRESTA_2_2"
+#~ msgstr "Paye souhaitée"
+
+#, fuzzy
+#~ msgid "ERR_NOT_LOGED,"
+#~ msgstr ""
+#~ "Les coordonnées de cette personne ne vous sont pas accessible étant "
+#~ "donnée que vous n'êtes pas actuellement en collaboration avec lui."
+
+#~ msgid "RESULTS_FOR"
+#~ msgstr "résultats pour"
+
+#~ msgid "VIEW_DASH"
+#~ msgstr " "
+
+#~ msgid "VIEW_LIST"
+#~ msgstr " "
+
+#~ msgid "VIEW_GRID"
+#~ msgstr " "

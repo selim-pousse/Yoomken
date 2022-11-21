@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/yoomdev/!svn/ver/358/trunk/application/views/people/inner
+END
+displayJson.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/yoomdev/!svn/ver/352/trunk/application/views/people/inner/displayJson.php
+END
+displayIcon.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/yoomdev/!svn/ver/264/trunk/application/views/people/inner/displayIcon.php
+END
+displayBulle.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/yoomdev/!svn/ver/360/trunk/application/views/people/inner/displayBulle.php
+END
+displayFriend.php
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/yoomdev/!svn/ver/357/trunk/application/views/people/inner/displayFriend.php
+END
+displayList.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/yoomdev/!svn/ver/358/trunk/application/views/people/inner/displayList.php
+END
+____displayBulle.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/yoomdev/!svn/ver/307/trunk/application/views/people/inner/____displayBulle.php
+END
+actions-follow.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/yoomdev/!svn/ver/354/trunk/application/views/people/inner/actions-follow.php
+END
+displayForSelect.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/yoomdev/!svn/ver/342/trunk/application/views/people/inner/displayForSelect.php
+END
+____displayDash.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/yoomdev/!svn/ver/211/trunk/application/views/people/inner/____displayDash.php
+END
+displayRelations.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/yoomdev/!svn/ver/338/trunk/application/views/people/inner/displayRelations.php
+END

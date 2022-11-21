@@ -1,0 +1,100 @@
+#!/bin/sh
+
+BIN=/sbin/iptables
+IFNET="eth0"
+
+$BIN -F
+$BIN -X
+#$BIN -Z #$BIN -t nat -F
+
+#
+$BIN -P INPUT ACCEPT
+$BIN -P INPUT DROP
+#
+$BIN -P OUTPUT ACCEPT
+$BIN -P OUTPUT DROP
+$BIN -P FORWARD DROP
+
+
+$BIN -A INPUT -p tcp --tcp-flags FIN,URG,PSH FIN,URG,PSH -j DROP
+$BIN -A INPUT -p tcp --tcp-flags ALL ALL -j DROP
+$BIN -A INPUT -p tcp --tcp-flags ALL NONE -j DROP
+$BIN -A INPUT -p tcp --tcp-flags SYN,RST SYN,RST -j DROP
+
+#------------
+# accepte les requetes de type http
+$BIN -A INPUT  -p tcp --sport 1024:65535 --dport 80 -m state --state NEW,ESTABLISHED -j ACCEPT
+$BIN -A OUTPUT -p tcp --sport 80 --dport 1024:65535 -m state --state ESTABLISHED -j ACCEPT
+#
+#Allow MySQL connection only from our private network
+$BIN -A INPUT -i tun0 -p tcp -s 10.8.0.1/24 --dport 3306 -m state --state NEW,ESTABLISHED -j ACCEPT
+$BIN -A OUTPUT -o tun0 -p tcp --sport 3306 -m state --state ESTABLISHED -j ACCEPT
+
+#
+# ---- OpenVPN ----
+#configure VPN
+echo 1 > /proc/sys/net/ipv4/ip_forward
+$BIN -t nat -A POSTROUTING -s 10.8.0.0/24 -o $IFNET -j MASQUERADE
+
+# On accepte tout les paquets pour les interfaces TUN0.
+#iptables -A INPUT -i tun0 -j ACCEPT
+#iptables -A OUTPUT -o tun0 -j ACCEPT
+
+# ----------------
+#on accepte les requetes ssh arrivant sur l'interface tun0
+$BIN -A INPUT -i tun0 -p tcp --dport 22 -m state --state NEW,ESTABLISHED -j ACCEPT
+$BIN -A OUTPUT -o tun0 -p tcp --sport 22 -m state --state ESTABLISHED -j ACCEPT
+#
+# On accepte tout les paquets OpenVPN en TCP sur le port 443.
+$BIN -A INPUT -i $IFNET -p tcp --dport 443 -m state --state NEW,ESTABLISHED -j ACCEPT
+$BIN -A OUTPUT -o $IFNET -p tcp --sport 443 -m state --state ESTABLISHED -j ACCEPT
+
+#
+# accepter les pings
+$BIN -A INPUT -i tun0 -p icmp --icmp-type echo-request -j ACCEPT
+$BIN -A OUTPUT -o tun0 -p icmp --icmp-type echo-reply -j ACCEPT
+
+#
+# FTP -------------
+$BIN -A INPUT -p tcp -i tun0 --dport ftp -j ACCEPT
+$BIN -A OUTPUT -p tcp -o tun0 --sport ftp -j ACCEPT
+$BIN -A INPUT -p tcp -i tun0 --dport 56780:56792 -j ACCEPT
+$BIN -A OUTPUT -p tcp -o tun0 --sport 56780:56792 -j ACCEPT
+modprobe ip_nat_ftp
+
+#
+# Mail ------------
+# Mail SMTP:587
+iptables -A INPUT -p tcp --sport 587 -m state --state ESTABLISHED -j ACCEPT
+iptables -A OUTPUT -p tcp --dport 587 -j ACCEPT
+
+iptables -A OUTPUT -m conntrack --ctstate ESTABLISHED,RELATED -j ACCEPT
+iptables -A INPUT -m conntrack --ctstate ESTABLISHED,RELATED -j ACCEPT
+iptables -A OUTPUT -p tcp --dport 53 -j ACCEPT
+iptables -A OUTPUT -p udp --dport 53 -j ACCEPT
+
+#
+#iptables -A INPUT -p icmp --icmp-type 3/4 -j ACCEPT 
+#iptables -A INPUT -p icmp --icmp-type 11 -j ACCEPT 
+#iptables -A OUTPUT -p icmp --icmp-type 3/4 -j ACCEPT 
+#iptables -A OUTPUT -p icmp --icmp-type 8 -j ACCEPT 
+#iptables -A OUTPUT -p icmp --icmp-type 11 -j ACCEPT
+
+# Mail POP3:110
+iptables -t filter -A INPUT -p tcp --dport 110 -j ACCEPT
+iptables -t filter -A OUTPUT -p tcp --dport 110 -j ACCEPT
+
+# Mail IMAP:143
+iptables -t filter -A INPUT -p tcp --dport 143 -j ACCEPT
+iptables -t filter -A OUTPUT -p tcp --dport 143 -j ACCEPT
+
+# Mail POP3S:995
+iptables -t filter -A INPUT -p tcp --dport 995 -j ACCEPT
+iptables -t filter -A OUTPUT -p tcp --dport 995 -j ACCEPT
+
+#
+# allow lookup
+$BIN -A INPUT -i lo -j ACCEPT
+$BIN -A OUTPUT -o lo -j ACCEPT
+
+exit 0;

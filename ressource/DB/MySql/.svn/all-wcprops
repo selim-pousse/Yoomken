@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/yoomdev/!svn/ver/358/trunk/ressource/DBA/MySql
+END
+rollout.sql
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/yoomdev/!svn/ver/360/trunk/ressource/DBA/MySql/rollout.sql
+END
+views_ajaxim.sql
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/yoomdev/!svn/ver/262/trunk/ressource/DBA/MySql/views_ajaxim.sql
+END
+views_vanilla.sql
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/yoomdev/!svn/ver/264/trunk/ressource/DBA/MySql/views_vanilla.sql
+END
+Table_Badge_2013-05-16.sql
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/yoomdev/!svn/ver/354/trunk/ressource/DBA/MySql/Table_Badge_2013-05-16.sql
+END
+precedure_deploy.sql
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/yoomdev/!svn/ver/285/trunk/ressource/DBA/MySql/precedure_deploy.sql
+END
+insert_services.php
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/yoomdev/!svn/ver/357/trunk/ressource/DBA/MySql/insert_services.php
+END
+views_yoomken.sql
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/yoomdev/!svn/ver/358/trunk/ressource/DBA/MySql/views_yoomken.sql
+END

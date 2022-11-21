@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/yoomdev/!svn/ver/359/trunk/application/models
+END
+spotsModel.php
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/yoomdev/!svn/ver/356/trunk/application/models/spotsModel.php
+END
+skillModel.php
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/yoomdev/!svn/ver/264/trunk/application/models/skillModel.php
+END
+badgesModel.php
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/yoomdev/!svn/ver/357/trunk/application/models/badgesModel.php
+END
+peopleModel.php
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/yoomdev/!svn/ver/360/trunk/application/models/peopleModel.php
+END
+questionsModel.php
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/yoomdev/!svn/ver/271/trunk/application/models/questionsModel.php
+END
+activitiesModel.php
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/yoomdev/!svn/ver/358/trunk/application/models/activitiesModel.php
+END
+userModel.php
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/yoomdev/!svn/ver/360/trunk/application/models/userModel.php
+END
+messageModel.php
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/yoomdev/!svn/ver/354/trunk/application/models/messageModel.php
+END
+collaboratorModel.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/yoomdev/!svn/ver/286/trunk/application/models/collaboratorModel.php
+END
+contentsModel.php
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/yoomdev/!svn/ver/358/trunk/application/models/contentsModel.php
+END
+tagsModel.php
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/yoomdev/!svn/ver/290/trunk/application/models/tagsModel.php
+END
+filterModel.php
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/yoomdev/!svn/ver/358/trunk/application/models/filterModel.php
+END
+likeModel.php
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/yoomdev/!svn/ver/278/trunk/application/models/likeModel.php
+END
+serviceModel.php
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/yoomdev/!svn/ver/344/trunk/application/models/serviceModel.php
+END
+commentsModel.php
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/yoomdev/!svn/ver/358/trunk/application/models/commentsModel.php
+END

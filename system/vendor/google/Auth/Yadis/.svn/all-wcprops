@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/yoomdev/!svn/ver/108/trunk/system/vendor/google/Auth/Yadis
+END
+Yadis.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/yoomdev/!svn/ver/108/trunk/system/vendor/google/Auth/Yadis/Yadis.php
+END
+XML.php
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/yoomdev/!svn/ver/108/trunk/system/vendor/google/Auth/Yadis/XML.php
+END
+XRDS.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/yoomdev/!svn/ver/108/trunk/system/vendor/google/Auth/Yadis/XRDS.php
+END
+Misc.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/yoomdev/!svn/ver/108/trunk/system/vendor/google/Auth/Yadis/Misc.php
+END
+Manager.php
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/yoomdev/!svn/ver/108/trunk/system/vendor/google/Auth/Yadis/Manager.php
+END
+ParseHTML.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/yoomdev/!svn/ver/108/trunk/system/vendor/google/Auth/Yadis/ParseHTML.php
+END
+HTTPFetcher.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/yoomdev/!svn/ver/108/trunk/system/vendor/google/Auth/Yadis/HTTPFetcher.php
+END
+XRI.php
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/yoomdev/!svn/ver/108/trunk/system/vendor/google/Auth/Yadis/XRI.php
+END
+XRIRes.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/yoomdev/!svn/ver/108/trunk/system/vendor/google/Auth/Yadis/XRIRes.php
+END
+ParanoidHTTPFetcher.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/yoomdev/!svn/ver/108/trunk/system/vendor/google/Auth/Yadis/ParanoidHTTPFetcher.php
+END
+PlainHTTPFetcher.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/yoomdev/!svn/ver/108/trunk/system/vendor/google/Auth/Yadis/PlainHTTPFetcher.php
+END
